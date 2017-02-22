@@ -1,0 +1,58 @@
+<!-- base.tmpl -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- the above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
+
+    <title>{% block title %}{% endblock %}</title>
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Raleway" rel="stylesheet">
+    
+    <!-- build:css styles/{{filename}}.css -->
+    <!-- bootstrap core CSS -->
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- fontAwesome CSS -->
+    <link href="../node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- animate CSS -->
+    <link href="../node_modules/animate.css/animate.min.css" rel="stylesheet">
+    <!-- base CSS -->
+    <link href="./styles/base.css" rel="stylesheet">
+    <!-- custom styles for this template -->
+    {% block styles %}{% endblock %}
+    <!-- footer -->
+    <link href="./styles/footer.css" rel="stylesheet">
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!-- You write code for this content block in another file -->
+    {% block content %}{% endblock %}
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- build:js scripts/{{filename}}.js -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- include all compiled plugins (below), or include individual files as needed -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- wowjs -->
+    <script src="../node_modules/wowjs/dist/wow.min.js"></script>
+    <!-- base -->
+    <script src="./scripts/base.js"></script>
+    <!-- custom scripts -->
+    {% block scripts %}{% endblock %}
+    <!-- endbuild -->
+  </body>
+</html>

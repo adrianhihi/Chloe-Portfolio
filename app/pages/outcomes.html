@@ -1,0 +1,210 @@
+<!-- index.html -->
+{% extends "base.tmpl" %}
+
+{% macro nameToColor(name,hue,saturation) %}
+hsl({{hue[name[0]]}},{{saturation[name[1]]}}%,50%);
+{% endmacro %}
+
+<!-- =================== -->
+<!--    title block      -->
+<!-- =================== -->
+{% block title %}
+Outcomes
+{% endblock %}
+
+<!-- =================== -->
+<!--   styles block      -->
+<!-- =================== -->
+{% block styles %}
+<!-- custom styles -->
+<link href="./styles/banner.css" rel="stylesheet">
+<link href="./styles/marketing.css" rel="stylesheet">
+<link href="./styles/outcomes.css" rel="stylesheet">
+{% endblock %}
+
+<!-- =================== -->
+<!--   scripts block     -->
+<!-- =================== -->
+{% block scripts %}
+<script src="../node_modules/highcharts/highcharts.js"></script>
+<!-- page scripts -->
+<script src="./scripts/outcomes.js"></script>
+{% endblock %}
+
+<!-- =================== -->
+<!--     body block      -->
+<!-- =================== -->
+{% block content %}
+<!-- navigation partial -->
+{% include "partials/navigation.tmpl" %}
+
+<!-- Start Banner -->
+<div class="jumbotron banner">
+  <div class="container">
+    <h1>{{slogan}}</h1>
+  </div>
+</div>
+<!-- End Baner -->
+
+<div class="stories">
+  <div class="container marketing">
+    <div class="section-header">
+      <h1>{{successStories.title}}</h1>
+      <p class="lead">{{successStories.intro}}</p>
+    </div>
+
+    <div class="col-xs-12 col-lg-12">
+      <div class="row">
+        {% for item in stories %}
+          <div class="story-frame col-xs-12 col-sm-{{item.size}}"
+              data-story-type="{{item.type}}" data-link="{{item.link}}">
+            <div class="story-container student-{{loop.index}}">
+              <img class="story-pic" src="{{item.pic}}"/>
+              <div class="head">
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                <div id="story-quote" class="title">{{item.title}}</div>
+              </div>
+              <div class="text">
+                <div class="name">{{item.name}}</div>
+                <div class="background">{{item.background}}</div>
+                <div class="offer">{{item.offer}}</div>
+                <div class="readmore">
+                  <img class="open-icon" src="./assets/img/{{storyOpenIcons[item.type]}}"/>
+                  {{item.readmore}}
+                </div>
+              </div>
+            </div>
+          </div><!--/.col-xs-12-->
+        {% endfor %}
+      </div><!--/row-->
+    </div><!--/.col-xs-12.col-lg-9-->
+  </div><!--/.container-->
+</div>
+
+<div class="block offer-logos">
+  <div class="container marketing">
+    <hr class="featurette-divider">
+
+    <div class="section-header">
+      <h1>{{logoWall.title}}</h1>
+      <p class="lead">{{logoWall.intro}}</p>
+    </div>
+
+    {% for offer in offer_logos %}
+      <div class="logo">
+        <img src="./assets/img/offer-logos/{{offer}}"/>
+      </div>
+    {% endfor %}
+    <div class="logo barrier"></div>
+  </div>
+
+  <hr class="featurette-divider">
+</div>
+
+<div class="block offer-list">
+  <div class="container">
+    <div class="section-header">
+      <h1>{{studentOutcomes.title}}</h1>
+      <p class="lead">{{studentOutcomes.intro}}</p>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-8">
+        <div class="row">
+          <hr/>
+        </div>
+
+        <!-- start row 1 -->
+        <div class="row">
+          <div class="col-sm-12">
+            <div id="company-chart" style="width:100%; height:400px;"></div>
+          </div>
+        </div>
+        <!-- end row 1 -->
+
+        <div class="row">
+          <hr/>
+        </div>
+
+        <!-- start row 1 -->
+        <div class="row">
+          <div class="col-sm-12">
+            <div id="major-chart" style="width:100%; height:400px;"></div>
+          </div>
+        </div>
+
+        <div class="row">
+          <hr/>
+        </div>
+
+        <!-- start row 2 -->
+        <div class="row">
+          <!-- start offer -->
+          <div class="tab-content">
+            {% for semester in semesters %}
+            {% for date in semester.dates %}
+              <div role="tabpanel" class="tab-pane" id="offers-{{date.id}}">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th class="col-name">Name</th>
+                      <th class="col-school">School</th>
+                      <th class="col-major">Major</th>
+                      <th class="col-exp">Experience</th>
+                      <th class="col-offers">Offers</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {% for student in offers[date.id] %}
+                      <tr>
+                        <td scope="row" class="col-name">
+                          <div class="student-name"
+                               style="background:{{nameToColor(student.name,colors.hue,colors.saturation)}};">
+                            {{student.name}}
+                          </div>
+                        </td>
+                        <td class="col-school">{{student.school}}</td>
+                        <td class="col-major">{{student.major}}</td>
+                        <td class="col-exp">{{student.experience}}</td>
+                        <td class="col-offers">
+                          {% for offer in student.offer %}
+                            <div class="offer-company">{{offer}}</div>
+                          {% endfor %}
+                        </td>
+                      </tr>
+                      {% endfor %}
+                  </tbody>
+                </table>
+              </div>
+            {% endfor %}
+            {% endfor %}
+          </div>
+          <!-- End offers -->
+        </div>
+        <!-- End row 2 -->
+      </div>
+
+      <!-- Start column side bar -->
+      <div class="col-sm-3 col-sm-offset-1">
+        {% for semester in semesters %}
+        <div class="sidebar-module">
+          <h4>{{semester.year}}</h4>
+          <ol class="list-unstyled">
+            {% for date in semester.dates %}
+            <li><a id="link-semester-{{date.id}}" class="link-semester" data-semester="{{date.id}}" href="#">{{date.name}}</a></li>
+            {% endfor %}
+          </ol>
+        </div>
+        {% endfor %}
+      </div>
+      <!-- End column side bar -->
+    </div>
+    
+  </div>
+</div>
+
+{% include "partials/video-modal.tmpl" %}
+
+<!-- footer partial -->
+{% include "partials/footer.tmpl" %}
+{% endblock %}

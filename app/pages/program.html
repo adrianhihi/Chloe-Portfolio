@@ -1,0 +1,114 @@
+<!-- index.html -->
+{% extends "base.tmpl" %}
+
+<!-- =================== -->
+<!--    title block      -->
+<!-- =================== -->
+{% block title %}
+The Program
+{% endblock %}
+
+<!-- =================== -->
+<!--   styles block      -->
+<!-- =================== -->
+{% block styles %}
+<link href="./styles/banner.css" rel="stylesheet">
+<link href="./styles/marketing.css" rel="stylesheet">
+<link href="./styles/feature.css" rel="stylesheet">
+<link href="./styles/program.css" rel="stylesheet">
+{% endblock %}
+
+<!-- =================== -->
+<!--   scripts block     -->
+<!-- =================== -->
+{% block scripts %}
+<!-- page scripts -->
+<script src="./scripts/program.js"></script>
+{% endblock %}
+
+<!-- =================== -->
+<!--     body block      -->
+<!-- =================== -->
+{% block content %}
+<!-- navigation partial -->
+{% include "partials/navigation.tmpl" %}
+
+<!-- Start Banner -->
+<div class="jumbotron banner">
+  <div class="container">
+    <h1>{{slogan}}</h1>
+  </div>
+</div>
+<!-- End Baner -->
+
+<div class="container">
+  <!-- Our Goal -->
+  <div class="page-header">
+    <h1>Our Goal</h1>
+    <p class="lead">{{goal}}</p>
+  </div>
+  <!-- End Our Goal -->
+</div>
+
+<div class="container marketing">
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">{{learnHowToThink.title}}</h2>
+      <p class="lead">{{learnHowToThink.body}}</p>
+    </div>
+    <div class="col-md-5">
+      <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image" src="./assets/img/program/how-to-think.jpg">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7 col-md-push-5">
+      <h2 class="featurette-heading">{{buildApps.title}}</h2>
+      <p class="lead">{{buildApps.body}}</p>
+    </div>
+    <div class="col-md-5 col-md-pull-7">
+      <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image" src="./assets/img/program/build-apps.jpg">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+</div><!-- /.marketing -->
+
+<!-- Start Feature -->
+<section class="features">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="title-area">
+          <h2 class="featurette-heading">{{workingProcesses.title}}</h2>
+          <span class="line"></span>
+          <p>{{workingProcesses.subTitle}}</p>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="feature-content">
+          <div class="row">
+            <!-- Loops through "workingProcesses" array -->
+            {% for process in workingProcesses.list %}
+            <div class="col-md-4 col-sm-6">
+              <div class="single-feature wow zoomIn">
+                <i class="fa fa-{{process.icon}} feature-icon"></i>
+                <h4 class="feat-title">{{process.title}}</h4>
+                <p>{{process.details}}</p>
+              </div>
+            </div>
+            {% endfor %}
+            <!-- end work process single item -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Feature -->
+
+<!-- footer partial -->
+{% include "partials/footer.tmpl" %}
+{% endblock %}

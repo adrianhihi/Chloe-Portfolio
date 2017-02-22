@@ -1,0 +1,81 @@
+/*--------------------*/
+/* FEATURE */
+/*--------------------*/
+
+.features {
+    background-color: #fff;
+    display: inline;
+    float: left;
+    padding: 0 0 70px;
+    width: 100%;
+
+    .title-area {
+      display: inline;
+      float: left;
+      padding: 0 150px;
+      text-align: center;
+      width: 100%;
+    }
+
+    .title-area .title {    
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 35px;
+        text-transform: uppercase;
+    }
+
+    .title-area .line {
+      background-color: #777;
+      display: inline-block;
+      height: 2px;
+      width: 60px;
+    }
+
+    .title-area p {
+      color: #777777;
+      line-height: 25px;
+      margin-top: 20px;
+    }
+
+    .feature-content {
+      display: inline;
+      float: left;
+      width: 100%;
+      margin-top: 50px;
+    }
+
+    .single-feature{
+        display: inline;
+        float: left;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+    .single-feature:hover .feature-icon{
+        color: #444;
+    }
+
+    .single-feature .feature-icon {
+      font-size: 35px;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+    }
+
+    .feat-title{
+        font-weight: normal;
+        font-size: 20px;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+
+    .single-feature:hover .feat-title{
+        color: #444;
+    }
+
+    .single-feature p {
+      color: #555;
+      font-size: 15px;
+    }
+}

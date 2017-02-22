@@ -1,0 +1,199 @@
+@import 'video-modal';
+
+.stories {
+   .col-sm-5 .story-container {
+     padding-top: 52.8%;
+   }
+   .col-sm-7 .story-container {
+     padding-top: 37.7%;
+   }
+
+  .story-frame {
+    cursor: pointer;
+    padding: 10px;
+
+    @media (min-width: 768px) {
+        padding-top: 0;
+        height: 169px;
+        font-size: 14px;
+      }
+      @media (min-width: 992px) {
+        padding-top: 0;
+        height: 218px;
+        font-size: 16px;
+      }
+      @media (min-width: 1200px) {
+        padding-top: 0;
+        height: 264px;
+        font-size: 18px;
+      }
+
+    .story-container {
+      position: relative;
+      height: 0;
+      overflow: hidden;
+      font-size: 14px;
+      color: white;
+
+      &.student-1 {
+        text-align: right;
+        .story-pic {
+          top: -40px;
+        }
+        .text {
+          text-align: right;
+        }
+      }
+
+      &.student-4 {
+        color: #333;
+        text-align: left;
+        .story-pic {
+          top: -30px;
+        }
+        .text {
+          text-align: left;
+        }
+        #story-quote {
+          display: block;
+          line-height: inherit;
+          width: 350px;
+          white-space: pre-wrap;
+        }
+      }
+
+      .story-pic, .head, .text {
+        position: absolute;
+        width: 100%;
+      }
+      .story-pic {
+        top: 0;
+        left: 0;
+      }
+      .head {
+        top: 0;
+        left: 0;
+        height: 100%;
+        padding: 2%;
+        .quote-mark {
+          display: inline;
+          width: 30px;
+          height: auto;
+          @media (min-width: 768px) {
+            width: 36px;
+          }
+        }
+        .title {
+          display: inline;
+          line-height: 10px;
+          font-weight: 300;
+        }
+      }
+      .text {
+        bottom: 0;
+        left: 0;
+        font-weight: 300;
+        text-align: left;
+        padding: 2%;
+        .name {
+          text-transform: uppercase;
+        }
+        .background {
+        }
+        .readmore {
+          .open-icon {
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.offer-logos {
+  text-align: justify;
+  .logo {
+    display: inline-block;
+
+    height: 30px;
+    margin: 11px 9px;
+
+    @media (min-width: 768px) {
+      height: 38px;
+      margin: 14px 10px;
+    }
+
+    @media (min-width: 992px) {
+      height: 49px;
+      margin: 20px 15px;
+    }
+
+    @media (min-width: 1200px) {
+      height: 60px;
+      margin: 25px 18px;
+    }
+
+    img {
+      width: auto;
+      height: 100%;
+    }
+  }
+  .barrier {
+    width: 100%;
+    margin-top: -100%;
+  }
+}
+
+.offer-list {
+  .student-name {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+    background: red;
+    color: white;
+  }
+
+  .table {
+    thead {
+      background: #01B7EB;
+      color: white;
+
+      th {
+        border: 0;
+        font-weight: 300;
+        padding: 20px;
+      }
+    }
+
+    td {
+      padding: 20px;
+    }
+  }
+
+  .offer-company {
+    display: inline;
+  }
+  .offer-company:first-child:before {
+    content: none;
+  }
+  .offer-company:before {
+    content: " / ";
+  }
+
+  @media (max-width: 767px) {
+    .col-major, .col-exp {
+      display: none;
+    }
+  }
+}
+
+.sidebar-module {
+  text-align: right;
+  margin-bottom: 40px;
+}

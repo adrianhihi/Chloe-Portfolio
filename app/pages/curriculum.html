@@ -1,0 +1,147 @@
+<!-- index.html -->
+{% extends "base.tmpl" %}
+
+<!-- =================== -->
+<!--    title block      -->
+<!-- =================== -->
+{% block title %} Curriculum {% endblock %}
+
+<!-- =================== -->
+<!--   styles block      -->
+<!-- =================== -->
+{% block styles %}
+<!-- custom styles -->
+<link href="./styles/banner.css" rel="stylesheet">
+<link href="./styles/marketing.css" rel="stylesheet">
+<link href="./styles/feature.css" rel="stylesheet">
+<link href="./styles/curriculum.css" rel="stylesheet">
+<link href="./styles/apply-now.css" rel="stylesheet">
+{% endblock %}
+
+<!-- =================== -->
+<!--   scripts block     -->
+<!-- =================== -->
+{% block scripts %}
+<!-- page scripts -->
+<script src="./scripts/curriculum.js"></script>
+{% endblock %}
+
+<!-- =================== -->
+<!--     body block      -->
+<!-- =================== -->
+{% block content %}
+<!-- navigation partial -->
+{% include "partials/navigation.tmpl" %}
+
+<!-- Start Banner -->
+<div class="jumbotron banner">
+  <div class="container">
+    <h1>{{slogan}}</h1>
+  </div>
+</div>
+<!-- End Baner -->
+
+<div class="container marketing">
+  <div class="section-header">
+    <h1>Summary</h1>
+    {% for paragraph in summary %}
+    <p class="lead">{{paragraph}}</p>
+    {% endfor %}
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7 col-md-push-5">
+      <p class="lead">1. Algorithms</p>
+      {% for paragraph in algorithms %}
+      <p class="lead">{{paragraph}}</p>
+      {% endfor %}
+    </div>
+    <div class="col-md-5 col-md-pull-7">
+      <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image" src="./assets/img/curriculum/algorithm.jpg">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <p class="lead">2. Programming Languages</p>
+      {% for paragraph in programmingLanguages %}
+      <p class="lead">{{paragraph}}</p>
+      {% endfor %}
+    </div>
+    <div class="col-md-5">
+      <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image" src="./assets/img/curriculum/programming.jpg">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-12">
+      <p class="lead">3. Object-Oriented Design</p>
+      {% for paragraph in ooDesign %}
+      <p class="lead">{{paragraph}}</p>
+      {% endfor %}
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-12">
+      <p class="lead">4. System Design</p>
+      {% for paragraph in systemDesign %}
+      <p class="lead">{{paragraph}}</p>
+      {% endfor %}
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <!-- Start Student Projects -->
+  <div class="section-header">
+    <h1>Student Projects</h1>
+    {% for paragraph in projectGoal %}
+    <p class="lead">{{paragraph}}</p>
+    {% endfor %}
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="section-header">
+    <p class="lead">{{studentProjectsIntro}}</p>
+  </div>
+
+  <!-- Loops through "student projects" array -->
+  {% for project in studentProjects %}
+  {% if (loop.index - 1) % 4 == 0 %}
+  <div class="row student-projects">
+  {% endif %}
+    <div class="col-md-3 wow zoomIn project">
+      <div class="project{{loop.index}}">
+        <div class="mask">
+          <h2>{{project.title}}</h2>
+          <div class="description">
+            <p>{{project.description}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% if loop.index % 4 == 0 %}
+  </div>
+  {% endif %}
+  {% endfor %}
+
+  <!-- End Student Projects -->
+  <hr class="featurette-divider">
+
+  <!-- Start Apply Now -->
+  {% include "partials/apply-now.tmpl" %}
+  <!-- End Apply Now -->
+</div>
+
+<!-- footer partial -->
+{% include "partials/footer.tmpl" %} {% endblock %}

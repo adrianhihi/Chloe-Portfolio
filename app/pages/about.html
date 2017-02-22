@@ -1,0 +1,157 @@
+<!-- index.html -->
+{% extends "base.tmpl" %}
+
+<!-- =================== -->
+<!--    title block      -->
+<!-- =================== -->
+{% block title %} About Us {% endblock %}
+
+<!-- =================== -->
+<!--   styles block      -->
+<!-- =================== -->
+{% block styles %}
+<!-- revolution slider -->
+<link href="../libs/revolution/css/settings.css" rel="stylesheet">
+<link href="../libs/revolution/css/layers.css" rel="stylesheet">
+<!-- revolution slider navigation -->
+<link href="../libs/revolution/css/navigation.css" rel="stylesheet">
+<!-- custom styles -->
+<link href="./styles/banner.css" rel="stylesheet">
+<link href="./styles/marketing.css" rel="stylesheet">
+<link href="./styles/feature.css" rel="stylesheet">
+<link href="./styles/about.css" rel="stylesheet"> {% endblock %}
+
+<!-- =================== -->
+<!--   scripts block     -->
+<!-- =================== -->
+{% block scripts %}
+<!-- Slider Revolution JS -->
+<script src="../libs/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="../libs/revolution/js/jquery.themepunch.revolution.min.js"></script>
+
+<!-- Slider Revolution Extensions (Load Extensions only on Local File Systems The following part can be removed on Server for On Demand Loading) -->
+<script src="../libs/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="../libs/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="../libs/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="../libs/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="../libs/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="../libs/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="../libs/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="../libs/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="../libs/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<!-- page scripts -->
+<script src="./scripts/about.js"></script>
+{% endblock %}
+
+<!-- =================== -->
+<!--     body block      -->
+<!-- =================== -->
+{% block content %}
+<!-- navigation partial -->
+{% include "partials/navigation.tmpl" %}
+
+<!-- START REVOLUTION SLIDER 5.0 -->
+<div class="rev_slider_wrapper">
+  <div id="slider1" class="rev_slider" data-version="5.0">
+    <ul>
+      <li data-transition="fade">
+        <!-- MAIN IMAGE -->
+        <img id="story-bg" src="./assets/img/about/story.jpg" alt="" width="2000" height="812" style="background-color:#000;">
+        <!-- LAYER NR. 1 -->
+        <div class="tp-caption News-Title" 
+          data-x="center" 
+          data-hoffset="0" 
+          data-y="middle" 
+          data-voffset="0" 
+          data-whitespace="nowrap"
+          data-speed="600"
+          data-start="1200"
+          data-transform_idle="o:1;"
+          data-transform_in="y:30px;opacity:0;s:700;e:Power3.easeOut;"
+        >
+          {{slogan}}
+        </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <!-- END REVOLUTION SLIDER -->
+</div>
+<!-- END OF SLIDER WRAPPER -->
+
+<div class="container">
+  <!-- Our Goal -->
+  <div class="page-header">
+    <h1>{{ourStory.title}}</h1>
+    <p class="lead">{{ourStory.body}}</p>
+  </div>
+  <!-- End Our Goal -->
+</div>
+
+<!-- Start Overview -->
+<div class="container marketing">
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">{{aboutCompany.title}}</h2>
+      {% for paragraph in aboutCompany.body %}
+      <p class="lead">{{paragraph}}</p>
+      {% endfor %}
+      <ul>
+        {% for sub in aboutCompany.subContent %}
+        <li>
+          <h3>{{sub.title}}</h3>
+          <h4>{{sub.body}}</h4>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-md-5">
+      <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image" src="./assets/img/about/about.png">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-12">
+      <h2 class="featurette-heading">{{aboutInstructors.title}}</h2>
+      {% for paragraph in aboutInstructors.body %}
+      <p class="lead">{{paragraph}}</p>
+      {% endfor %}
+    </div>
+  </div>
+
+  <a name="team"></a>
+  <hr class="featurette-divider">
+
+  <!-- Three columns of text below the carousel -->
+  <div class="row">
+    {% for instructor in teamMember1 %}
+    <div class="col-md-4">
+      <img class="img-circle" src="{{instructor.image}}" alt="Generic placeholder image" width="140" height="140">
+      <h2>{{instructor.name}}</h2>
+      <h4>{{instructor.title}}</h4>
+      <p>{{instructor.detail}}</p>
+    </div>
+    {% endfor %}
+  </div>
+  <!-- /.row -->
+
+  <div class="row">
+    {% for instructor in teamMember2 %}
+    <div class="col-md-4">
+      <img class="img-circle" src="{{instructor.image}}" alt="Generic placeholder image" width="140" height="140">
+      <h2>{{instructor.name}}</h2>
+      <h4>{{instructor.title}}</h4>
+      <p>{{instructor.detail}}</p>
+    </div>
+    {% endfor %}
+  </div>
+  <!-- /.row -->
+
+  <hr class="featurette-divider">
+</div>
+<!-- /.marketing -->
+
+<!-- footer partial -->
+{% include "partials/footer.tmpl" %} {% endblock %}

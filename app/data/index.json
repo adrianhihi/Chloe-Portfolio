@@ -1,0 +1,64 @@
+{
+  "heroTitle1": "Create Your Tomorrow",
+  "heroTitle2": "Jumpstart Your Career",
+  "about": {
+    "title": "Discover your path to a great career",
+    "content": [
+      "Information Technology Academy is an interactive education program that provides systematic training to help engineers grow their software development skills.",
+      "The program focuses on coding, algorithms, data structures, and system design.",
+      "Our industry experts teach practical material that focuses on designing and implementing industry products and systems, with an emphasis on programming skills."
+    ]
+  },
+  "courseOffering": [{
+    "title": "ITA Advanced Programming",
+    "details": "Our flagship program, ITA Advanced Programming, focuses on four main development areas: coding fundamentals, coding principles, design and architecture, and technical communication. It is the first course that we recommend all of our students take, as it is designed to build the foundation for a deep understanding of software engineering principles.",
+    "time": "12 Weeks",
+    "price": "",
+    "image": "programming.png"
+  }, {
+    "title": "ITA Projects",
+    "details": "Our technology-specific program, ITA Programming Projects gives students deep training in three areas: Android development, big data, and full stack software development. It is designed to give a more thorough understanding of these areas, and is meant for students that have already displayed a firm grasp of computer science fundamentals.",
+    "time": "12 Weeks",
+    "price": "",
+    "image": "ita-project.png"
+  }, {
+    "title": "ITA Master Programming",
+    "details": "Our most demanding program, ITA Master Programming, is designed for more experienced developers that are interested in working on more complex engineering principles. This elite course is individually designed for each student, focusing on their specific needs and providing a more intensive training on deeper, more challenging subject matter helping students prepare for a career at top-tier companies.",
+    "time": "",
+    "price": "",
+    "image": "master-programming.png"
+  }],
+  "testimonials": [{
+    "quote": "Teachers in ITA can call out every student’s name and make personalized plans for each individual. Now I know how to bridge the gap between my programming skills and the requirements of first-tier tech companies.",
+    "name": "Dongjun H.",
+    "details": "Syracuse University CS",
+    "photo": "./assets/img/index/avatar-huang.png"
+  }, {
+    "quote": "Teachers in ITA all come from top tech companies in silicon valley. They have deep understanding on how to write good code. They helped me a lot on improving my programming skills to meet the standards.",
+    "name": "Ming L.",
+    "details": "USC CS",
+    "photo": "./assets/img/index/avatar-ming.png"
+  }, {
+    "quote": "My friend took ITA course and has improved his programming and algorithm a lot. He even improved his communication skills. While doing a project with me, he used what he learnt from ITA and demonstrated his great progress in both design and coding. Now I’m also joining ITA.",
+    "name": "Xin X.",
+    "details": "Syracuse University CS",
+    "photo": "./assets/img/index/avatar-xie.png"
+  }],
+  "instructors": [{
+    "name": "Rick Sun",
+    "intro": "Rick received his Ph.D. in Computer Science from the University of Southern California where he was recognized for developing novel, high-performance search-based algorithms. He then went on to work at Google where he worked on several projects during his time there. His technical expertise includes cross-platform proficiency as well as fluency in several programming languages.",
+    "photo": "./assets/img/instructors/rick-sun.png"
+  }, {
+    "name": "Jing Zhao",
+    "intro": "Jing graduated from Tsinghua University with B.S. and M.S. in Computer Science, and then went on to get his Ph.D. from the University of Southern California, also in Computer Science. After completing his Ph.D. he has been an active Apache Hadoop contributor, committer, and PMC member.",
+    "photo": "./assets/img/instructors/jing-zhao.png"
+  }, {
+    "name": "Li Zhang",
+    "intro": "Li received his Bachelor’s Degree from Tsinghua University before attending the University of Southern California for his Master’s Degree (both in Computer Science). His research studies include computer vision, including automatic facial feature point extraction (face alignment). In college he was the coach of the Chinese International Olympiad in Informatics (IOI) and has worked for Google, Facebook, and Airbnb.",
+    "photo": "./assets/img/instructors/li-zhang.jpg"
+  }, {
+    "name": "Jiong Wang",
+    "intro": "Jiong holds three degrees including a Master’s Degree in Computer Science from Stanford University. He has led engineering teams at some of the top, high-growth companies in the Bay Area including LinkedIn and Twitter. He is well-versed in system design, web-scaling, and has extensive experience with engineering interviewing.",
+    "photo": "./assets/img/instructors/jiong-wang.jpg"
+  }]
+}

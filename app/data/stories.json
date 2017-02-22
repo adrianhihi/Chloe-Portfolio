@@ -1,0 +1,30 @@
+{
+  "slogan": "Student Testimonials",
+  "story1": {
+    "intro": "",
+    "student": {
+      "name": "H. Li"
+    },
+    "quote1": "I am so excited that it’s difficult to put into words.",
+    "content": [
+      "I'm a USC EE grad and I wanted to get into a CS career. IT Academy helped me get an interview with (and subsequently I got an offer from) both Google and LinkedIn. I am so excited that it’s difficult to put into words. IT Academy is perfect for students that are looking to make a move into the software engineering field, but don’t necessarily have all the required skills to do so.",
+      "The classes helped me gain a strong CS foundation. The class environment was great, and it enabled students to learn both from the teachers and from other students. The course materials included everything from coding and algorithms to problem-solving skills.",
+      "In addition to having a comprehensive knowledge of the material they teach, the instructors also have a thorough understanding of the interview process. They helped train me to think like an engineer, and how to best communicate my thinking. This was extremely valuable during the interview processes I went through.",
+      "For individuals that are looking to change their career path and get into CS, IT Academy is a great option. It helped me in so many ways, I can’t recommend it enough."
+    ]
+  },
+  "story2": {
+    "intro": "Today’s post comes from Data Analyst student Christian Strobl, a former lawyer turned startup cofounder, currently living in Munich and learning data science within the Data Analyst Nanodegree. Read on to see how Christian made the big career shift outside of the world of law.",
+    "student": {
+      "name": "W. Lin"
+    },
+    "quote1": "After completing the program at IT Academy, I interviewed and received offers from Facebook, LinkedIn, and SnapChat.",
+    "content": [
+      "Six months before I enrolled in IT Academy I applied for a job at Facebook and I was rejected. After completing the program at IT Academy, I interviewed and received offers from Facebook, LinkedIn, and SnapChat.",
+      "I have two years of software engineering experience and I enrolled in IT Academy to improve my computer science foundation. The program helped improve my knowledge of computer science fundamentals, including giving me a solid basis for system design. Additionally, the courses taught me how to analyze problems. This is a critical skill to learn, especially when interviewing.",
+      "In addition to all of the technical training I learned, I also learned a lot about interviewing. There were a variety of mock interviews which tracked my progress and let me know when I was ready for real interviews.",
+      "For people in a similar position that I was in, I highly recommended taking these classes.",
+      "Lastly, I’d like to give a big thank-you to IT Academy, and a big thank-you to all the great instructors there!"
+    ]
+  }
+}

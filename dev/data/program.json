@@ -1,0 +1,43 @@
+{
+	"slogan": "Become a Software Engineer at a Top-Tier Tech Company",
+	"goal": "At IT Academy, our goal is train students so that they can become successful engineers. Our three-month program is taught by industry-recognized leaders, and teaches students the skills they need to have a successful career at top-tier companies. We’ve built a world-class software engineering curriculum and we provide a world-class learning environment.",
+	"learnHowToThink": {
+		"title": "Learn How to Think Like a Software Engineer",
+		"body": "At IT Academy, you will learn CS fundamentals including algorithms, data structures, and programming languages. You will also learn engineering best practices while doing your own object-oriented design and system design.",
+    "image": ""
+	},
+	"buildApps": {
+		"title": "Build Production-grade Web Applications",
+		"body": "You will have the opportunity to use the programming knowledge and skills you learn to build real applications and systems. This practical experience will help you think about and better understand system design and implementation.",
+    "image": ""
+  },
+	"workingProcesses": {
+    "title": "Training Process",
+    "subTitle": "We accompany students throughout the process to find a job",
+		"list": [{
+			"icon": "file-text-o",
+			"title": "Submit Resume",
+			"details": "After receiving your resume, we will contact you within 24 hours. Our instructors will call you to understand your background and current situation and answer your questions."
+		}, {
+			"icon": "headphones",
+			"title": "Free Class",
+			"details": "After the screening, you can register for a free audition of the first lesson. We provide the syllabus of the whole semester during that lesson. We also have a Q&A session after that lesson."
+		}, {
+			"icon": "code",
+			"title": "Intense Training",
+			"details": "We provide high-intensity training during the next 12 weeks: 4 lessons per week, two hours per lesson. We also have team members from top companies, including Google, Amazon, and Yahoo, working as teaching assistants (TAs). They provide hands-on guidance to students and help students to improve their programming skills."
+		}, {
+			"icon": "check",
+			"title": "Midterm/Final Exams",
+			"details": "We arrange two midterm exams and one final exam during the course. Students’ answers and code are carefully reviewed. After each exam, our instructors will call every student to track progress, detect problems, and help students keep up with the pace of the class."
+		}, {
+			"icon": "thumbs-o-up",
+			"title": "Job Referral",
+			"details": "After completing the course, we provide mock interviews to students so that they can learn what to expect in a real job interview. We also help revise resumes and refer students to companies based on their interests and skill set."
+		}, {
+			"icon": "smile-o",
+			"title": "Interview / Offer",
+			"details": "We help students understand what to expect during the entire interview process, making them better prepared during both the interview and offer stages."
+		}]
+	}
+}
