@@ -1,0 +1,114 @@
+.landing-title {
+  width: 284px;
+  height: 65px;
+  margin-top: 65px;
+
+  span {
+    width: 215px;
+    height: 65px;
+    font-family: OpenSans;
+    font-size: 48px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #272f3d;
+    float: left;
+  }
+}
+.landing-title-img {
+  background: black;
+  margin-top: 10px;
+  width: 39px;
+  height: 45px;
+  margin-right: 30px;
+  float: left;
+}
+.landing-subtitle {
+  width: 274px;
+  height: 24px;
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7e8591;
+}
+.landing-container {
+  width: 950px;
+}
+.landing-title-divider {
+  width: 950px;
+  height: 2px;
+  background: #272f3d;
+  margin-top: 60px;
+}
+.landing-nav-bar {
+  background-color: white;
+  width: 550px;
+  z-index: 100;
+  height: 22px;
+  line-height: 22px;
+  vertical-align: middle;
+  margin-top: -11px;
+}
+.landing-nav-bar span {
+  float: left;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: 600;
+  color: #272f3d;
+}
+.landing-nav-bar span:nth-child(1) {
+  margin-left: 91px;
+}
+.landing-nav-bar span:nth-child(2) {
+  margin-left: 72.5px;
+}
+.landing-nav-bar span:nth-child(3) {
+  margin-left: 79px;
+}
+.card-row {
+  width: 300px;
+  height: 765px;
+  float: left;
+  margin-top: 75px;
+}
+.row-1 {
+  margin-left: 25px;
+}
+.card {
+  width: 300px;
+}
+.card-0 {
+  height: 200px;
+  background-color: #cbefdf;
+  margin-bottom: 25px;
+}
+.card-1 {
+  height: 315px;
+  background-color: #fdf8b7;
+  margin-bottom: 25px;
+}
+.card-2 {
+  height: 200px;
+  background-image: url("../assets/img/landingPage/handstand-2@2x.png");
+  background-size: 100% 100%;
+}
+.card-3 {
+  height: 370px;
+  background-color: #cde6f6;
+  margin-bottom: 25px;
+}
+.card-4 {
+  height: 370px;
+  background-color: #cff8a1;
+}
+
+
+

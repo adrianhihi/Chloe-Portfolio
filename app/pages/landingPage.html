@@ -1,0 +1,81 @@
+<!-- index.html -->
+{% extends "base.tmpl" %}
+
+<!-- =================== -->
+<!--    title block      -->
+<!-- =================== -->
+{% block title %} Chloe Du {% endblock %}
+
+<!-- =================== -->
+<!--   styles block      -->
+<!-- =================== -->
+{% block styles %}
+
+<!-- custom styles -->
+<link href="./styles/landingPage.css" rel="stylesheet">
+<link href="./styles/base.css" rel="stylesheet"> 
+{% endblock %}
+
+<!-- =================== -->
+<!--   scripts block     -->
+<!-- =================== -->
+{% block scripts %}
+<!-- page scripts -->
+<script src="./scripts/landingPage.js"></script>
+{% endblock %}
+
+<!-- =================== -->
+<!--     body block      -->
+<!-- =================== -->
+
+{% block content %}
+<div class="col-xs-12" align="center">
+  <div class="landing-title">
+    <div class="landing-title-img"></div>
+    <span>Chloe Du</span>
+  </div>
+  <div class="landing-subtitle">
+    Design makes anything possible.
+  </div>
+  <div class="landing-container">
+    <div class="landing-title-divider"></div>
+    <div class="landing-nav-bar">
+      <a href=""><span>UI/UX</span></a>
+      <a href=""><span>URBAN DESIGN</span></a>
+      <a href=""><span>ABOUT</span></a>
+    </div>
+    <div class="card-row">
+      <div class="card card-0">
+        
+      </div>
+      <div class="card card-1">
+        
+      </div>
+      <div class="card card-2">
+        
+      </div>
+    </div>
+    <div class="card-row row-1">
+      <div class="card card-3">
+        
+      </div>
+      <div class="card card-4">
+        
+      </div>
+    </div>
+    <div class="card-row row-1">
+      <div class="card card-0">
+        
+      </div>
+      <div class="card card-1">
+        
+      </div>
+      <div class="card card-2">
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- footer partial -->
+{% include "partials/footer.tmpl" %}
+{% endblock %}

@@ -12,12 +12,12 @@
     <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
 
-    <title>{% block title %}{% endblock %}</title>
+    <title> Chloe Du </title>
 
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Raleway" rel="stylesheet">
     
-    <!-- build:css styles/{{filename}}.css -->
+    <!-- build:css styles/landingPage.css -->
     <!-- bootstrap core CSS -->
     <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- fontAwesome CSS -->
@@ -27,14 +27,75 @@
     <!-- base CSS -->
     <link href="./styles/base.css" rel="stylesheet">
     <!-- custom styles for this template -->
-    {% block styles %}{% endblock %}
+    
+
+<!-- custom styles -->
+<link href="./styles/landingPage.css" rel="stylesheet">
+<link href="./styles/base.css" rel="stylesheet"> 
+
     <!-- footer -->
     <link href="./styles/footer.css" rel="stylesheet">
     <!-- endbuild -->
   </head>
   <body>
     <!-- You write code for this content block in another file -->
-    {% block content %}{% endblock %}
+    
+<div class="col-xs-12" align="center">
+  <div class="landing-title">
+    <div class="landing-title-img"></div>
+    <span>Chloe Du</span>
+  </div>
+  <div class="landing-subtitle">
+    Design makes anything possible.
+  </div>
+  <div class="landing-container">
+    <div class="landing-title-divider"></div>
+    <div class="landing-nav-bar">
+      <a href=""><span>UI/UX</span></a>
+      <a href=""><span>URBAN DESIGN</span></a>
+      <a href=""><span>ABOUT</span></a>
+    </div>
+    <div class="card-row">
+      <div class="card card-0">
+        
+      </div>
+      <div class="card card-1">
+        
+      </div>
+      <div class="card card-2">
+        
+      </div>
+    </div>
+    <div class="card-row row-1">
+      <div class="card card-3">
+        
+      </div>
+      <div class="card card-4">
+        
+      </div>
+    </div>
+    <div class="card-row row-1">
+      <div class="card card-0">
+        
+      </div>
+      <div class="card card-1">
+        
+      </div>
+      <div class="card card-2">
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- footer partial -->
+<!-- Start footer -->
+<footer class="footer" align="center">
+  <div class="container footer-container">
+    
+  </div>
+</footer>
+<!-- End footer -->
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -42,7 +103,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- build:js scripts/{{filename}}.js -->
+    <!-- build:js scripts/landingPage.js -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <!-- include all compiled plugins (below), or include individual files as needed -->
@@ -52,7 +113,10 @@
     <!-- base -->
     <script src="./scripts/base.js"></script>
     <!-- custom scripts -->
-    {% block scripts %}{% endblock %}
+    
+<!-- page scripts -->
+<script src="./scripts/landingPage.js"></script>
+
     <!-- endbuild -->
   </body>
 </html>
