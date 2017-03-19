@@ -1,0 +1,18 @@
+html, body {
+  height: 100%;
+}
+.index-container {
+  height: 100%;
+}
+.index-left-content {
+  width: 60%;
+  float: left;
+  height: 100%;
+}
+.index-right-content {
+  width: 40%;
+  float: left;
+  height: 100%;
+  background-image: url("../assets/img/index/indexRightImage.jpg");
+  background-size: cover;
+}

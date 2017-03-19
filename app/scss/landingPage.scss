@@ -86,77 +86,148 @@
 .card {
   width: 300px;
   position: relative;
+  cursor: pointer;
 }
+
 .card-0 {
   height: 200px;
-  background-color: #cbefdf;
-  margin-bottom: 25px;
-  .card-mask {
-    background: rgba(235, 225, 111, 0.6);
-    .card-mask-text {
-      margin-top:63px;
-      .card-mask-divider {
-        width: 92px;
-      }
-    }
-  }
-}
-.card-1 {
-  height: 315px;
-  background-color: #fdf8b7;
+  background-image: url("../assets/img/landingPage/tripalink.png");
+  background-size: 100% 100%;
   margin-bottom: 25px;
   .card-mask {
     background: rgba(97, 180, 141, 0.6);
     .card-mask-text {
-      margin-top: 121px;
+      margin-top:63px;
       .card-mask-divider {
-        width: 103px;
+        width: 88px;
       }
     }
   }
 }
+
+.card-1 {
+  height: 315px;
+  background-image: url("../assets/img/landingPage/Laioffer.png");
+  background-size: 100% 100%;
+  margin-bottom: 25px;
+  .card-mask {
+    background: rgba(235, 225, 111, 0.6);
+    .card-mask-text {
+      margin-top: 121px;
+      .card-mask-divider {
+        width: 79px;
+      }
+    }
+  }
+}
+
 .card-2 {
   height: 200px;
   background-image: url("../assets/img/landingPage/handstand-2@2x.png");
   background-size: 100% 100%;
+  .card-mask {
+    background: rgba(39, 47, 61, 0.6);
+    .card-mask-text {
+      margin-top: 63px;
+      .card-mask-divider {
+        width: 104px;
+      }
+    }
+  }
 }
 .card-3 {
   height: 370px;
-  background-color: #cde6f6;
+  background-image: url("../assets/img/landingPage/Springrole.png");
+  background-size: 100% 100%;
   margin-bottom: 25px;
+  .card-mask {
+    background: rgba(126, 203, 252, 0.5);
+    .card-mask-text {
+      margin-top: 148px;
+      .card-mask-divider {
+        width: 108px;
+      }
+    }
+  }
 }
 .card-4 {
   height: 370px;
-  background-color: #cff8a1;
+  background-image: url("../assets/img/landingPage/YouTube.jpg");
+  background-size: 100% 100%;
+  margin-bottom: 25px;
+  .card-mask {
+    background: rgba(131, 218, 108, 0.5);
+    .card-mask-text {
+      margin-top: 148px;
+      .card-mask-divider {
+        width: 81px;
+      }
+    }
+  }
 }
 
 .card-5 {
   height: 200px;
-  background-color: #cbefdf;
+  background-image: url("../assets/img/landingPage/Props.png");
+  background-size: 100% 100%;
   margin-bottom: 25px;
+  .card-mask {
+    background: rgba(242, 111, 57, 0.5);
+    .card-mask-text {
+      margin-top: 63px;
+      .card-mask-divider {
+        width: 46px;
+      }
+    }
+  }
 }
 
 .card-6 {
   height: 315px;
-  background-color: #fdf8b7;
+  background-image: url("../assets/img/landingPage/Handstand.png");
+  background-size: 100% 100%;
   margin-bottom: 25px;
+  .card-mask {
+    background: rgba(186, 155, 251, 0.5);
+    .card-mask-text {
+      margin-top: 121px;
+      .card-mask-divider {
+        width: 106px;
+      }
+    }
+  }
 }
 
 .card-7 {
   height: 200px;
-  background-image: url("../assets/img/landingPage/handstand-2@2x.png");
+  background-image: url("../assets/img/landingPage/AngelWallet.jpg");
   background-size: 100% 100%;
+  .card-mask {
+    background: rgba(126, 133, 145, 0.5);
+    .card-mask-text {
+      margin-top: 63px;
+      .card-mask-divider {
+        width: 124px;
+      }
+    }
+  }
 }
 
 .card-mask {
   position: absolute;
   width: 100%;
   height: 100%;
-  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -webkit-transition: opacity 0.3s ease-in-out;
 }
 
 .card:hover .card-mask {
-  display: block;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -webkit-transition: opacity 0.3s ease-in-out;
 }
 .card-mask-text {
   color: white;
@@ -179,6 +250,95 @@
     font-weight: 300;
   }
 }
+.footer {
+  width: 100%;
+  height: 221px;
+  float: left;
+  position: relative;
+  top: 120px;
+  bottom: 0;
+}
+.footer-container {
+  border-top: 2px solid #272f3d;
+  max-width: 950px;
+}
+.footer-nav {
+  height: 24px;
+  width: 501px;
+  font-size: 18px;
+  line-height: 24px;
+  vertical-align: middle;
+  margin-top: 60px;
+  a {
+    color: #272F3D;
+  }
+  .footer-nav-1 {
+    float: left;
+    padding-right: 25px;
+    border-right: 2px solid #272F3D;
+  }
+  .footer-nav-2 {
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-right: 2px solid #272F3D;
+  }
+  .footer-nav-3 {
+    float: left;
+    padding-left: 25px;
+  }
+}
+
+.footer-social {
+  width: 216px;
+  height: 24px;
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 24px;
+  vertical-align: middle;
+  i {
+    float: left;
+    margin-right: 40px;
+  }
+  i:last-child {
+    margin: 0px;
+  }
+}
+
+.foot-copyright {
+  margin-top: 35px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #272F3D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
