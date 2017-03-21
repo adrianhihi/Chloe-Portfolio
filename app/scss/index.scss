@@ -1,6 +1,10 @@
 html, body {
   height: 100%;
 }
+* {
+  margin:0;
+  padding: 0;
+}
 .index-container {
   height: 100%;
 }
@@ -16,3 +20,59 @@ html, body {
   background-image: url("../assets/img/index/indexRightImage.jpg");
   background-size: cover;
 }
+
+.left-content-box {
+  width: 544px;
+  height: 465px;
+  position: relative;
+  top: 50%;
+  margin-top: -237px;
+}
+
+.left-content-box div:nth-child(1) {
+  color: #272F3D;
+  font-size: 48px;
+  float: left; 
+  line-height: 65px;
+  height: 65px;
+  vertical-align: middle;
+  margin-bottom: 26px;
+  width: 100%;
+  text-align: left;
+}
+.left-content-box div:nth-child(2) {
+  color: #272F3D;
+  font-size: 100px;
+  height: 136px;
+  line-height: 136px;
+  vertical-align: middle;
+  float: left;
+  font-weight: 900;
+  width: 100%;
+  text-align: left;
+  span {
+    color: #6DC1F7;
+  }
+}
+.left-content-box div:nth-child(3) {
+  color: #272F3D;
+  font-size: 20px;
+  text-align: left;
+}
+.left-content-box a {
+  float: left;
+  margin-top: 136px;
+  width: 290px;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+  border: 1px solid #272F3D;
+  border-radius: 5px;
+  text-align: center;
+  color: #272F3D;
+  font-size: 18px;
+}
+
+
+
+
