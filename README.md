@@ -1,4 +1,4 @@
-# Laioffer Website
+# Chloe Portfolio
 
 ###How to run this website locally
 
