@@ -1,44 +1,91 @@
 .tripalinkBanner {
-  background-image: url('../assets/img/laioffer/banner_laioffer.jpg');
+  background-image: url('../assets/img/props/banner_props.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 450px;
-  padding-top: 120px;
+  padding-top: 170px;
 }
 .tripalinkBannerText {
-  background-image: url('../assets/img/laioffer/banner_laioffer_text.png');
+  background-image: url("../assets/img/props/banner_props_text.png");
+  background-size: 950px 240px;
   width: 950px;
-  height: 295px;
-  background-size: 950px 295px;
+  height: 240px;
 }
 .tripalink-content-0 {
-  background-color: #6DC1F7;
+  background: #8F59FF;
   width: 100%;
-  height: 570px;
+  height: 523px;
 }
 .tripalink-line {
-  background-image: url('../assets/img/laioffer/laioffer_line.png');
+  background-image: url('../assets/img/props/props_line.png');
   width: 12px;
-  height: 13497px;
-  background-size: cover;
+  height: 8944px;
+  background-size: 12px 8944px;
   position: absolute;
   top: 147px;
   z-index: 1;
 }
 .tripalink-content-text-0 {
-  background-image: url('../assets/img/laioffer/laioffer_content_0.png');
-  width: 578px;
-  height: 330px;
-  background-size: 578px 330px;
+  background-image: url('../assets/img/props/props_content_0.png');
+  width: 640px;
+  height: 278px;
+  background-size: 640px 278px;
   float: left;
   margin-left: 84px;
-  margin-top: 133px;
+  margin-top: 134px;
 }
 .tripalink-content {
   float: left;
 }
 .tripalink-content-1 {
-  background-image: url('../assets/img/tripalink/tripalink_content_1.png');
+  background-image: url('../assets/img/props/props_content_1.png');
+  width: 950px;
+  height: 3079px;
+  background-size: 950px 3079px;
+  margin-top: 100px;
+  z-index: 2;
+  position: relative;
+  margin-left: -25px;
+}
+.the_box_2 {
+  position: relative;
+  z-index: 2;  
+  background-color: white;
+}
+.tripalink-content-2 {
+  width: 100%;
+  height: 1093px;
+  background: rgba(39, 47, 61, 0.8);
+  margin-top:202px;
+  position: relative;
+  z-index: 2;
+}
+.tripalink-content-text-2 {
+  background-image: url('../assets/img/props/props_content_2.png');
+  margin-top: -200px;
+  position: relative;
+  z-index: 2;
+}
+.tripalink-content-3 {
+  background-image: url('../assets/img/props/props_content_3.png');
+  width: 1280px;
+  height: 3914px;
+  background-size: 1280px 3914px;
+  position: relative;
+  z-index: 2;
+  margin-left: -26px;
+  margin-top: 0px;
+}
+.temp_0 {
+  background: #8F59FF;
+  width: 100%;
+  height: 1077px;
+  position: absolute;
+  top:6590px;
+
+}
+/*.tripalink-content-1 {
+  background-image: url('../assets/img/props/props_content_1.png');
   width: 643px;
   height: 720px;
   background-size: 643px 720px;
@@ -62,14 +109,13 @@
   margin-left: -150px;
 }
 .tripalink-content-3 {
-  background-image: url('../assets/img/laioffer/laioffer_content_1.png');
-  width: 950px;
-  height: 12000px;
-  background-size: 950px 12000px;
+  background-image: url('../assets/img/tripalink/tripalink_content_2.png');
+  width: 1280px;
+  height: 1545px;
+  background-size: 1280px 1545px;
   margin-top: 100px;
   z-index: 2;
   position: relative;
-  margin-left: -50px;
 }
 .tripalink-content-4 {
   background-image: url('../assets/img/tripalink/tripalink_content_3.png');
@@ -132,18 +178,18 @@
   z-index: 2;
   position: relative;
   margin-top:100px;
-}
+}*/
 .page-footer {
-  color: #6DC1F7;
+  color: #8F59FF;
 }
 .tripalink-footer-btn {
-  color: #6DC1F7;
-  border: 2px solid #6DC1F7;
+  color: #8F59FF;
+  border: 2px solid #8F59FF;
   background-image: linear-gradient(to left,
                       transparent,
                       transparent 50%,
-                      #6DC1F7 50%,
-                      #6DC1F7);
+                      #8F59FF 50%,
+                      #8F59FF);
   cursor: pointer;
   position: relative;
   transition:color 0.25s ease;
@@ -157,7 +203,7 @@
   background-position: 0 0;
 }
 .footer-divider {
-  background-color: #6DC1F7;
+  background-color: #8F59FF;
 }
 .footer-img {
   background-image: url('../assets/img/tripalink/tripalink-footer-pic.jpg');
@@ -179,4 +225,11 @@
   border-top: 0 solid white !important;
   color: #272F3D;
 }
+
+
+
+
+
+
+
 

@@ -1,32 +1,32 @@
 .tripalinkBanner {
-  background-image: url('../assets/img/handstand/banner_handstand.jpg');
-  padding-top: 145px;
+  background-image: url('../assets/img/angelWallet/banner_angelWallet.jpg');
+  padding-top: 166px;
 }
 .tripalinkBannerText {
-  background-image: url('../assets/img/handstand/banner_handstand_text.png');
+  background-image: url('../assets/img/angelWallet/banner_angelWallet_text.png');
   width: 950px;
-  height: 270px;
-  background-size: 950px 270px;
+  height: 240px;
+  background-size: 950px 240px;
 }
 .tripalink-content-0 {
-  background-color: #54CC96;
+  background-color: #6877F1;
   width: 100%;
-  height: 618px;
+  height: 565px;
 }
 .tripalink-line {
-  background-image: url('../assets/img/handstand/handstand_line.png');
+  background-image: url('../assets/img/angelWallet/angelWallet_line.png');
   width: 12px;
-  height: 5046px;
-  background-size: 12px 5046px;
+  height: 418px;
+  background-size: 12px 418px;
   position: absolute;
   top: 147px;
   z-index: 1;
 }
 .tripalink-content-text-0 {
-  background-image: url('../assets/img/handstand/handstand_content_0.png');
-  width: 578px;
-  height: 370px;
-  background-size: 578px 370px;
+  background-image: url('../assets/img/angelWallet/angelWallet_content_0.png');
+  width: 551px;
+  height: 326px;
+  background-size: 551px 326px;
   float: left;
   margin-left: 84px;
   margin-top: 135px;
@@ -35,27 +35,25 @@
   float: left;
 }
 .tripalink-content-3 {
-  background-image: url('../assets/img/handstand/handstand_content_1.png');
-  width: 950px;
-  height: 7500px;
-  background-size: 950px 7500px;
-  margin-top: 155px;
+  background-image: url('../assets/img/angelWallet/angelWallet_content_1.jpg');
+  width: 1281px;
+  height: 1400px;
+  background-size: 1281px 1400px;
   z-index: 2;
   position: relative;
-  margin-left: -50px;
 }
 
 .page-footer {
-  color: #54CC96;
+  color: #3023AE;
 }
 .tripalink-footer-btn {
-  color: #54CC96;
-  border: 2px solid #54CC96;
+  color: #3023AE;
+  border: 2px solid #3023AE;
   background-image: linear-gradient(to left,
                       transparent,
                       transparent 50%,
-                      #54CC96 50%,
-                      #54CC96);
+                      #3023AE 50%,
+                      #3023AE);
   cursor: pointer;
   position: relative;
   transition:color 0.25s ease;
@@ -69,7 +67,7 @@
   background-position: 0 0;
 }
 .footer-divider {
-  background-color: #54CC96;
+  background-color: #3023AE;
 }
 .footer-img {
   background-image: url('../assets/img/tripalink/tripalink-footer-pic.jpg');
@@ -94,3 +92,4 @@
 .footer-btn {
   border-radius: 5px !important;
 }
+
