@@ -1,3 +1,15 @@
+@font-face {
+    font-family: Palatino-Roman;
+    src: url("../assets/fonts/Palatino-Roman_34625.ttf");
+}
+@font-face {
+    font-family: Palatino;
+    src: url("../assets/fonts/Palatino-Roman_34625.ttf");
+}
+@font-face {
+    font-family: Lato;
+    src: url("../assets/fonts/Lato-Regular.ttf");
+}
 * {
   padding: 0;
   margin: 0;
@@ -26,6 +38,8 @@ a {
 
 body {
   min-width:1160px;
+  max-width: 100%;
+  overflow-x: hidden;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -138,14 +152,7 @@ body {
     color: white;
   }
 }
-.footer {
-  width: 100%;
-  height: 221px;
-  float: left;
-  position: relative;
-  top: 120px;
-  bottom: 0;
-}
+
 .footer-container {
   border-top: 2px solid #272f3d;
   max-width: 950px;
@@ -229,6 +236,83 @@ body {
   z-index: 9999;
   background: url('../assets/img/Preloader_2.gif') center no-repeat #fff;
 }
-
-
+.gray-background {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(29, 44, 76, 0.95);
+  z-index: 999;
+  position: absolute;
+  left: 0;
+  top:0;
+  display: none;
+  .menu-close-icon {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background: url("../assets/img/about/group-2@2x.png");
+    background-size: 100% 100%;
+    top: 46px;
+    right: 124px;
+    cursor: pointer;
+  }
+  .menu-list {
+    width: 132px;
+    height: 332px;
+    margin-top: 200px;
+    div {
+      font-family: Palatino;
+      font-size: 36px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.56;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+      margin-bottom: 36px;
+      cursor: pointer;
+    }
+  }
+}
+.menu-icon {
+  position: absolute;
+  top: 48px;
+  right: 120px;
+  width: 32px;
+  height: 21px;
+  background: url("../assets/img/about/menu@2x.png");
+  background-size: 100% 100%;
+  cursor: pointer;
+  z-index: 999;
+}
+.icons {
+  width: 288px;
+  height: 24px;
+  bottom: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -143px;
+  div {
+    background-size: 100% 100%;
+    width: 24px;
+    height: 24px;
+    margin-left: 64px;
+    float: left;
+  }
+  a:first-child div{
+    background-image: url("../assets/img/about/email@2x.png");
+    margin-left: 0;
+    height: 20px;
+    margin-top: 2px;
+  }
+  a:nth-child(2) div{
+    background-image: url("../assets/img/about/linkedin@2x.png");
+  }
+  a:nth-child(3) div{
+    background-image: url("../assets/img/about/dribbble@2x.png");
+  }
+  a:nth-child(4) div{
+    background-image: url("../assets/img/about/ins@2x.png");
+  }
+}
 

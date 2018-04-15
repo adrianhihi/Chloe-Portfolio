@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="406" height="160" viewBox="0 0 406 160">
+    <defs>
+        <rect id="a" width="406" height="160" rx="5"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <use fill="#399C1D" fill-opacity=".05" xlink:href="#a"/>
+            <rect width="405" height="159" x=".5" y=".5" stroke="#399C1D" rx="5"/>
+        </g>
+        <text fill="#525975" font-family="Lato-Regular, Lato" font-size="16">
+            <tspan x="86" y="40">An entry portal that provides a list of </tspan> <tspan x="86" y="68">services. Each service has its own page, </tspan> <tspan x="86" y="96">including all instances and details related </tspan> <tspan x="86" y="124">to the particular service.</tspan>
+        </text>
+        <text fill="#399C1D" font-family="Palatino-Bold, Palatino" font-size="48" font-weight="bold">
+            <tspan x="24" y="105">A</tspan>
+        </text>
+    </g>
+</svg>
