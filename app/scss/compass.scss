@@ -1,0 +1,808 @@
+$path: "../assets/img/compass/";
+.main-background{
+  width: 100%;
+  height: 800px;
+  background-image: url($path + "background@2x.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+  background-position-x: center;
+  .main-left-background {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left:0;
+  }
+  .main-right-background {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 0;
+  }
+  .main-background-middle {
+    width: 1018px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: left;
+  }
+  .main-background-middle-left {
+    width: 437px;
+    float: left;
+    height: 100%;
+    .main-background-text-1 {
+      height: 28px;
+      font-family: Lato;
+      font-size: 20px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.4;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+      position: relative;
+      z-index: 99;
+      top: 200px;
+      float: left;
+    }
+    .main-background-text-2 {
+      width: 873px;
+      height: 192px;
+      font-family: Palatino;
+      font-size: 48px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.33;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+      position: relative;
+      z-index: 99;
+      float: left;
+      top: 232px;
+    }
+    .main-background-text-3 {
+      height: 28px;
+      font-family: Lato;
+      font-size: 20px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.4;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+      position: relative;
+      z-index: 99;
+      float: left;
+      top: 300px;
+    }
+  }
+  .main-background-middle-right {
+    float: left;
+    width: 580px;
+    height: 100%;
+    position: relative;
+    z-index: 99;
+    padding-top: 162px;
+  }
+}
+.main-content-01{
+  width: 100%;
+  position: relative;
+  float: left;
+  .main-content-container {
+    width: 1280px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    .main-content-box {
+      width: 100%;
+      float: left;
+      position: relative;
+    }
+    .main-content-box:nth-child(2) {
+      margin-top: 100px;
+    }
+    .main-content-box-1 {
+      margin-left: 360px;
+      div:first-child {
+        width: 148px;
+        height: 48px;
+        font-family: Lato;
+        font-size: 32px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        text-align: left;
+        color: #1d2c4c;
+      }
+      div:nth-child(2) {
+        width: 560px;
+        height: 252px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        text-align: left;
+        margin-top: 48px;
+        color: #525975;
+      }
+    }
+  }
+  .main-content-box-2 {
+    width: 100%;
+    float: left;
+    .left {
+      width: 50%;
+      height: 664px;
+      float: left;
+      div {
+        background-image:url("../assets/img/compass/compass-300-dpi-main-logo@2x.png");
+        background-size: 100% 100%;
+        width: 341.9px;
+        height: 52px;
+        float: right;
+        margin-right: 149.1px;
+        margin-top: 306px;
+      }
+    }
+    .right {
+      width: 50%;
+      float: left;
+      height: 664px;
+      background-color: #33cc99;
+      text-align: left;
+      div:first-child {
+        width: 125px;
+        height: 48px;
+        font-family: Lato;
+        font-size: 32px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        text-align: left;
+        color: #ffffff;
+        margin-left: 120px;
+        margin-top: 200px;
+      }
+      div:nth-child(2) {
+        margin-top: 48px;
+        width: 400px;
+        height: 168px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        margin-left: 120px;
+      }
+    }
+  }
+  .main-content-box-3 {
+    margin-top: 160px;
+    margin-left: 360px;
+    div:first-child {
+      height: 48px;
+      font-family: Lato;
+      font-size: 32px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: 1px;
+      text-align: left;
+      color: #1d2c4c;
+    }
+    div:nth-child(2) {
+      width: 560px;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      text-align: left;
+      color: #525975;
+      margin-top: 48px;
+    }
+    div:nth-child(3) {
+      width: 560px;
+      height: 280px;
+      font-family: Lato;
+      font-size: 20px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2;
+      letter-spacing: normal;
+      text-align: left;
+      color: #525975;
+      margin-top: 48px;
+    }
+  }
+  .main-content-box-4 {
+    margin-top: 120px;
+    div:first-child {
+      width: 828px;
+      height: 648px;
+      float: left;
+      background-image: url("../assets/img/compass/moodboard@2x.jpg");
+      background-size: 100% 100%;
+    }
+    div:nth-child(2) {
+      width: 240px;
+      height: 140px;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      text-align: left;
+      color: #525975;
+      margin-left: 80px;
+      margin-top: 254px;
+      float: left;
+    }
+  }
+  .main-content-box-5 {
+    margin-top: 160px;
+    margin-left: 360px;
+    .title {
+      float: left;
+      width: 100%;
+      height: 48px;
+      font-family: Lato;
+      font-size: 32px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: 1px;
+      text-align: left;
+      color: #1d2c4c;
+    }
+    .text-image {
+      .left {
+        margin-top: 48px;
+        width: 400px;
+        height: 336px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        text-align: left;
+        color: #525975;
+        float: left;
+      }
+      .right {
+        margin-left: 54px;
+        float: left;
+        width: 180px;
+        height: 232px;
+        background-image: url(../assets/img/compass/color@2x.png);
+        background-size: 100% 100%;
+        margin-top: 110px;
+      }
+    }
+  }
+}
+.main-content-02 {
+  width: 100%;
+  position: relative;
+  float: left;
+  height: 816px;
+  margin-top: 160px;
+  .background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom, #000000, rgba(29, 44, 76, 0.94));
+  }
+  .main-content-container {
+    width: 1280px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-content-box {
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+  .main-content-box-1 {
+    margin-top: 160px;
+    margin-left: 240px;
+    background-image: url($path + "group-5.png");
+    background-size: 100% 100%;
+    width: 800px;
+    height: 491px;
+  }
+}
+.main-content-03 {
+  width: 100%;
+  position: relative;
+  float: left;
+  height: 820px;
+  .background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url($path + "paper-backgroun@2x.jpg");
+    background-size: 100% 100%;
+  }
+  .main-content-container {
+    width: 1280px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-content-box {
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+  .main-content-box-1 {
+      margin-top: 260px;
+      margin-left: 160px;
+      .left {
+        margin-top: 210px;
+        float: left;
+        div:first-child {
+          height: 48px;
+          font-family: Lato;
+          font-size: 32px;
+          font-weight: 500;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.5;
+          letter-spacing: 1px;
+          text-align: left;
+          color: #1d2c4c;
+        }
+        div:nth-child(2) {
+          width: 280px;
+          font-family: Lato;
+          font-size: 16px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.75;
+          letter-spacing: normal;
+          text-align: left;
+          color: #525975;
+          margin-top: 48px;
+        }
+      }
+      .right {
+        float: left;
+        margin-left: 120px;
+        width: 646px;
+        height: 420px;
+        background-image: url($path + "font@2x.png");
+        background-size: 100% 100%;
+      }
+  }
+}
+.main-content-04 {
+  width: 100%;
+  position: relative;
+  float: left;
+  margin-top: 160px;
+  .main-content-container {
+    width: 1280px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-content-box {
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+  .main-content-box-1 {
+    div:first-child {
+      width: 100%;
+      height: 48px;
+      font-family: Lato;
+      font-size: 32px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: 1px;
+      text-align: left;
+      color: #1d2c4c;
+      margin-left: 360px;
+      float: left;
+    }
+    div:nth-child(2) {
+      width: 560px;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      text-align: left;
+      color: #1d2c4c;
+      margin-top: 48px;
+      margin-left: 360px;
+      float: left;
+    }
+    div:nth-child(3) {
+      margin-top: 160px;
+      width: 100%;
+      float: left;
+      height: 1040px;
+      background-image: url($path + "09-badge@2x.jpg");
+      background-size: 100% 100%;
+    }
+    div:nth-child(4) {
+      margin-top: 48px;
+      float: right;
+      width: 940px;
+      height: 860px;
+      background-image:url($path + "10-tshirt@2x.jpg");
+      background-size: 100% 100%;
+    }
+    div:nth-child(5) {
+      margin-top: 48px;
+      float: left;
+      width: 940px;
+      height: 860px;
+      background-image:url($path + "11-tote-bag@2x.jpg");
+      background-size: 100% 100%;
+    }
+    div:nth-child(6) {
+      margin-top: 48px;
+      float: left;
+      width: 1280px;
+      height: 680px;
+      background-image: url($path + "12-poster-3@2x.jpg");
+      background-size: 100% 100%;
+    }
+    div:nth-child(7) {
+      margin-top: 48px;
+      float: right;
+      width: 1000px;
+      height: 824px;
+      background-image: url($path + "13-poster@2x.jpg");
+      background-size: 100% 100%;
+    }
+    div:nth-child(8) {
+      margin-top: 48px;
+      float: left;
+      width: 1280px;
+      height: 1000px;
+      background-image: url($path + "14-roll-up-stands@2x.jpg");
+      background-size: 100% 100%;
+    }
+    div:nth-child(9) {
+      margin-top: 48px;
+      float: left;
+      width: 1280px;
+      height: 853px;
+      background-image: url($path + "15-flag@2x.jpg");
+      background-size: 100% 100%;
+    }
+    div:nth-child(10) {
+      margin-top: 48px;
+      float: left;
+      width: 1280px;
+      height: 968px;
+      background-image: url($path + "16-outside-banner@2x.jpg");
+      background-size: 100% 100%;
+    }
+    div:nth-child(10) {
+      margin-top: 48px;
+      float: left;
+      width: 1280px;
+      height: 748px;
+      background-image: url($path + "17-conference@2x.jpg");
+      background-size: 100% 100%;
+    }
+  }
+}
+.main-content-06 {
+  width: 100%;
+  position: relative;
+  float: left;
+  margin-top: 160px;
+  margin-left: 360px;
+  .main-content-container {
+    width: 1280px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-content-box {
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+  .main-content-box-1 {
+    div:first-child {
+      width: 95px;
+      height: 48px;
+      font-family: Lato;
+      font-size: 32px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: 1px;
+      text-align: left;
+      color: #1d2c4c;
+    }
+    div:nth-child(2) {
+      margin-top: 48px;
+      width: 560px;
+      height: 84px;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      text-align: left;
+      color: #525975;
+      color: #525975;
+      a {
+        color: #1155cc;
+      }
+    }
+    div:nth-child(3) {
+      margin-top: 100px;
+      width: 1280px;
+      height: 257px;
+      background-image:url("../assets/img/compass/crafts.jpg");
+      background-size: 100% 100%;
+      margin-left: -360px;
+    }
+  }
+}
+.main-content-05 {
+  width: 100%;
+  position: relative;
+  float: left;
+  margin-top: 160px;
+  margin-left: 360px;
+  .main-content-container {
+    width: 1280px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-content-box {
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+  .main-content-box-1 {
+    div:first-child {
+      width: 63px;
+      height: 48px;
+      font-family: Lato;
+      font-size: 32px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: 1px;
+      text-align: left;
+      color: #1d2c4c;
+    }
+    div:nth-child(2) {
+      margin-top: 48px;
+      width: 560px;
+      height: 504px;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      text-align: left;
+      color: #525975;
+      a {
+        color: #1155cc;
+      }
+    }
+  }
+} 
+.main-content-19 {
+  width: 100%;
+  position: relative;
+  float: left;
+  margin-top: 200px;
+  height: 700px;
+  overflow: hidden;
+  .main-content-container {
+    width: 1280px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    .main-content-box {
+      width: 100%;
+      float: left;
+      position: relative;
+    }
+    .main-content-box-2 {
+      margin-top: 52px;
+      margin-left: 148px;
+      .left {
+        width: 560px;
+        margin-top: 90px;
+        height: 540px;
+        float: left;
+        .title {
+          width: 206px;
+          height: 60px;
+          font-family: Palatino;
+          font-size: 60px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1;
+          letter-spacing: 1.3px;
+          text-align: left;
+          color: #242324;
+        }
+        .list {
+          float: left;
+          width: 100%;
+          height: 32px;
+          font-family: Lato;
+          font-size: 18px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.78;
+          letter-spacing: normal;
+          text-align: left;
+          color: #525975;
+          margin-top: 20px;
+          position: relative;
+          cursor: pointer;
+          div {
+            position: absolute;
+            width: 150px;
+            height: 18px;
+            top: 18px;
+            left: -10px;
+            -webkit-transform: scaleY(0);
+            -ms-transform: scaleY(0);
+            transform: scaleY(0);
+            -webkit-transform-origin: bottom center;
+            -ms-transform-origin: bottom center;
+            transform-origin: bottom center;
+            -webkit-transition: -webkit-transform .6s cubic-bezier(.77,0,.175,1);
+            transition: transform .6s cubic-bezier(.77,0,.175,1);
+          }
+        }
+        .list:hover {
+          div {
+            transform: scaleY(1);
+          }
+        }
+        .list-1:hover {
+          color: #0152fc;
+        }
+        .list-2:hover {
+          color: #37b876;
+        }
+        .list-3:hover {
+          color: #009cda;
+        }
+        .list-4:hover {
+          color: #4a90e2;
+        }
+        .list-5:hover {
+          color: #43db7a;
+        }
+        .list-6 {
+          color: #ffaa33;
+        }
+        .list-7:hover {
+          color: #f942c9;
+        }
+        .list-1 {
+          margin-top: 104px;
+        }
+        .list-1 {
+          div {
+             background-color: rgba(1, 82, 252, 0.1);
+          }
+        }
+        .list-2 {
+          div {
+            background-color: rgba(55, 184, 118, 0.2);
+          }
+        }
+        .list-3 {
+          div {
+            background-color: rgba(0, 156, 218, 0.2);
+          }
+        }
+        .list-4 {
+          div {
+            background-color: rgba(74, 144, 226, 0.2);
+          }
+        }
+        .list-5 {
+          div {
+            background-color: rgba(67, 219, 122, 0.2);
+          }
+        }
+        .list-6 {
+          div {
+            background-color: rgba(255, 170, 51, 0.2);
+            transform: scaleY(1);
+
+          }
+        }
+        .list-7 {
+          div {
+            background-color: rgba(249, 66, 201, 0.2);
+          }
+        }
+      }
+      .right {
+        width: 720px;
+        height: 700px;
+        float: left;
+        margin-left: -148px;
+        margin-top: 28px;
+        position: relative;
+        div {
+          width: 720px;
+          height: 4092px;
+          background-image: url("../assets/img/trust/scroll.png");
+          background-size: 720px 4092px;
+          float: left;
+          position: absolute;
+          left: 0;
+          top: -2960px;
+          transition:all 1s linear;  
+        }
+      }
+    }
+  }
+}

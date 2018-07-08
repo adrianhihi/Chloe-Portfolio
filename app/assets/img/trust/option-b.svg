@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="406" height="160" viewBox="0 0 406 160">
+    <defs>
+        <rect id="a" width="406" height="160" rx="5"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <use fill="#399C1D" fill-opacity=".05" xlink:href="#a"/>
+            <rect width="405" height="159" x=".5" y=".5" stroke="#399C1D" rx="5"/>
+        </g>
+        <text fill="#525975" font-family="Lato-Regular, Lato" font-size="16">
+            <tspan x="86" y="40">A landing page that provides an overview </tspan> <tspan x="86" y="68">of the entire system. Separate instances </tspan> <tspan x="86" y="96">are listed by information categories, such </tspan> <tspan x="86" y="124">as Cloud Status, Maintenance, Incidents.</tspan>
+        </text>
+        <text fill="#399C1D" font-family="Palatino-Bold, Palatino" font-size="48" font-weight="bold">
+            <tspan x="24" y="105">B</tspan>
+        </text>
+    </g>
+</svg>

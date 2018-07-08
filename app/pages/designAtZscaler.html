@@ -1,0 +1,415 @@
+<!-- index.html -->
+{% extends "base.tmpl" %}
+
+<!-- =================== -->
+<!--    title block      -->
+<!-- =================== -->
+{% block title %} Chloe Du - Design at Zscaler{% endblock %}
+
+<!-- =================== -->
+<!--   styles block      -->
+<!-- =================== -->
+{% block styles %}
+
+<!-- custom styles -->
+<link href="./styles/base.css" rel="stylesheet">
+<link href="./styles/designAtZscaler.css" rel="stylesheet"> 
+{% endblock %}
+
+<!-- =================== -->
+<!--   scripts block     -->
+<!-- =================== -->
+{% block scripts %}
+<!-- page scripts -->
+<script src="./scripts/trust.js"></script>
+{% endblock %}
+
+<!-- =================== -->
+<!--     body block      -->
+<!-- =================== -->
+{% block content %}
+<div class="passwordPage" id="pass_index">
+  <div class="iconLogo"></div>
+  <div class="passwordContainer" align="center">
+    <div class="passwordBox">
+      <div>
+        Hey, nice to meet you.
+      </div>
+      <div>
+        I’m Chloe Du, a product designer based in the SF Bay Area. Please enter the password I’ve provided for you.
+      </div>
+      <input class="inputBox" placeholder="password" type="password" id="userPassword">
+      <div class="errorMsg">The password is invalid. Please try again.</div>
+      <div class="passwordSubmit" id="passwordSubmit">Let's go</div>
+    </div>
+  </div>
+</div>
+<div class="forPassPage">
+<div class="imageBlock" id="imageBlock" align="center">
+  <div class="main-content">
+    <div class="left" id="imageLeftBtn">
+      <i class="fa fa-angle-left"></i>
+    </div>
+    <div class="image"></div>
+    <div class="right" id="imageRightBtn">
+      <i class="fa fa-angle-right"></i>
+    </div>
+    <div class="close-imageblock">
+      <i class="fa fa-times"></i>
+    </div>
+  </div>
+</div>
+<div class="gray-background" id="about-background" align="center">
+  <div class="menu-close-icon" id="menu-close-btn"></div>
+  <div class="menu-list">
+    <div><a href="./">Home</a></div>
+    <div><a href="./about.html">About</a></div>
+    <div><a href="./assets/img/resume/Resume.pdf">Resume</a></div>
+  </div>
+  <div class="icons">
+    <a href="mailto:chloedjn@gmail.com">
+      <div></div>
+    </a>
+    <a href="https://www.linkedin.com/in/chloedjn">
+      <div></div>
+    </a>
+    <a href="https://dribbble.com/chloedjn">
+      <div></div>
+    </a>
+    <a href="https://www.instagram.com/heiyanquanben/">
+      <div></div>
+    </a>
+  </div>
+</div>
+<div class="menu-icon" id="menu-btn"></div>
+<div class="main-background" align="center">
+  <div class="main-left-background"></div>
+  <div class="main-right-background"></div>
+  <div class="main-background-middle">
+    <div class="main-background-middle-left">
+      <div class="main-background-text-2">
+        Design Projects<br>
+        at Zscaler
+      </div>
+      <div class="main-background-text-3">
+        Time: April, 2016 - present
+        <br><br>
+        Role: Sole Designer, UI/UX Design, Product Management
+      </div>
+    </div>
+    <div class="main-background-middle-right">
+      <div class="bottom-image">
+        <div class="phone-image"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="main-content-01" align="center">
+  <div class="main-content-container">
+    <div class="main-content-box main-content-box-1">
+      <div>
+        Projects at Zscaler
+      </div>
+      <div>
+        Zscaler is providing a cloud-based information security service for enterprises. It’s used by companies like GE, Siemens, Johnson Controls and securely connects users to their applications, regardless of device, location, or network. During the past two years at Zscaler, I designed over 50 projects individually, including products for our core product Zscaler Internet Access, Zscaler.com company website, Zscaler apps and internal tools. Unfortunately, I can’t share details due to the privacy reasons. So for now, I summarized some brief notes about some milestone projects I completed.
+      </div>
+      <div>
+        Zscaler Cloud Platform
+      </div>
+    </div>
+    <div class="main-content-box main-content-box-2">
+      <div class="content-cell content-cell-1">
+        <div class="left">
+          <div>
+            Zscaler App Suite
+          </div>
+          <div>
+            Redesigned the mobile app suites to simplify the enforcement of security and policy control.
+          </div>
+          <div>
+            <a href="./zscalerApp.html">
+              Read Case Study
+            </a>
+          </div>
+        </div>
+        <div class="right">
+        </div>
+      </div>
+      <div class="content-cell content-cell-2">
+        <div class="left">
+          <div>
+            Design System & Navigation System
+          </div>
+          <div>
+            Created design system, redesigned the navigation system, crafted interaction animations.
+          </div>
+        </div>
+        <div class="right">
+        </div>
+      </div>
+      <div class="content-cell content-cell-3">
+        <div class="left">
+          <div>
+            Company Risk Score
+          </div>
+          <div>
+            Designed a report to allow organizations to monitor and assess their organizational, departmental, location, and user-level risk exposure.
+          </div>
+        </div>
+        <div class="right">
+        </div>
+      </div>
+      <div class="content-cell content-cell-4">
+        <div class="left">
+          <div>
+            Security Policy Audit Report & System Audit Report
+          </div>
+          <div>
+            Designed two analysis reports for users to view their Security Policy settings and System Performance, and learn how to improve by following best practices guidelines.
+          </div>
+        </div>
+        <div class="right">
+        </div>
+      </div>
+      <div class="content-cell content-cell-5">
+        <div class="left">
+          <div>
+            Data Loss Prevention - EDM/IDM
+          </div>
+          <div>
+            Created EDM/IDM Index Tool and EDM/IDM Dictionary& Engines dashboard to stop organizations’ data loss and data exfiltration by importing data, managing templates, setting policy rules and monitoring violations.
+          </div>
+        </div>
+        <div class="right">
+        </div>
+      </div>
+      <div class="content-cell content-cell-6" style="border-bottom: 1px solid #dcdee3">
+        <div class="left">
+          <div>
+            Analyzer AI Asssistant
+          </div>
+          <div>
+            Built a messenger bot to help users with testing the network connections and troubleshooting.
+          </div>
+        </div>
+        <div class="right">
+        </div>
+      </div>
+    </div>
+    <div class="main-content-box main-content-box-3">
+      <div>
+        Zscaler.com Company Website
+      </div>
+    </div>
+    <div class="main-content-box main-content-box-2">
+      <div class="content-cell content-cell-7">
+        <div class="left">
+          <div>
+            Trust Portal
+          </div>
+          <div>
+            Redesigned our Trust Portal to provide latest security resources and real-time system performance information.
+          </div>
+          <div>
+            <a href="./trust.html">
+              Read Case Study
+            </a>
+          </div>
+        </div>
+        <div class="right">
+        </div>
+      </div>
+      <div class="content-cell content-cell-8">
+        <div class="left">
+          <div>
+            Threat Library
+          </div>
+          <div>
+            Redesigned Zscaler Threat Library to provide a comprehensive resource for daily, accurate and up-to-date information on the latest threats, risks and vulnerabilities.
+          </div>
+        </div>
+        <div class="right">
+        </div>
+      </div>
+      <div class="content-cell content-cell-9">
+        <div class="left">
+          <div>
+            Zenith Community
+          </div>
+          <div>
+            Built a discussion forum for our customers and internal employees using Discourse.org. 
+          </div>
+        </div>
+        <div class="right">
+        </div>
+      </div>
+      <div class="content-cell content-cell-10">
+        <div class="left">
+          <div>
+            Zulu Risk Scoring
+          </div>
+          <div>
+            Redesigned Zscaler Zulu URL Risk Scoring Portal which helps user to identify any threats that can be found on a particular URL.
+          </div>
+        </div>
+        <div class="right">
+        </div>
+      </div>
+      <div class="content-cell content-cell-11">
+        <div class="left">
+          <div>
+            Help Portal
+          </div>
+          <div>
+            Redesigned our Help Center which helps users to make the most use of Zscaler.
+          </div>
+        </div>
+        <div class="right">
+        </div>
+      </div>
+      <div class="content-cell content-cell-12" style="border-bottom: 1px solid #dcdee3">
+        <div class="left">
+          <div>
+            Cloud Visualization
+          </div>
+          <div>
+            Created two real-time data visualization dashboard to  illustrate the worldwide malicious activity with an interactive map.
+          </div>
+        </div>
+        <div class="right">
+        </div>
+      </div>
+    </div>
+    <div class="main-content-box main-content-box-3">
+      <div>
+        Zscaler.com Company Website
+      </div>
+    </div>
+    <div class="main-content-box main-content-box-2">
+      <div class="content-cell content-cell-13">
+        <div class="left">
+          <div>
+            Zscaler APEX
+          </div>
+          <div>
+            Built a content management tool (a website and a mobile app) for exposing the tribal knowledge for employees and partners. 
+          </div>
+        </div>
+        <div class="right">
+        </div>
+      </div>
+      <div class="content-cell content-cell-14" style="border-bottom: 1px solid #dcdee3">
+        <div class="left">
+          <div>
+            Zscaler Cloud Upgrade Portal
+          </div>
+          <div>
+            Created a software configuration management tool for our internal engineers to track and implement services updates and cloud upgrades.
+          </div>
+        </div>
+        <div class="right">
+        </div>
+      </div>
+    </div>
+    <div class="main-content-box main-content-box-4">
+      <div>
+        Accomplishments
+      </div>
+      <div>
+        At Zscaler,  we have an on-the-spot award for exemplary work, named Zscaler Bravo Award. The award is recommended by the manager with cross-functional support and management visibility. I have been awarded three times during the past two years. Here’re the statements I received from our Director of UI Engineering.
+      </div>
+    </div>
+    <div class="main-content-box main-content-box-5">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+</div>
+<div class="main-content-19 align="center">
+    <div class="main-content-container">
+      <div class="main-content-box main-content-box-1">
+      </div>
+      <div class="main-content-box main-content-box-2">
+        <div class="left">
+          <div class="title">
+            WORK
+          </div>
+          <a href="./designAtZscaler.html">
+            <div class="list list-1">
+              Zscaler Projects
+              <div></div>
+            </div>
+          </a>
+          <a href="./trust.html">
+            <div class="list list-2">
+              Zscaler Trust
+              <div></div>
+            </div>
+          </a>
+          <a href="./zscalerApp.html">
+            <div class="list list-3">
+              Zscaler App
+              <div></div>
+            </div>
+          </a>
+          <a href="./tripalink.html">
+            <div class="list list-4">
+              Tripalink
+              <div></div>
+            </div>
+          </a>
+          <a href="./springRole.html">
+            <div class="list list-5">
+              SpringRole
+              <div></div>
+            </div>
+          </a>
+          <a href="./compass.html">
+            <div class="list list-6">
+              Compass2018
+              <div></div>
+            </div>
+          </a>
+          <a href="./prizeCandle.html">
+            <div class="list list-7">
+              Prize Candle
+              <div></div>
+            </div>
+          </a>
+        </div>
+        <div class="right">
+          <div id="scrollImg"></div>
+        </div>
+      </div>
+      <div class="main-content-box main-content-box-3">
+      </div>
+    </div>
+</div>
+</div>
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

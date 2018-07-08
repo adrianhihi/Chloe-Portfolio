@@ -1,0 +1,35 @@
+<!-- index.html -->
+{% extends "base.tmpl" %}
+
+<!-- =================== -->
+<!--    title block      -->
+<!-- =================== -->
+{% block title %} Chloe Du - Resume {% endblock %}
+
+<!-- =================== -->
+<!--   styles block      -->
+<!-- =================== -->
+{% block styles %}
+
+<!-- custom styles -->
+<link href="./styles/base.css" rel="stylesheet"> 
+<link href="./styles/resume.css" rel="stylesheet"> 
+{% endblock %}
+
+<!-- =================== -->
+<!--   scripts block     -->
+<!-- =================== -->
+{% block scripts %}
+<!-- page scripts -->
+<script src="./scripts/resume.js"></script>
+{% endblock %}
+
+<!-- =================== -->
+<!--     body block      -->
+<!-- =================== -->
+{% block content %}
+  <div class="main" align="center">
+    <!-- <div></div> -->
+    <embed src="./assets/img/resume/Resume.pdf" width="612px" height="792px" />
+  </div>
+{% endblock %}

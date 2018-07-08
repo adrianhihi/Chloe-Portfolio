@@ -1,0 +1,2499 @@
+.main-background{
+  width: 100%;
+  height: 800px;
+  background-image: linear-gradient(to bottom, #a5ffc6, #009cda);
+  position: relative;
+  .main-left-background {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    left:0;
+  }
+  .main-background-middle {
+    width: 1018px;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #a5ffc6, #009cda);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: left;
+  }
+  .triangle-background {
+     width: 0px;
+     height: 0px;
+     border-top:450px solid white;
+     border-right:380px solid rgba(0,0,0,0);
+     border-bottom:450px solid rgba(0,0,0,0);
+     border-left:380px solid white;
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+  .main-background-middle-left {
+    width: 437px;
+    float: left;
+    height: 100%;
+    .main-background-text-1 {
+      width: 100%;
+      height: 28px;
+      font-family: Lato;
+      font-size: 20px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.4;
+      letter-spacing: normal;
+      text-align: left;
+      color: #1d2c4c;
+      position: relative;
+      z-index: 99;
+      top: 200px;
+      float: left;
+    }
+    .main-background-text-2 {
+      width: 437px;
+      height: 192px;
+      font-family: Palatino;
+      font-size: 48px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.33;
+      letter-spacing: normal;
+      text-align: left;
+      color: #1d2c4c;
+      position: relative;
+      z-index: 99;
+      float: left;
+      top: 224px;
+    }
+    .main-background-text-3 {
+      width: 100%;
+      height: 28px;
+      font-family: Lato;
+      font-size: 20px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.4;
+      letter-spacing: normal;
+      text-align: left;
+      color: #1d2c4c;
+      position: relative;
+      z-index: 99;
+      float: left;
+      top: 304px;
+    }
+  }
+  .main-background-middle-right {
+    float: left;
+    width: 580px;
+    height: 100%;
+    position: relative;
+    z-index: 99;
+    padding-top: 162px;
+    
+    .bottom-image {
+      background-image: url('../assets/img/zscalerApp/lines@2x.png');
+      width: 579px;
+      height: 491px;
+      background-size: cover;
+      text-align: center;
+    }
+    .phone-image {
+      background-image: url('../assets/img/zscalerApp/banner-iphone@2x.png');
+      width: 297px;
+      height: 588px;
+      background-size: cover;
+      margin-left: 180px;
+      top: -52px;
+      position: relative;
+    }
+  }
+}
+.main-content-01{
+  width: 100%;
+  margin-top: 200px;
+  position: relative;
+  float: left;
+  .main-title-number {
+    width: 232px;
+    height: 220px;
+    font-family: Lato;
+    font-size: 200px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: right;
+    color: rgba(0, 156, 218, 0.2);
+    margin-left: 200px;
+    float: left;
+  }
+  .main-title-text {
+    width: 285px;
+    height: 68px;
+    font-family: LatoBold;
+    font-size: 48px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.42;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #1d2c4c;
+    float:left;
+    margin-top: 76px;
+    margin-left: -76px;
+  }
+  .main-content-container {
+    width: 1280px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    .main-content-box {
+      width: 100%;
+      float: left;
+      position: relative;
+    }
+    .main-content-box:nth-child(2) {
+      margin-top: 100px;
+    }
+    .main-content-box-2 div:first-child {
+      height: 48px;
+      font-family: Lato;
+      font-size: 32px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: 1px;
+      text-align: left;
+      color: #1d2c4c;
+      margin-left: 360px;
+    }
+    .main-content-box-2 div:nth-child(2) {
+      width: 560px;
+      height: 84px;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      text-align: left;
+      color: #525975;
+      margin-left: 360px;
+      margin-top: 48px;
+    }
+
+    .main-content-box-3 {
+       margin-top: 100px;
+       width: 676px;
+       height: 164px;
+       margin-left: 302px;
+       background-image: url('../assets/img/zscalerApp/numbers@2x.png');
+       background-size: 100% 100%;
+    }
+    .main-content-box-4 {
+      margin-top: 100px;
+      margin-left: 360px;
+      .title {
+        width: 100%;
+        height: 28px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        text-align: left;
+        color: #525975;
+        position: relative;
+        float: left;
+      }
+      .content {
+        width: 100%;
+        margin-top: 16px;
+        position: relative;
+        float: left;
+        .circle-outter {
+          width: 20px;
+          height: 20px;
+          background-color: rgba(255, 228, 88, 0.2);
+          border-radius: 10px;
+          padding: 8px;
+          position: relative;
+          float: left;
+          margin-right: 16px;
+          top: 3px;
+          .circle-inner {
+            width: 4px;
+            height: 4px;
+            background-color: #ffe458;
+            border-radius: 2px;
+            position: relative;
+            float: left;          
+          }
+        }
+      }
+      .content-1 {
+        margin-top: 24px;
+      }
+      .text {
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.86;
+        letter-spacing: normal;
+        text-align: left;
+        color: #525975;
+        span {
+          font-weight: bold;
+          color: #1d2c4c;
+        }
+      }
+    }
+    .main-content-box-5 {
+      margin-top: 48px;
+      margin-left: 360px;
+      .title {
+        width: 100%;
+        height: 28px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        text-align: left;
+        color: #525975;
+        position: relative;
+        float: left;
+      }
+      .content {
+        width: 100%;
+        margin-top: 16px;
+        position: relative;
+        float: left;
+        .circle-outter {
+          width: 20px;
+          height: 20px;
+          background-color: rgba(254, 97, 96, 0.2);;
+          border-radius: 10px;
+          padding: 8px;
+          position: relative;
+          float: left;
+          margin-right: 16px;
+          top: 3px;
+          .circle-inner {
+            width: 4px;
+            height: 4px;
+            background-color: #fe6160;
+            border-radius: 2px;
+            position: relative;
+            float: left;          
+          }
+        }
+      }
+      .content-1 {
+        margin-top: 24px;
+      }
+      .text {
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.86;
+        letter-spacing: normal;
+        text-align: left;
+        color: #525975;
+        span {
+          font-weight: bold;
+          color: #1d2c4c;
+        }
+      }
+    }
+    .main-content-box-6 {
+      margin-top: 24px;
+      width: 100%;
+      font-family: Lato;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.86;
+      letter-spacing: normal;
+      text-align: left;
+      color: #525975;
+      a {
+        color: #009cda;
+      }
+    }
+    .main-content-box-7 {
+      width: 560px;
+      height: 56px;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      text-align: left;
+      color: #525975;
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+  }
+}
+
+.main-content-02 {
+    width: 100%;
+    position: relative;
+    float: left;
+    .main-content-box-1 {
+    width: 100%;
+    height: 256px;
+    color: white;
+    background-image: linear-gradient(to right, #009cda, #c0f7e1);
+    padding-top: 80px;
+    div {
+      width: 560px;
+      height: 96px;
+      font-family: Palatino;
+      font-size: 32px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+      margin: 0 auto;
+      position: relative;
+    }
+  }
+}
+.main-content-03 {
+  width: 100%;
+  position: relative;
+  float: left;
+  .main-content-container {
+    width: 1280px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    .main-content-box {
+      width: 100%;
+      float: left;
+      position: relative;
+    }
+    .main-content-box-1 {
+      margin-left: 360px;
+      .title {
+        width: 100%;
+        height: 32px;
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #1d2c4c;
+        position: relative;
+        float: left;
+        margin-top: 160px;
+      }
+      .text {
+        margin-top: 48px;
+        width: 100%;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        text-align: left;
+        color: #525975;
+        position: relative;
+        float: left;
+        div {
+          width: 560px;
+        }
+      }
+    }
+    .main-content-box-2 {
+      margin-left: 224px;
+      background-image: url('../assets/img/zscalerApp/zscaler-model-image@2x.jpg');
+      width: 832px;
+      height: 240px;
+      background-size: 100% 100%;
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+    .main-content-box-3 {
+      margin-left: 360px;
+      width: 560px;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      text-align: left;
+      color: #525975;
+      span {
+        font-weight: bold;
+        color: #009cda;
+      }
+    }
+  }
+}
+.main-content-04 {
+  width: 100%;
+  margin-top: 200px;
+  position: relative;
+  float: left;
+  .main-title-number {
+    width: 232px;
+    height: 220px;
+    font-family: Lato;
+    font-size: 200px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: right;
+    color: rgba(0, 156, 218, 0.2);
+    margin-left: 200px;
+    float: left;
+  }
+  .main-title-text {
+    width: 285px;
+    height: 68px;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.42;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #1d2c4c;
+    float:left;
+    margin-top: 76px;
+    margin-left: -23px;
+  }
+  .main-content-container {
+    width: 1280px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-content-box {
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+  .main-content-box:nth-child(2) {
+    margin-top: 100px;
+  }
+  .main-content-box-2 div:first-child {
+    width: 285px;
+    height: 48px;
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #1d2c4c;
+    margin-left: 360px;
+  }
+  .main-content-box-2 div:nth-child(2) {
+    width: 560px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #525975;
+    margin-left: 360px;
+    margin-top: 48px;
+    margin-bottom: 100px;
+  }
+}
+.main-content-05 {
+  width: 100%;
+  position: relative;
+  float: left;
+  height: 1206px;
+  background-color: #f9f9fa;
+  margin-bottom: 100px;
+  div {
+    background-image: url("../assets/img/zscalerApp/roadmap@2x.png");
+    background-size: 100% 100%;
+    width: 960px;
+    height: 1006px;
+    margin: auto auto;
+    margin-top: 100px;
+  }
+}
+.main-content-06 {
+  width: 100%;
+  position: relative;
+  float: left;
+  .main-content-container {
+    width: 1280px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-content-box {
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+  .main-content-box-1 {
+    width: 560px;
+    height: 140px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #525975;
+    margin-left: 360px;
+  }
+  .main-content-box-2 {
+    margin-top: 160px;
+    margin-left: 360px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 48px;
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #1d2c4c;
+  }
+  .main-content-box-3 {
+    margin-left: 180px;
+    width: 922px;
+    height: 1016px;
+    border: solid 1px #dcdee3;
+    border-radius: 5px;
+    padding: 100px 80px 100px 80px;
+    .left {
+      width: 200px;
+      height: 100%;
+      position: relative;
+      float: left;
+    }
+    .right {
+      width: 560px;
+      height: 100%;
+      position: relative;
+      float: left;
+    }
+    .cell-title {
+      font-family: Lato;
+      font-size: 20px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.4;
+      letter-spacing: normal;
+      text-align: left;
+      color: #009cda;
+      margin-bottom: 48px;
+    }
+    .cell-title-1, .cell-text-1 {
+      height: 156px;
+    }
+    .cell-title-2, .cell-text-2 {
+      height: 78px;
+    }
+    .cell-title-3, .cell-text-3 {
+      height: 130px;
+    }
+    .cell-title-4, .cell-text-4 {
+      height: 182px;
+    }
+    .cell-title-5, .cell-text-5 {
+      height: 78px;
+      margin-bottom: 0;
+    }
+    .cell-text {
+      font-family: Lato;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.86;
+      letter-spacing: normal;
+      text-align: left;
+      color: #525975;
+      margin-bottom: 48px;
+    }
+  }
+  .main-content-box-4 {
+    margin-left: 360px;
+    margin-top: 100px;
+    .container {
+      width: 100%;
+      position: relative;
+      float: left;
+      .text {
+        width: 560px;
+      }
+    }
+    .text-1 {
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      text-align: left;
+      color: #525975;
+      height: 140px;
+    }
+    .text-2 {
+      font-family: Palatino;
+      font-size: 32px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #009cda;
+      height: 96px;
+      margin-top: 80px;
+    }
+    .text-3 {
+      margin-top: 80px;
+      height: 56px;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      text-align: left;
+      color: #525975;
+    }
+    .text-4 {
+      height: 48px;
+      font-family: Lato;
+      font-size: 32px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: 1px;
+      text-align: left;
+      color: #1d2c4c;
+      margin-top: 160px;
+    }
+    .text-5 {
+      height: 112px;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      text-align: left;
+      color: #525975;
+      margin-top: 48px;
+    }
+  }
+}
+.main-content-07 {
+  width: 100%;
+  margin-top: 200px;
+  position: relative;
+  float: left;
+  .main-title-number {
+    width: 232px;
+    height: 220px;
+    font-family: Lato;
+    font-size: 200px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: right;
+    color: rgba(0, 156, 218, 0.2);
+    margin-left: 200px;
+    float: left;
+  }
+  .main-title-text {
+    width: 285px;
+    height: 68px;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.42;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #1d2c4c;
+    float:left;
+    margin-top: 76px;
+    margin-left: -68px;
+  }
+  .main-content-container {
+    width: 1280px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-content-box {
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+  .main-content-box:nth-child(2) {
+    margin-top: 100px;
+  }
+  .main-content-box-12 div:first-child {
+    height: 48px;
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #1d2c4c;
+    margin-left: 360px;
+  }
+  .main-content-box-13 {
+    margin-top: 80px;
+    margin-left: 360px;
+    .left {
+      margin-top: 130px;
+      position: relative;
+      float: left;
+      div:first-child {
+        width: 102px;
+        height: 102px;
+        font-family: Palatino;
+        font-size: 24px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.42;
+        letter-spacing: normal;
+        text-align: left;
+        color: #525975;
+      }
+      div:nth-child(2) {
+        margin-top: 120px;
+        width: 105px;
+        height: 24px;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.71;
+        letter-spacing: 4px;
+        text-align: left;
+        color: #525975;
+      }
+    }
+    .middle-container {
+      position: relative;
+      float: left;
+      width: 700px;
+      margin-left: -70px;
+      padding-left: 70px;
+    }
+    .middle {
+      position: relative;
+      float: left;
+      width: 560px;
+      height: 400px;
+      .pic {
+        position: absolute;
+      }
+      .pic-1 {
+        top: 0;
+        left: 0;
+        background-image: url('../assets/img/zscalerApp/employer_1.jpg');
+        width: 50%;
+        max-width: 560px;
+        height: 400px;
+        background-size: cover;
+        z-index: 99;
+      }
+      .pic-2 {
+        top: 0;
+        left: 0;
+        background-image: url('../assets/img/zscalerApp/employee_1.jpg');
+        width: 100%;
+        max-width: 560px;
+        height: 400px;
+        background-size: cover;
+        z-index: 1;
+      }
+      .pic-p {
+        top: 0;
+        left: 50%;
+        background-image: url('../assets/img/zscalerApp/bar@2x.png');
+        width: 56px;
+        height: 400px;
+        background-size: 100% 100%;
+        z-index: 999;
+        margin-left: -29px;
+      }
+    }
+    .right {
+      margin-top: 130px;
+      position: relative;
+      float: left;
+      div:first-child {
+        width: 156px;
+        height: 102px;
+        font-family: Palatino;
+        font-size: 24px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.42;
+        letter-spacing: normal;
+        text-align: right;
+        color: #525975;
+      }
+      div:nth-child(2) {
+        margin-top: 120px;
+        width: 105px;
+        height: 24px;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.71;
+        letter-spacing: 4px;
+        text-align: left;
+        color: #525975;
+        margin-left: 52px;
+      }
+    }
+  }
+  .main-content-box-14 {
+    margin-left: 360px;
+    div {
+      width: 560px;
+      height: 84px;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      text-align: left;
+      color: #525975;
+      margin-top: 100px;
+    }
+  }
+  .main-content-box-15 {
+    margin-top: 24px;
+    margin-left: 324px;
+    .content {
+      width: 100%;
+      margin-top: 16px;
+      position: relative;
+      float: left;
+      .circle-outter {
+        width: 20px;
+        height: 20px;
+        background-color: rgba(0, 156, 218, 0.3);
+        border-radius: 10px;
+        padding: 8px;
+        position: relative;
+        float: left;
+        margin-right: 16px;
+        top: 3px;
+        .circle-inner {
+          width: 4px;
+          height: 4px;
+          background-color: #009cda;
+          border-radius: 2px;
+          position: relative;
+          float: left;          
+        }
+      }
+    }
+    .content-1 {
+      margin-top: 24px;
+    }
+    .text {
+      width: 560px;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.86;
+      letter-spacing: normal;
+      text-align: left;
+      color: #525975;
+      float: left;
+      span {
+        font-weight: bold;
+        color: #1d2c4c;
+      }
+    }
+  }
+  .main-content-box-16 {
+    margin-top: 48px;
+    margin-left: 360px;
+    div {
+      width: 560px;
+      height: 28px;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      text-align: left;
+      color: #525975;
+    }
+  }
+  .main-content-box-2 {
+    margin-top: 160px;
+  }
+  .main-content-box-2 div:first-child {
+    height: 48px;
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #1d2c4c;
+    margin-left: 360px;
+  }
+  .main-content-box-2 div:nth-child(2) {
+    width: 560px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #525975;
+    margin-left: 360px;
+    margin-top: 48px;
+    margin-bottom: 100px;
+  }
+  .main-content-box-3 {
+    background-image: url("../assets/img/zscalerApp/survey-photo@2x.jpg");
+    background-size: 100% 100%;
+    width: 800px;
+    height: 520px;
+    margin-left: 240px;
+  }
+  .main-content-box-4 {
+    height: 48px;
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #1d2c4c;
+    margin-left: 402px;
+    margin-top: 160px;
+  }
+  .main-content-box-5{
+    width: 486px;
+    height: 28px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #525975;
+    margin-left: 403px;
+    margin-top: 48px;
+  }
+  .main-content-box-6 {
+    margin-left: 160px;
+    margin-top: 100px;
+    .left {
+      margin-right: 80px;
+      width: 480px;
+      height: 320px;
+      background-image: url('../assets/img/zscalerApp/discovery-image-1@2x.jpg');
+      background-size: 100% 100%;
+      float: left;
+    }
+    .right {
+      width: 400px;
+      padding-top: 60px;
+      float: left;
+      .top {
+        width: 367px;
+        height: 28px;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: left;
+        color: #525975;
+      }
+      .bottom {
+        width: 400px;
+        height: 140px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        text-align: left;
+        color: #525975;
+        margin-top: 24px;
+      }
+    }
+  }
+  .main-content-box-7 {
+    margin-left: 160px;
+    margin-top: 100px;
+    .left {
+      margin-right: 80px;
+      width: 480px;
+      height: 320px;
+      background-image: url('../assets/img/zscalerApp/discovery-image-2@2x.jpg');
+      background-size: 100% 100%;
+      float: left;
+    }
+    .right {
+      width: 400px;
+      padding-top: 92px;
+      float: left;
+      .top {
+        width: 367px;
+        height: 28px;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: left;
+        color: #525975;
+      }
+      .bottom {
+        width: 400px;
+        height: 140px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        text-align: left;
+        color: #525975;
+        margin-top: 24px;
+      }
+    }
+  }
+  .main-content-box-8 {
+    margin-left: 160px;
+    margin-top: 100px;
+    .left {
+      margin-right: 80px;
+      width: 480px;
+      height: 320px;
+      background-image: url('../assets/img/zscalerApp/discovery-image-3@2x.png');
+      background-size: 100% 100%;
+      float: left;
+    }
+    .right {
+      width: 400px;
+      padding-top: 92px;
+      float: left;
+      .top {
+        width: 367px;
+        height: 28px;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: left;
+        color: #525975;
+      }
+      .bottom {
+        width: 400px;
+        height: 140px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        text-align: left;
+        color: #525975;
+        margin-top: 24px;
+      }
+    }
+  }
+  .main-content-box-9 {
+    margin-left: 160px;
+    margin-top: 100px;
+    .left {
+      margin-right: 80px;
+      width: 480px;
+      height: 320px;
+      background-image: url('../assets/img/zscalerApp/discovery-image-4@2x.png');
+      background-size: 100% 100%;
+      float: left;
+    }
+    .right {
+      width: 400px;
+      padding-top: 74px;
+      float: left;
+      .top {
+        width: 400px;
+        height: 28px;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: left;
+        color: #525975;
+      }
+      .bottom {
+        width: 400px;
+        height: 140px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        text-align: left;
+        color: #525975;
+        margin-top: 24px;
+      }
+    }
+  }
+  .main-content-box-10 {
+      margin-top: 160px;
+      margin-left: 360px;
+      div:first-child {
+        width: 100%;
+        height: 48px;
+        font-family: Lato;
+        font-size: 32px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        text-align: left;
+        color: #1d2c4c;
+      }
+      div:nth-child(2) {
+        width: 560px;
+        height: 140px;
+        margin-top: 48px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        text-align: left;
+        color: #525975;
+      }
+  }
+  .main-content-box-11 {
+    margin-top: 48px;
+    margin-left: 324px;
+    .content {
+      width: 100%;
+      margin-top: 16px;
+      position: relative;
+      float: left;
+      .circle-outter {
+        width: 20px;
+        height: 20px;
+        background-color: rgba(0, 156, 218, 0.3);
+        border-radius: 10px;
+        padding: 8px;
+        position: relative;
+        float: left;
+        margin-right: 16px;
+        top: 3px;
+        .circle-inner {
+          width: 4px;
+          height: 4px;
+          background-color: #009cda;
+          border-radius: 2px;
+          position: relative;
+          float: left;          
+        }
+      }
+    }
+    .content-1 {
+      margin-top: 24px;
+    }
+    .text {
+      width: 560px;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.86;
+      letter-spacing: normal;
+      text-align: left;
+      color: #525975;
+      float: left;
+      span {
+        font-weight: bold;
+        color: #1d2c4c;
+      }
+    }
+  }
+}
+.main-content-08 {
+  width: 100%;
+  margin-top: 200px;
+  position: relative;
+  float: left;
+  .main-title-number {
+    width: 232px;
+    height: 220px;
+    font-family: Lato;
+    font-size: 200px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: right;
+    color: rgba(0, 156, 218, 0.2);
+    margin-left: 200px;
+    float: left;
+  }
+  .main-title-text {
+    width: 285px;
+    height: 68px;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.42;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #1d2c4c;
+    float:left;
+    margin-top: 76px;
+    margin-left: -68px;
+  }
+  .main-content-container {
+    width: 1280px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-content-box {
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+  .main-content-box:nth-child(2) {
+    margin-top: 100px;
+  }
+  .main-content-box-4 {
+    margin-left: 360px;
+    div:first-child {
+    }
+    div:nth-child(2) {
+      width: 560px;
+      height: 48px;
+      font-family: Lato;
+      font-size: 32px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: 1px;
+      text-align: left;
+      color: #1d2c4c;
+      margin-bottom: 48px;
+    }
+    div:nth-child(3) {
+      width: 560px;
+      height: 56px;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      text-align: left;
+      color: #525975;
+      margin-bottom: 100px;
+    }
+    div:nth-child(4) {
+      margin-left: -140px;
+      background-image: url('../assets/img/zscalerApp/option-1@2x.png');
+      width: 840px;
+      height: 508px;
+      background-size: 100% 100%;
+      margin-bottom: 100px;
+    }
+    div:nth-child(5) {
+      width: 560px;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      text-align: left;
+      color: #525975;
+      margin-bottom: 100px;
+    }
+    div:nth-child(6) {
+      margin-left: -140px;
+      background-image: url('../assets/img/zscalerApp/option-2@2x.png');
+      width: 840px;
+      height: 520px;
+      background-size: 100% 100%;
+      margin-bottom: 100px;
+    }
+    div:nth-child(7) {
+      width: 560px;
+      height: 196px;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      text-align: left;
+      color: #525975;
+      margin-bottom: 160px;   
+    }
+    div:nth-child(8) {
+      height: 48px;
+      font-family: Lato;
+      font-size: 32px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: 1px;
+      text-align: left;
+      color: #1d2c4c;      
+    }
+  }
+}
+.main-content-09 {
+  width: 100%;
+  position: relative;
+  float: left;
+  margin-top: 100px;
+  .main-content-box-1 {
+    width: 100%;
+    height: 814px;
+    background-color: #f9f9fa;
+    padding-top: 100px;
+    div {
+      width: 737px;
+      height: 614px;
+      background-image: url('../assets/img/zscalerApp/sketches@2x.png');
+      margin: auto auto;
+      background-size: 100% 100%;
+    }
+  }
+}
+.main-content-10 {
+  width: 100%;
+  margin-top: 200px;
+  position: relative;
+  float: left;
+  margin-top: 100px;
+  .main-content-container {
+    width: 1280px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-content-box {
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+  .main-content-box-1 {
+    margin-left: 360px;
+  }
+  .main-content-box-1 div:first-child {
+    width: 560px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #525975;
+  }
+  .main-content-box-1 div:nth-child(2) {
+    margin-top: 160px;
+    height: 48px;
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #1d2c4c;    
+  }
+  .main-content-box-1 div:nth-child(3) {
+    width: 560px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #525975;
+    margin-top: 48px;
+  }
+}
+.main-content-11 {
+  width: 100%;
+  position: relative;
+  float: left;
+  margin-top: 100px;
+  background-color: #1d2c4c;
+  .main-content-box-1 {
+    width: 1074px;
+    height: 742px;
+    padding-top: 100px;
+    div {
+      width: 338px;
+      height: 612px;
+      background-size: 100% 100%;
+      float: left;
+      position: relative;
+      margin-right: 30px;
+    }
+    div:first-child {
+      background-image: url('../assets/img/zscalerApp/phone-1@2x.png');
+    }
+    div:nth-child(2) {
+      background-image: url('../assets/img/zscalerApp/phone-2@2x.png');
+    }
+    div:nth-child(3) {
+      background-image: url('../assets/img/zscalerApp/phone-3@2x.png');
+      margin-right: 0;
+    }
+  }
+}
+.main-content-12 {
+  width: 100%;
+  margin-top: 100px;
+  position: relative;
+  float: left;
+  .main-content-container {
+    width: 1280px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-content-box {
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+  .main-content-box-1 {
+    margin-left: 360px;
+  }
+  .main-content-box-1 div:first-child {
+    width: 560px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #525975;
+  }
+  .main-content-box-1 div:nth-child(2) {
+    margin-top: 160px;
+    margin-bottom: 48px;
+    height: 48px;
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #1d2c4c;   
+  }
+  .main-content-box-1 div:nth-child(3) {
+    width: 560px;
+    height: 56px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #525975;
+  }
+}
+.main-content-14 {
+  width: 100%;
+  position: relative;
+  float: left;
+  margin-bottom: 100px;
+  .main-content-container {
+    width: 1280px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-content-box {
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+  .main-content-box-1 {
+    margin-left: 360px;
+  }
+  .main-content-box-1 div:first-child {
+    width: 243px;
+    height: 48px;
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #1d2c4c;
+    margin-top: 160px;
+  }
+  .main-content-box-1 div:nth-child(2) {
+    width: 560px;
+    height: 84px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #525975;
+    margin-top: 48px;
+  }
+  .main-content-box-2 {
+    margin-top: 100px;
+    margin-left: 117px;
+    .left {
+      width: 400px;
+      height: 532px;
+      border-radius: 5px;
+      background-color: #1d2c4c;
+      padding-top: 100px;
+      padding-left: 80px;
+      position: relative;
+      float: left;
+      div {
+        background-image: url('../assets/img/zscalerApp/font@2x.png');
+        background-size: 100% 100%;
+        width: 230px;
+        height: 332px;
+      }
+    }
+    .right {
+      margin-top: 94px;
+      margin-left: 64px;
+      width: 582px;
+      height: 344px;
+      background-image: url('../assets/img/zscalerApp/color@2x.png');
+      background-size: 100% 100%;
+      position: relative;
+      float: left;
+    }
+  }
+  .main-content-box-3 {
+    margin-left: 246px;
+    width: 826px;/*788*/
+    height: 182px;/*104*/
+    margin-top: 100px;
+    background-image: url('../assets/img/zscalerApp/icons@2x.png');
+    background-size: 100% 100%;
+  }
+}
+.main-content-15 {
+  width: 100%;
+  height: 864px;
+  background-color: #f9f9fa;
+  margin-bottom: 160px;
+  position: relative;
+  float: left;
+  .main-content-container {
+    width: 1280px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    div:first-child {
+      margin-top: 124px;
+      margin-left: 90px;
+      background-image: url('../assets/img/zscalerApp/ui@2x.jpg');
+      width: 360px;
+      height: 640px;
+      background-size: 100% 100%;
+      position: relative;
+      float: left;
+    }
+    div:nth-child(2) {
+      margin-top: 100px;
+      margin-left: 40px;
+      background-image: url('../assets/img/zscalerApp/grid@2x.png');
+      width: 390px;
+      height: 664px;
+      background-size: 100% 100%;
+      position: relative;
+      float: left;    
+    }
+
+    div:nth-child(3) {
+      margin-top: 160px;
+      margin-left: 40px;
+      background-image: url('../assets/img/zscalerApp/text@2x.png');
+      width: 270px;
+      height: 580px;
+      background-size:100% 100%;
+      margin-top: 160px;
+      margin-left: 40px;
+      position: relative;
+      float: left;
+    }
+  }
+}
+.main-content-16 {
+  width: 100%;
+  position: relative;
+  float: left;
+  .main-content-container {
+    width: 1280px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    .main-content-box {
+      width: 100%;
+      float: left;
+      position: relative;
+    }
+    .main-content-box-1 {
+      height: 48px;
+      font-family: Lato;
+      font-size: 32px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: 1px;
+      text-align: left;
+      color: #1d2c4c;
+      margin-top: 48px;
+      margin-left: 360px;
+    }
+    .main-content-box-2 {
+      width: 560px;
+      height: 252px;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      text-align: left;
+      color: #525975;
+      margin-top: 48px;
+      margin-left: 360px;
+    }
+    .main-content-box-3 {
+      width: 320px;
+      height: 320px;
+      background-image: url('../assets/img/zscalerApp/Z-app%20Animation%20active%20only.gif');
+      background-size: 100% 100%;
+      margin-left: 440px;
+      margin-top: 20px;
+    }
+    .main-content-box-4 {
+      margin-left: 360px;
+      margin-top: 160px;
+      width: 560px;
+      div:first-child{
+          height: 48px;
+          font-family: Lato;
+          font-size: 32px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.5;
+          letter-spacing: 1px;
+          text-align: left;
+          color: #1d2c4c;
+      }
+      div:nth-child(2) {
+        width: 560px;
+        height: 196px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        text-align: left;
+        color: #525975;
+        margin-top: 48px;
+      }
+    }
+    .main-content-box-5 {
+      margin-top: 100px;
+      margin-left: 172px;
+      div {
+        width: 240px;
+        height: 240px;
+        margin-right: 108px;
+        position: relative;
+        float: left;
+      }
+      div:first-child {
+        background-image: url('../assets/img/zscalerApp/icon-1@2x.jpg');
+        background-size: 100% 100%;
+      }
+      div:nth-child(2) {
+        background-image: url('../assets/img/zscalerApp/icon-2@2x.jpg');
+        background-size: 100% 100%;
+      }
+      div:nth-child(3) {
+        background-image: url('../assets/img/zscalerApp/icon-3@2x.jpg');
+        background-size: 100% 100%;
+        margin-right:0;
+      }
+    } 
+  }
+}
+.main-content-17 {
+  width: 100%;
+  position: relative;
+  float: left;
+  margin-top: 200px;
+  height: 6430px;
+  background-color: #1d2c4c;
+  .main-content-box-6 {
+    width: 100%;
+    height: 375px;
+    background-size: 100% 100%;
+    background-image: url("../assets/img/zscalerApp/lines2@2x.png");
+    z-index: 1;
+    top: 2800px;
+    position: absolute;
+  }
+  .main-content-container {
+    width: 1280px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    .main-content-box {
+      width: 100%;
+      float: left;
+      position: relative;
+    }
+    .main-content-box-1 {
+      width: 100%;
+      margin-top: 100px;
+      position: relative;
+      float: left;
+      .main-title-number {
+        width: 232px;
+        height: 220px;
+        font-family: Lato;
+        font-size: 200px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+        text-align: right;
+        color: rgba(255, 255, 255, 0.05);
+        margin-left: 200px;
+        float: left;
+      }
+      .main-title-text {
+        height: 136px;
+        font-family: Lato;
+        font-size: 48px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.42;
+        letter-spacing: 2px;
+        text-align: left;
+        color: #ffffff;
+        float:left;
+        margin-top: 50px;
+        margin-left: -76px;
+      }
+    }
+    .main-content-box-2 {
+      float: left;
+      margin-left: 360px;
+      position: relative;
+      height: 1700px;
+      div:first-child {
+        width: 270px;
+        height: 28px;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ecedf0;
+        margin-top: 100px;
+      }
+      div:nth-child(2) {
+        width: 560px;
+        height: 112px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        margin-top: 48px;
+      }
+      div:nth-child(3) {
+        width: 1242px;
+        height: 1380px;
+        position: absolute;
+        top: 140px;
+        left: -360px;
+        background-image: url("../assets/img/zscalerApp/bg.png");
+        div {
+            width: 400px;
+            height: 826px;
+            left: 440px;
+            top: 320px;
+            position: relative;
+            background-size: 100% 100%;
+            background-image: url("../assets/img/zscalerApp/phone@2x.png")
+        }
+      }
+    }
+    .main-content-box-4 {
+      margin-left: 360px;
+
+      div:first-child {
+        width: 286px;
+        height: 28px;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ecedf0;
+      }
+      div:nth-child(2) {
+        width: 560px;
+        height: 56px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        margin-top: 48px;
+      }
+    }
+    .main-content-box-5 {
+      margin-left: 440px;
+      margin-top: 160px;
+      z-index: 100;
+      div {
+        background-image: url("../assets/img/zscalerApp/phone2@2x.png");
+        width: 400px;
+        height: 826px;
+        background-size: 100% 100%;
+      }
+    }
+    .main-content-box-7 {
+      margin-left: 360px;
+      margin-top: 240px;
+      z-index: 100;
+      div:first-child {
+        width: 405px;
+        height: 28px;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+      }
+      div:nth-child(2) {
+        width: 560px;
+        height: 112px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        margin-top: 48px;
+      }
+    }
+    .main-content-box-8 {
+      margin-top: -350px;
+      z-index: 1;
+      div {
+        width: 1280px;
+        height: 1506px;
+        background-image: url("../assets/img/zscalerApp/mockup-3@2x.png");
+        background-size: 100% 100%;
+      }
+    }
+    .main-content-box-9 {
+      margin-left: 360px;
+      margin-top: 150px;
+      div:first-child {
+        width: 396px;
+        height: 28px;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+      }
+      div:nth-child(2) {
+        width: 560px;
+        height: 112px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        margin-top: 48px;
+      }
+    }
+    .main-content-box-10 {
+      margin-left: 200px;
+      margin-top: 138px;
+      div {
+        width: 880px;
+        height: 1026px;
+        background-image: url("../assets/img/zscalerApp/mockup-4@2x.png");
+        background-size: 100% 100%;
+      }
+    }
+  }
+}
+.main-content-18 {
+  width: 100%;
+  position: relative;
+  float: left;
+  margin-top: 200px;
+  height: auto;
+  .main-content-container {
+    width: 1280px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    .main-content-box {
+      width: 100%;
+      float: left;
+      position: relative;
+    }
+    .main-content-box-5 {
+      margin-top: 80px;
+      margin-left: 360px;
+      div:first-child {
+        height: 48px;
+        font-family: Lato;
+        font-size: 32px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        text-align: left;
+        color: #1d2c4c;
+      }
+      div:nth-child(2) {
+        width: 560px;
+        height: 308px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        text-align: left;
+        color: #525975;
+        margin-top: 48px;
+      }
+      div:nth-child(3) {
+        margin-top: 160px;  
+        height: 48px;
+        font-family: Lato;
+        font-size: 32px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        text-align: left;
+        color: #1d2c4c;
+      }
+    }
+    .main-content-box-1 {
+      width: 100%;
+      position: relative;
+      float: left;
+      .main-title-number {
+        width: 232px;
+        height: 220px;
+        font-family: Lato;
+        font-size: 200px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+        text-align: right;
+        color: rgba(0, 156, 218, 0.2);
+        margin-left: 200px;
+        float: left;
+      }
+      .main-title-text {
+        width: 470px;
+        height: 68px;
+        font-family: Lato;
+        font-size: 48px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.42;
+        letter-spacing: 2px;
+        text-align: left;
+        color: #1d2c4c;
+        float:left;
+        margin-top: 76px;
+        margin-left: -76px;
+      }
+    }
+    .main-content-box-2 {
+      margin-top: 48px;
+      margin-left: 360px;
+      div {
+        width: 560px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        text-align: left;
+        color: #525975;
+      }
+    }
+    .main-content-box-3 {
+      margin-top: 100px;
+      margin-left: 240px;
+      div {
+        background-image: url("../assets/img/zscalerApp/table@2x.png");
+        background-size: 100% 100%;
+        width: 800px;
+        height: 390px;
+      }
+    }
+    .main-content-box-4 {
+      margin: 100px auto 200px 360px;
+      div {
+        width: 560px;
+        height: 56px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        text-align: left;
+        color: #525975;
+      }
+    }
+  }
+}
+.main-content-13 {
+  height: 1364px;
+  width: 100%;
+  background-color: #F9F9FA;
+  float: left;
+  margin-top: 100px;
+  .main-box {
+    width: 1440px;
+    height: 100%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    div {
+      width: 1540px;
+      height: 1164px;
+      background-image: url(../assets/img/zscalerApp/all-phone-image.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      float: left;
+      width: 1440px;
+      margin-top: 100px;
+    }
+    /*div:first-child {
+      margin-top: 100px;
+      background-image: url(../assets/img/zscalerApp/f1.png);
+    }
+    div:nth-child(2) {
+      margin-top: 48px;
+      background-image: url(../assets/img/zscalerApp/f2.png);
+    }
+    div:nth-child(3) {
+      margin-top: 48px;
+      background-image: url(../assets/img/zscalerApp/f3.png);
+    }*/
+  }
+}
+.main-content-20 {
+  width: 100%;
+  height: 800px;
+  position: relative;
+  float: left;
+  div {
+    background-image: url("../assets/img/zscalerApp/07-entire-suit-mockup@2x.png");
+    background-size: auto 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+  }
+}
+.main-content-19 {
+  width: 100%;
+  position: relative;
+  float: left;
+  margin-top: 200px;
+  height: 700px;
+  overflow: hidden;
+  .main-content-container {
+    width: 1280px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    .main-content-box {
+      width: 100%;
+      float: left;
+      position: relative;
+    }
+    .main-content-box-2 {
+      margin-top: 52px;
+      margin-left: 148px;
+      .left {
+        width: 560px;
+        margin-top: 90px;
+        height: 540px;
+        float: left;
+        .title {
+          width: 206px;
+          height: 60px;
+          font-family: Palatino;
+          font-size: 60px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1;
+          letter-spacing: 1.3px;
+          text-align: left;
+          color: #242324;
+        }
+        .list {
+          float: left;
+          width: 100%;
+          height: 32px;
+          font-family: Lato;
+          font-size: 18px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.78;
+          letter-spacing: normal;
+          text-align: left;
+          color: #525975;
+          margin-top: 20px;
+          position: relative;
+          cursor: pointer;
+          div {
+            position: absolute;
+            width: 150px;
+            height: 18px;
+            top: 18px;
+            left: -10px;
+            -webkit-transform: scaleY(0);
+            -ms-transform: scaleY(0);
+            transform: scaleY(0);
+            -webkit-transform-origin: bottom center;
+            -ms-transform-origin: bottom center;
+            transform-origin: bottom center;
+            -webkit-transition: -webkit-transform .6s cubic-bezier(.77,0,.175,1);
+            transition: transform .6s cubic-bezier(.77,0,.175,1);
+          }
+        }
+        .list:hover {
+          div {
+            transform: scaleY(1);
+          }
+        }
+        .list-1:hover {
+          color: #0152fc;
+        }
+        .list-2:hover {
+          color: #37b876;
+        }
+        .list-3 {
+          color: #009cda;
+        }
+        .list-4:hover {
+          color: #4a90e2;
+        }
+        .list-5:hover {
+          color: #43db7a;
+        }
+        .list-6:hover {
+          color: #ffaa33;
+        }
+        .list-7:hover {
+          color: #f942c9;
+        }
+        .list-1 {
+          margin-top: 104px;
+        }
+        .list-1 {
+          div {
+             background-color: rgba(1, 82, 252, 0.1);
+          }
+        }
+        .list-2 {
+          div {
+            background-color: rgba(55, 184, 118, 0.2);
+          }
+        }
+        .list-3 {
+          div {
+            background-color: rgba(0, 156, 218, 0.2);
+            transform: scaleY(1);
+          }
+        }
+        .list-4 {
+          div {
+            background-color: rgba(74, 144, 226, 0.2);
+          }
+        }
+        .list-5 {
+          div {
+            background-color: rgba(67, 219, 122, 0.2);
+          }
+        }
+        .list-6 {
+          div {
+            background-color: rgba(255, 170, 51, 0.2);
+          }
+        }
+        .list-7 {
+          div {
+            background-color: rgba(249, 66, 201, 0.2);
+          }
+        }
+      }
+      .right {
+        width: 720px;
+        height: 700px;
+        float: left;
+        margin-left: -148px;
+        margin-top: 28px;
+        position: relative;
+        div {
+          width: 720px;
+          height: 4092px;
+          background-image: url("../assets/img/trust/scroll.png");
+          background-size: 720px 4092px;
+          float: left;
+          position: absolute;
+          left: 0;
+          top: -1184px;
+          transition:all 1s linear;  
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

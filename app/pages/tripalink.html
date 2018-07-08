@@ -12,8 +12,8 @@
 {% block styles %}
 
 <!-- custom styles -->
-<link href="./styles/tripalink.css" rel="stylesheet">
-<link href="./styles/base.css" rel="stylesheet"> 
+<link href="./styles/base.css" rel="stylesheet">
+<link href="./styles/tripalink.css" rel="stylesheet"> 
 {% endblock %}
 
 <!-- =================== -->
@@ -21,111 +21,443 @@
 <!-- =================== -->
 {% block scripts %}
 <!-- page scripts -->
-<script src="./scripts/landingPage.js"></script>
+<script src="./scripts/tripalink.js"></script>
 {% endblock %}
 
 <!-- =================== -->
 <!--     body block      -->
 <!-- =================== -->
 {% block content %}
-<section class="navBarSection">
-  <nav>
-    <div class="container">
-      <a href="landingPage.html">
-        <div class="icon-navbar"></div>
-        <div class="navbar-title">
-          Chloe Du
-        </div>
-      </a>
-      <div class="navbar-subtitle">
-        Design makes anything possible.
+<div class="passwordPage" id="pass_index">
+  <div class="iconLogo"></div>
+  <div class="passwordContainer" align="center">
+    <div class="passwordBox">
+      <div>
+        Hey, nice to meet you.
       </div>
-      <div class="nav-arrow-container">
-        <i class="fa fa-angle-left" aria-hidden="true"></i>
-        <a href="laioffer.html">
-          <i class="fa fa-angle-right" aria-hidden="true"></i>
-        </a>
+      <div>
+        I’m Chloe Du, a product designer based in the SF Bay Area. Please enter the password I’ve provided for you.
       </div>
-    </div>
-  </nav>
-</section>
-<div class="col-xs-12 all-to-none" align="center">
-  <div class="banner tripalinkBanner">
-    <div class="tripalinkBannerText"></div>
-  </div>
-  <div class="container container-position">
-    <div class="tripalink-line">
+      <input class="inputBox" placeholder="password" type="password" id="userPassword">
+      <div class="errorMsg">The password is invalid. Please try again.</div>
+      <div class="passwordSubmit" id="passwordSubmit">Let's go</div>
     </div>
   </div>
-  
-  <div class="tripalink-content-0">
-    <div class="container container-position">
-      <div class="tripalink-content-text-0">
-      </div>
-    </div>
-  </div>
-  <div class="container container-position">
-    <div class="tripalink-content-1 tripalink-content">
-    </div>
-  </div>
-  <div class="tripalink-content-2">
-    <div class="tripalink-content-text-2"></div>
-  </div>
-  <div class="tripalink-content-3"></div>
-  <div class="tripalink-content-4"></div>
-  <div class="container container-position">
-    <div class="tripalink-content-5"></div>
-  </div>
-  <div class="temp_box">
-    <div class="tripalink-content-6"></div>
-  </div>
-  <div class="tripalink-content-7-box">
-    <div class="tripalink-content-7"></div>
-  </div>
-  <div class="tripalink-content-8"></div>
-
 </div>
-<div class="col-xs-12 all-to-none page-footer" align="center">
-  <a href="http://www.tripalink.com">
-    <div class="footer-btn tripalink-footer-btn">
-      View Alive
-    </div>
-  </a>
-  <div class="footer-btn-text">
-    Thank you for reading
+<div class="forPassPage">
+<div class="gray-background" id="about-background" align="center">
+  <div class="menu-close-icon" id="menu-close-btn"></div>
+  <div class="menu-list">
+    <div><a href="./">Home</a></div>
+    <div><a href="./about.html">About</a></div>
+    <div><a href="./assets/img/resume/Resume.pdf">Resume</a></div>
   </div>
-  <div class="footer-divider"></div>
-  <div class="footer-img">
-    <div class="foot-img-master">Peer Review</div>
+  <div class="icons">
+    <a href="mailto:chloedjn@gmail.com">
+      <div></div>
+    </a>
+    <a href="https://www.linkedin.com/in/chloedjn">
+      <div></div>
+    </a>
+    <a href="https://dribbble.com/chloedjn">
+      <div></div>
+    </a>
+    <a href="https://www.instagram.com/heiyanquanben/">
+      <div></div>
+    </a>
   </div>
-  <!-- footer partial -->
-  <div class="container footer-container" align="center">
-    <div class="footer-nav">
-      <div class="footer-nav-1">
-        <a href="mailto:chloedjn@gmail.com">
-          Chloedjn@gmail.com
-        </a>
+</div>
+<div class="menu-icon" id="menu-btn"></div>
+<div class="main-background" align="center">
+  <div class="main-left-background"></div>
+  <div class="main-right-background"></div>
+  <div class="main-background-middle">
+    <div class="main-background-middle-left">
+      <div class="main-background-text-1">
+        For your loved cars
       </div>
-      <div class="footer-nav-2">
-        <a href="tel:+13236205876">
-          323.620.5876
-        </a>
+      <div class="main-background-text-2">
+        Date Your Dreamed car with Tripalink
       </div>
-      <div class="footer-nav-3">
-        <a href="">
-          View my resume
-        </a>
+      <div class="main-background-text-3">
+        Time: Aug - Sept 2015<br><br>
+        My Role: Founding, Conception, Design,<br>
+        Branding & Marketing, Copy Writer
       </div>
     </div>
-    <div class="footer-social">
-      <i class="icon-linkedin"></i>
-      <i class="fa fa-dribbble" aria-hidden="true"></i>
-      <i class="fa fa-behance" aria-hidden="true"></i>
-      <i class="fa fa-instagram" aria-hidden="true"></i>
-    </div>
-    <div class="foot-copyright">
-      &#x24B8; 2016 Chloe Du
+    <div class="main-background-middle-right">
+      <div class="bottom-image">
+        <div class="phone-image"></div>
+      </div>
     </div>
   </div>
+</div>
+<div class="main-content-01" align="center">
+  <div class="main-content-container">
+    <div class="main-content-box main-content-box-1">
+      <div class="left">
+        01 <br>
+        INTRO
+      </div>
+      <div class="right">
+        <div>
+          The Spark
+        </div>
+        <div>
+          Buying a used car from a dealership or selling your current car to a stranger can be a real pain. During my graduate year at USC, a lot of my international friends came to me asking for help on the process of qualifying for their driving license, choosing a car to purchase, test driving it, insurance shopping, and car maintenances. My friends and I decided to establish our own startup company to offer these services in a more formal and official way.
+        </div>
+      </div>
+    </div>
+    <div class="main-content-box main-content-box-2">
+      <div>
+        Start the Journey
+      </div>
+      <div>
+        Unlike most other car tech startups who were doing online car dealership business, our goal was to build an open platform providing transparent information, auto inspection service, warranty, and consultation on car insurance premised on the customer satisfaction and service delivery. 
+        <br><br>
+        Our mission was to help people in listing their used cars and purchasing used cars with quality, ease and openness. As long as the buyer/seller make an appointment with Tripalink, an Auto Genius will help the user to finish the entire selling/buying process. We decided to develop a website aimed at helping our customers to understand who we are, what we do, how we can help, as well as promote our services. 
+      </div>
+    </div>
+    <div class="main-content-box main-content-box-3">
+      <div>
+        Buy Safer, Sell Simpler
+      </div>
+      <div>
+        In order to help users have delightful experiences when buying or selling a used car, I designed a mobile-friendly website with the function of checking the car’s full information, making an appointment and ability to pay online. Either seller or buyer can complete the buying/selling process from the comfort of their own home. 
+        <br><br>
+        Two parties are involved in this platform; the buyer and the seller. According to their different needs and behaviors, I designed two different flows which ensure that buyer and seller can navigate themselves easily from the landing page.
+      </div>
+    </div>
+  </div>
+</div>
+<div class="main-content-02" align="center">
+  <div class="main-content-container">
+    <div class="main-content-box main-content-box-1">    
+      <div class="main-title-number">
+        02
+      </div>
+    </div>
+    <div class="main-content-box main-content-box-2">
+      <div>
+        DISCOVERY & ANALYSIS
+      </div>
+      <div>
+        80% of our workload was concentrated on the buyer’s side, so I decided to focus on this part and ease the process of browsing, test driving and purchasing. The first step was to conduct interviews with the buyers and understand what they want and how they behave. It allowed me to understand their needs, the buying process and identify the pain points they encounter in the process.
+      </div>
+    </div>
+  </div>
+</div>
+<div class="main-content-03" align="center">
+  <div class="background"></div>
+  <div class="main-content-container">
+    <div class="main-content-box main-content-box-1">
+      <div class="top">Understand Pain Points</div>
+      <div class="bottom">
+        <div class="left">
+          <div>
+            Purpose
+          </div>
+          <div>
+            Major<br> User Groups
+          </div>
+          <div>
+            Survey
+          </div>
+        </div>
+        <div class="right"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="main-content-04">
+  <div class="main-content-container">
+    <div class="main-content-box main-content-box-1">
+      Three Over Complicated and Tedious Journeys
+    </div>
+    <div class="main-content-box main-content-box-2">
+    </div>
+    <div class="main-content-box main-content-box-3">
+      “I need to collect enough information before I go”
+    </div>
+    <div class="main-content-box main-content-box-4">
+      Buyers tend to do at least three things before they make the decision: 
+    </div>
+    <div class="main-content-box main-content-box-5">
+      <div class="list">
+        <div class="circle"></div>
+        <div class="text">
+          Compare with market price (compare with Cars.com, Edmunds, Truecar.com)
+        </div>
+      </div>
+      <div class="list">
+          <div class="circle"></div>
+          <div class="text">
+            Check history report (using Carfax, Autocheck, etc.)
+          </div>
+        </div>
+        <div class="list">
+          <div class="circle"></div>
+          <div class="text">
+            Perform vehicle inspection (have a friend to test drive, or bring the car to a service station)
+          </div>
+        </div>
+    </div>
+    <div class="main-content-box main-content-box-6">
+    </div>
+  </div>
+</div>
+<div class="main-content-05" align="center">
+  <div class="background"></div>
+  <div class="main-content-container">
+  <div class="main-content-box main-content-box-1">
+    <div class="left">
+      <div>
+        Combine<br>Multiple Tools
+      </div>
+      <div>
+        So many factors made the process overcomplicated and time-consuming. We mapped out all the tools used to determine how we can combine them together. I wanted to simplify the search process and underline the features the website should have.
+      </div>
+    </div>
+    <div class="right"></div>
+  </div>
+  </div>
+</div>
+<div class="main-content-06" align="center">
+  <div class="main-content-container">
+    <div class="main-content-box main-content-box-1">
+      <div>
+        Design Insights
+      </div>
+    </div>
+    <div class="main-content-box main-content-box-2">
+      <div class="list">
+        <div class="circle"></div>
+        <div class="text">
+          Price and manufacturer reputation are important, but nothing is as important as the vehicle itself.
+        </div>
+      </div>
+      <div class="list">
+        <div class="circle"></div>
+        <div class="text">
+          Buyers like to be fully prepared with as much research as possible before walking in to the dealership.
+        </div>
+      </div>
+      <div class="list">
+        <div class="circle"></div>
+        <div class="text">
+          A majority of buyers value the importance of both price and time throughout the shopping process.
+        </div>
+      </div>
+      <div class="list">
+        <div class="circle"></div>
+        <div class="text">
+          Buyers crave openness and transparency. The vehicles should be fully marketed with custom photos, detailed options and colors, and descriptions.
+        </div>
+      </div>
+      <div class="list">
+        <div class="circle"></div>
+        <div class="text">
+          Take the pain of negotiation out of the equation with upfront pricing and focus on the experience of the purchase itself.
+        </div>
+      </div>
+      <div class="list">
+        <div class="circle"></div>
+        <div class="text">
+          Mobile internet has become a force in the auto sales industry.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="main-content-07" align="center">
+  <div class="top"></div>
+<!--   <div class="med"></div>
+  <div class="lower"></div> -->
+  <div class="main-content-container">
+    <div class="main-content-box main-content-box-1">
+      <div class="main-title-number">
+        03
+      </div>
+      <div class="main-title-text">
+        APPROACH
+      </div>
+    </div>
+    <div class="main-content-box main-content-box-2">
+      <div>
+        Mapping Out the Trip
+      </div>
+      <div>
+        The first step was to tell the story and sort out the structure. We started from three use cases.
+      </div>
+    </div>
+    <div class="main-content-box main-content-box-3"></div>
+    <div class="main-content-box main-content-box-4">
+      <div>
+        Handcrafted Visuals
+      </div>
+      <div>
+        A lot of clients contact us for help because they don’t know the rules, certain modes of car options and equipment. We selected 32 common equipment and illustrated them with icons.  Also, as a way of enhancing a friendly and affable atmosphere and inspire empathy, echo and bonding among young people; all icons, illustrations, typeface and visual communication were carefully selected to build a delightful, supportive image.
+      </div>
+    </div>
+  </div>
+</div>
+<div class="main-content-08" align="center">
+  <div class="main-content-container">
+    <div class="main-content-box main-content-box-1">
+    </div>
+    <div class="main-content-box main-content-box-2">
+    </div>
+    <div class="main-content-box main-content-box-3">
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+</div>
+<div class="main-content-09" align="center">
+  <div class="main-content-container">
+    <div class="main-content-box main-content-box-1">  
+      <div class="main-title-number">
+        04
+      </div>
+      <div class="main-title-text">
+        DELIVERABLE
+      </div>
+    </div>
+    <div class="main-content-box main-content-box-2">
+      <div></div>
+      <div></div>
+    </div>
+    <div class="main-content-box main-content-box-3">
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+</div>
+<div class="main-content-10" align="center">
+  <div class="main-content-container">
+    <div class="main-content-box main-content-box-1">
+      <div class="main-title-number">
+        05
+      </div>
+      <div class="main-title-text">
+        LAUNCH
+      </div>
+    </div>
+    <div class="main-content-box main-content-box-2">
+      After three-month of hard work with one front-end engineer, two back-end engineers, one product designer (myself) on days and nights, we launched our website on Sept 1st, 2015. Here’re some highlights from the success of the launch:
+    </div>
+    <div class="main-content-box main-content-box-3">
+      <div class="list">
+        <div class="circle"></div>
+        <div class="text">
+          We sold 15 cars in the first two weeks after the launch, while a medium-size car dealer sells 20 cars per month. At that time, we actually had only 36 cars available for sale on the platform.
+        </div>
+      </div>
+      <div class="list">
+        <div class="circle"></div>
+        <div class="text">
+          On peak time, we saw 800+ reviewers browsing our website all at the same time.
+        </div>
+      </div>
+      <div class="list">
+        <div class="circle"></div>
+        <div class="text">
+          In the second month, we got 10+ startup pitch invitations from a top investor/incubator.
+        </div>
+      </div>
+      <div class="list">
+        <div class="circle"></div>
+        <div class="text">
+          We got 5 investment proposals for the angel round from well-known U.S investors and decided to join an incubator located in Los Angeles.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="main-content-19 align="center">
+    <div class="main-content-container">
+      <div class="main-content-box main-content-box-1">
+      </div>
+      <div class="main-content-box main-content-box-2">
+        <div class="left">
+          <div class="title">
+            WORK
+          </div>
+          <a href="./designAtZscaler.html">
+            <div class="list list-1">
+              Zscaler Projects
+              <div></div>
+            </div>
+          </a>
+          <a href="./trust.html">
+            <div class="list list-2">
+              Zscaler Trust
+              <div></div>
+            </div>
+          </a>
+          <a href="./zscalerApp.html">
+            <div class="list list-3">
+              Zscaler App
+              <div></div>
+            </div>
+          </a>
+          <a href="./tripalink.html">
+            <div class="list list-4">
+              Tripalink
+              <div></div>
+            </div>
+          </a>
+          <a href="./springRole.html">
+            <div class="list list-5">
+              SpringRole
+              <div></div>
+            </div>
+          </a>
+          <a href="./compass.html">
+            <div class="list list-6">
+              Compass2018
+              <div></div>
+            </div>
+          </a>
+          <a href="./prizeCandle.html">
+            <div class="list list-7">
+              Prize Candle
+              <div></div>
+            </div>
+          </a>
+        </div>
+        <div class="right">
+          <div id="scrollImg"></div>
+        </div>
+      </div>
+      <div class="main-content-box main-content-box-3">
+      </div>
+    </div>
+</div>
 </div>
 {% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

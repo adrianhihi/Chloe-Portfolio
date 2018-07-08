@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="310" viewBox="0 0 880 310">
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#525975" font-family="Lato-Regular, Lato" font-size="12">
+            <tspan x="68" y="308">On Cloud Overview</tspan>
+        </text>
+        <text fill="#525975" font-family="Lato-Regular, Lato" font-size="12">
+            <tspan x="375" y="308">Below Instance Calendar</tspan>
+        </text>
+        <text fill="#525975" font-family="Lato-Regular, Lato" font-size="12">
+            <tspan x="675" y="308">After Each Service / Data Center</tspan>
+        </text>
+        <g transform="translate(320)">
+            <rect width="240" height="280" fill="#F9F9FA" rx="4"/>
+            <path fill="#ECEDF0" d="M4 0h232a4 4 0 0 1 4 4v12H0V4a4 4 0 0 1 4-4z"/>
+            <rect width="60" height="20" x="160" y="96" fill="#1D2C4C" rx="4"/>
+            <rect width="60" height="64" x="160" y="26" fill="#ECEDF0" rx="5"/>
+            <rect width="130" height="48" x="20" y="26" fill="#ECEDF0" rx="5"/>
+            <rect width="130" height="48" x="20" y="84" fill="#ECEDF0" rx="5"/>
+            <rect width="130" height="48" x="20" y="142" fill="#ECEDF0" rx="5"/>
+            <rect width="130" height="48" x="20" y="200" fill="#ECEDF0" rx="5"/>
+            <path fill="#ECEDF0" d="M25 258h120a5 5 0 0 1 5 5v17H20v-17a5 5 0 0 1 5-5z"/>
+        </g>
+        <g>
+            <rect width="240" height="280" fill="#F9F9FA" rx="4"/>
+            <path fill="#ECEDF0" d="M4 0h232a4 4 0 0 1 4 4v12H0V4a4 4 0 0 1 4-4z"/>
+            <rect width="200" height="40" x="20" y="26" fill="#ECEDF0" rx="5"/>
+            <rect width="200" height="64" x="20" y="76" fill="#ECEDF0" rx="5"/>
+            <rect width="200" height="64" x="20" y="150" fill="#ECEDF0" rx="5"/>
+            <rect width="200" height="36" x="20" y="224" fill="#ECEDF0" rx="5"/>
+            <rect width="45" height="12" x="167" y="40" fill="#1D2C4C" rx="4"/>
+        </g>
+        <g transform="translate(640)">
+            <rect width="240" height="280" fill="#F9F9FA" rx="4"/>
+            <path fill="#ECEDF0" d="M4 0h232a4 4 0 0 1 4 4v12H0V4a4 4 0 0 1 4-4z"/>
+            <rect width="200" height="64" x="20" y="26" fill="#ECEDF0" rx="5"/>
+            <rect width="200" height="170" x="20" y="100" fill="#ECEDF0" rx="5"/>
+            <rect width="12" height="52" x="200" y="32" fill="#1D2C4C" rx="4"/>
+            <rect width="12" height="150" x="200" y="110" fill="#1D2C4C" rx="4"/>
+        </g>
+    </g>
+</svg>

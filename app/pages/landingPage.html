@@ -12,8 +12,7 @@
 {% block styles %}
 
 <!-- custom styles -->
-<link href="./styles/landingPage.css" rel="stylesheet">
-<link href="./styles/base.css" rel="stylesheet"> 
+<link href="./styles/index.css" rel="stylesheet"> 
 {% endblock %}
 
 <!-- =================== -->
@@ -27,183 +26,109 @@
 <!-- =================== -->
 <!--     body block      -->
 <!-- =================== -->
-
 {% block content %}
-<div class="col-xs-12" align="center">
-  <div class="landing-title">
-    <div class="landing-title-img"></div>
-    <span>Chloe Du</span>
+<div class="passwordPage" id="pass_index">
+  <div class="iconLogo"></div>
+  <div class="passwordContainer">
+    <div class="passwordBox"></div>
   </div>
-  <div class="landing-subtitle">
-    Design makes anything possible.
-  </div>
-  <div class="landing-container">
-    <div class="landing-title-divider"></div>
-    <div class="landing-nav-bar">
-      <a href=""><span>UI/UX</span></a>
-      <a href=""><span>URBAN DESIGN</span></a>
-      <a href=""><span>ABOUT</span></a>
-    </div>
-    <div class="card-row">
-      <a href="tripalink.html">
-        <div class="card card-0">
-          <div class="card-mask">
-            <div class="card-mask-text">
-              <span>TRIPALINK</span>
-              <div class="card-mask-divider"></div>
-              <div class="card-mask-subtitle">
-                Website Design & Branding
-              </div>
-            </div>
-          </div>
-        </div>
-      </a>
-      <a href="laioffer.html">
-        <div class="card card-1">
-          <div class="card-mask">
-            <div class="card-mask-text">
-              <span>LAIOFFER</span>
-              <div class="card-mask-divider"></div>
-              <div class="card-mask-subtitle">
-                Website Design & Branding
-              </div>
-            </div>
-          </div>
-        </div>
-      </a>
-      <a href="handstand.html">
-        <div class="card card-2">
-          <div class="card-mask">
-            <div class="card-mask-text">
-              <span>HANDSTAND</span>
-              <div class="card-mask-divider"></div>
-              <div class="card-mask-subtitle">
-                Mobile App Design
-              </div>
-            </div>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="card-row row-1">
-      <a href="springrole.html">
-        <div class="card card-3">
-          <div class="card-mask">
-            <div class="card-mask-text">
-              <span>SPRINGROLE</span>
-              <div class="card-mask-divider"></div>
-              <div class="card-mask-subtitle">
-                Website Design
-              </div>
-            </div>
-          </div>
-        </div>
-      </a>
-      <div class="card card-4">
-        <div class="card-mask">
-          <div class="card-mask-text">
-            <span>YOUTUBE</span>
-            <div class="card-mask-divider"></div>
-            <div class="card-mask-subtitle">
-              Website Redesign
-            </div>
-          </div>
-        </div>
+</div>
+<div class="forPassPage">
+<div class="index-container">
+  <div class="index-left-content">
+    <img src="./assets/img/landingPage/logo.png" width="43" height="32">
+    <div class="landingPage-navBar">
+      <div class="navBarClass">
+        <a href="./assets/img/resume/Resume.pdf">
+          Resume
+        </a>
+      </div>
+      <div class="navBarClass">
+        <a href="./about.html">
+          About
+        </a>
+      </div>
+<!--       <div class="navBarClass">
+        Play
+      </div> -->
+      <div class="navBarClass">
+        Home
       </div>
     </div>
-    <div class="card-row row-1">
-      <a href="props.html">
-        <div class="card card-5">
-          <div class="card-mask">
-            <div class="card-mask-text">
-              <span>PROPS</span>
-              <div class="card-mask-divider"></div>
-              <div class="card-mask-subtitle">
-                Mobile App Design
-              </div>
-            </div>
-          </div>
-        </div>
-      </a>
-      <div class="card card-6">
-        <div class="card-mask">
-          <div class="card-mask-text">
-            <span>HANDSTAND</span>
-            <div class="card-mask-divider"></div>
-            <div class="card-mask-subtitle">
-              Website Responsive Design
-            </div>
-          </div>
-        </div>
+  </div>
+  <div class="index-right-content" align="center">
+    <div class="index-right-main-box">
+      <div class="main-title">
+        Hello, I'm Chloe Du.
       </div>
-      <a href="angelWallet.html">
-        <div class="card card-7">
-          <div class="card-mask">
-            <div class="card-mask-text">
-              <span>ANGLEWALLET</span>
-              <div class="card-mask-divider"></div>
-              <div class="card-mask-subtitle">
-                Mobile Redesign
-              </div>
-            </div>
+      <div class="sub-title">
+        Product Designer, Urban Planner, Dreamer.
+      </div>
+      <div class="main-box main-box-1 box-1">
+        <a href="./trust.html">
+          <div class="mask mask-1"></div>
+          <div class="mask-text text-1">
+            Being in the know<br>
+            with Zscaler Trust<br>
+            <span>Website UI/UX Design, Data Visualization</span>
           </div>
-        </div>
-      </a>
+        </a>
+      </div>
+      <div class="main-box box-2">
+        <a href="./zscalerApp.html">
+          <div class="mask mask-right mask-2"></div>
+          <div class="mask-text-2 text-2">
+            Activate an Invisible Safeguard<br>
+            with Zscaler App<br>
+            <span>Mobile App UX Design</span>
+          </div>
+        </a>
+      </div>
+      <div class="main-box main-box-1 box-3">
+        <a href="./tripalink.html">
+          <div class="mask mask-3"></div>
+          <div class="mask-text text-3">
+            Date Your Dreamed Car<br> 
+            with Tripalink<br>
+            <span>Website UI/UX Design</span>
+          </div>
+        </a>
+      </div>
+      <div class="main-box box-4">
+        <a href="./springRole.html">
+          <div class="mask mask-right mask-4"></div>
+          <div class="mask-text-2 text-4">
+            Help Your Friends Get<br>
+            Hired with SpringRole<br>
+            <span>MOBILE APP UX DESIGN</span>
+          </div>
+        </a>
+      </div>
+      <div class="main-box main-box-1 box-5">
+        <a href="./compass.html">
+          <div class="mask mask-5"></div>
+          <div class="mask-text text-5">
+            Boost Your Career with<br>
+            Compass Conference 2018<br>
+            <span>branding</span>
+          </div>
+        </a>
+      </div>
+      <div class="main-box main-box-1 box-6">
+        <a href="../prizeCandle.html">
+          <div class="mask mask-right mask-6"></div>
+          <div class="mask-text-2 text-6">
+            Present Surprises with<br>
+            Prize Candle<br>
+            <span>MARKETING DESIGN</span>
+          </div>
+        </a>
+      </div>
+      <div class="footer" align="center">
+        &copy;Chloe Du. 2017. Product Design Portfolio 
+      </div>
     </div>
   </div>
 </div>
-<!-- footer partial -->
-<footer class="footer" align="center">
-  <div class="container footer-container" align="center">
-    <div class="footer-nav">
-      <div class="footer-nav-1">
-        <a href="mailto:chloedjn@gmail.com">
-          Chloedjn@gmail.com
-        </a>
-      </div>
-      <div class="footer-nav-2">
-        <a href="tel:+13236205876">
-          323.620.5876
-        </a>
-      </div>
-      <div class="footer-nav-3">
-        <a href="">
-          View my resume
-        </a>
-      </div>
-    </div>
-    <div class="footer-social">
-      <i class="icon-linkedin"></i>
-      <i class="fa fa-dribbble" aria-hidden="true"></i>
-      <i class="fa fa-behance" aria-hidden="true"></i>
-      <i class="fa fa-instagram" aria-hidden="true"></i>
-    </div>
-    <div class="foot-copyright">
-      &#x24B8; 2016 Chloe Du
-    </div>
-  </div>
-</footer>
+</div>
 {% endblock %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

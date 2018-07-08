@@ -1,0 +1,283 @@
+$path: "../assets/img/about/";
+.bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: 90;
+  .bg-inner {
+    width: 1280px;
+    height: 100%;
+    div {
+      width: 25%;
+      float: left;
+      height: 100%;
+      border-left: 1px solid #ecedf0;
+      opacity: 0.8;
+    }
+    div:nth-child(4) {
+      border-right: 1px solid #ecedf0;
+    }
+  }
+}
+.main-background{
+  width: 100%;
+  height: 653px;
+  background: url($path + "cloud-2.jpg");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+  background-position-x: left;
+  .main-content-container {
+    width: 1280px;
+    height: 100%;
+    margin-left: -10px;
+    margin-right: auto;
+    .main-content-box {
+      width: 100%;
+      float: left;
+      position: relative;
+    }
+    .main-content-box-1 {
+      width: 371px;
+      height: 160px;
+      font-family: Palatino;
+      font-size: 48px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.67;
+      letter-spacing: normal;
+      text-align: left;
+      color: #1d2c4c;
+      margin-left: 360px;
+      margin-top: 232px;
+    }
+  }
+}
+.main-content-01{
+  width: 100%;
+  position: relative;
+  float: left;
+  z-index: 99;
+  .background {
+      position: absolute;
+      width: 100%;
+      height: 692px;
+      .left {
+        background-color: #43db7a;
+        width: 30%;
+        height: 100%;
+        float: left;
+      }
+      .right {
+        background-color: white;
+        width: 70%;
+        height: 100%;
+        float: left;
+      }
+    }
+  .main-content-container {
+    width: 1440px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    .main-content-box {
+      width: 100%;
+      float: left;
+      position: relative;
+    }
+    .main-content-box-1 {
+      margin-left: 388px;
+      margin-top: 40px;
+      .icon {
+        background-image:url("../assets/img/about/icon-1@2x.png");
+        background-size: 100% 100%;
+        width: 48px;
+        height: 48px;
+        float: left;
+      }
+      .title {
+        float: left;
+        width: 148px;
+        height: 48px;
+        font-family: Lato;
+        font-size: 32px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        text-align: left;
+        color: #1d2c4c;
+        margin-left: 24px;
+      }
+      .text {
+        width: 100%;
+        float: left;
+        div {
+          width: 560px;
+          height: 392px;
+          font-family: Lato;
+          font-size: 16px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.75;
+          letter-spacing: normal;
+          text-align: left;
+          color: #525975;
+          margin-left: 72px;
+          float: left;
+          margin-top: 48px;
+        }
+      }
+    }
+    .main-content-box-2 {
+      margin-left: 388px;
+      margin-top: 128px;
+      .icon {
+        background-image:url("../assets/img/about/icon-2.png");
+        background-size: 100% 100%;
+        width: 48px;
+        height: 48px;
+        float: left;
+      }
+      .title {
+        float: left;
+        width: 311px;
+        height: 48px;
+        font-family: Lato;
+        font-size: 32px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        text-align: left;
+        color: #1d2c4c;
+        margin-left: 24px;
+      }
+      .text {
+        width: 100%;
+        float: left;
+        div {
+          width: 560px;
+          height: 336px;
+          font-family: Lato;
+          font-size: 16px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.75;
+          letter-spacing: normal;
+          text-align: left;
+          color: #525975;
+          margin-left: 72px;
+          float: left;
+          margin-top: 48px;
+        }
+      }
+    }
+    .main-content-box-3 {
+      margin-left: 388px;
+      margin-top: 128px;
+      .icon {
+        background-image:url("../assets/img/about/icon-3.png");
+        background-size: 100% 100%;
+        width: 48px;
+        height: 48px;
+        float: left;
+      }
+      .title {
+        float: left;
+        width: 183px;
+        height: 48px;
+        font-family: Lato;
+        font-size: 32px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        text-align: left;
+        color: #1d2c4c;
+        margin-left: 24px;
+      }
+      .text {
+        width: 100%;
+        float: left;
+        div {
+          width: 560px;
+          height: 84px;
+          font-family: Lato;
+          font-size: 16px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.75;
+          letter-spacing: normal;
+          text-align: left;
+          color: #525975;
+          margin-left: 72px;
+          float: left;
+          margin-top: 48px;
+        }
+      }
+    }
+    .main-content-box-4 {
+      margin-left: 388px;
+      margin-top: 128px;
+      margin-bottom: 140px;
+      .icon {
+        background-image:url("../assets/img/about/icon-4.png");
+        background-size: 100% 100%;
+        width: 48px;
+        height: 48px;
+        float: left;
+      }
+      .title {
+        float: left;
+        width: 122px;
+        height: 48px;
+        font-family: Lato;
+        font-size: 32px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        text-align: left;
+        color: #1d2c4c;
+        margin-left: 24px;
+      }
+      .text {
+        width: 100%;
+        float: left;
+        div {
+          width: 332px;
+          height: 28px;
+          font-family: Lato;
+          font-size: 16px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.75;
+          letter-spacing: normal;
+          text-align: left;
+          color: #525975;
+          margin-left: 72px;
+          float: left;
+          margin-top: 48px;
+          a:hover {
+            color: #0152FC;
+          }
+        }
+      }
+    }
+  }
+}
