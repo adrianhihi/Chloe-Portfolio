@@ -37,6 +37,15 @@
     <!-- footer -->
     <link href="./styles/footer.css" rel="stylesheet">
     <!-- endbuild -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-73810061-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-73810061-1');
+    </script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
     <script>
@@ -49,24 +58,136 @@
     <div class="se-pre-con"></div>
     <!-- You write code for this content block in another file -->
     
-<div class="index-container">
-  <div class="index-left-content" align="center">
-    <div class="left-content-box">
+<div class="passwordPage" id="pass_index">
+  <div class="iconLogo"></div>
+  <div class="passwordContainer" align="center">
+    <div class="passwordBox">
       <div>
-        Hi, there.
+        Hey, nice to meet you.
       </div>
       <div>
-        I'm <span id="landingText">Chloe.</span>
+        I’m Chloe Du, a product designer based in the SF Bay Area. Please enter the password I’ve provided for you.
       </div>
-      <div>
-        I believe that design makes anything possible.
-      </div>
-      <a href="landingPage.html" class="myBtn">
-        Welcome to my portfolio
-      </a>
+      <input class="inputBox" placeholder="password" type="password" id="userPassword">
+      <div class="errorMsg">The password is invalid. Please try again.</div>
+      <div class="passwordSubmit" id="passwordSubmit">Let's go</div>
     </div>
   </div>
-  <div class="index-right-content"></div>
+</div>
+<div class="forPassPage">
+<div class="index-container">
+  <div class="index-left-content">
+    <img src="./assets/img/landingPage/logo.png" width="43" height="32">
+    <div class="landingPage-navBar">
+      <div class="navBarContainer">
+        <div class="navBarClass">
+          <a href="./assets/img/resume/Resume.pdf">
+            Resume
+          </a>
+        </div>
+        <div class="navBarClass">
+          <a href="./about.html">
+            About
+          </a>
+        </div>
+        <div class="navBarClass">
+          Home
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="index-right-content" align="center">
+    <div class="index-right-main-box">
+      <div class="main-title">
+        Hello, I'm Chloe Du.
+      </div>
+      <div class="sub-title">
+        A strong believer that design makes everything possible. 
+      </div>
+      <div class="main-box box-01" style="margin-top: 120px;">
+        <a href="./designAtZscaler.html">
+          <div class="mask mask-right mask-01"></div>
+          <div class="mask-text-2 text-01">
+            Design Projects
+            <br>
+            at Zscaler
+            <br>
+            <span>PRODUCT DESIGN OVERVIEW</span>
+          </div>
+        </a>
+      </div>
+      <div class="main-box main-box-1 box-1">
+        <a href="./trust.html">
+          <div class="mask mask-1"></div>
+          <div class="mask-text text-1">
+            Being in the know<br>
+            with Zscaler Trust<br>
+            <span>Website UI/UX Design, Data Visualization</span>
+          </div>
+        </a>
+      </div>
+      <div class="main-box box-2">
+        <a href="./zscalerApp.html">
+          <div class="mask mask-right mask-2"></div>
+          <div class="mask-text-2 text-2">
+            Activate an Invisible Safeguard<br>
+            with Zscaler App<br>
+            <span>MOBILE APP UX DESIGN</span>
+          </div>
+        </a>
+      </div>
+      <div class="main-box main-box-1 box-3">
+        <a href="./tripalink.html">
+          <div class="mask mask-3"></div>
+          <div class="mask-text text-3">
+            Date Your Dreamed Car<br> 
+            with Tripalink<br>
+            <span>Website UI/UX Design</span>
+          </div>
+        </a>
+      </div>
+      <div class="main-box box-4">
+        <a href="./springRole.html">
+          <div class="mask mask-right mask-4"></div>
+          <div class="mask-text-2 text-4">
+            Help Your Friends Get<br>
+            Hired with SpringRole<br>
+            <span>WEBSITE UI/UX DESIGN</span>
+          </div>
+        </a>
+      </div>
+      <div class="main-box main-box-1 box-5">
+        <a href="./compass.html">
+          <div class="mask mask-5"></div>
+          <div class="mask-text text-5">
+            Boost Your Career with<br>
+            Compass Conference 2018<br>
+            <span>BRANDING, MARKETING, PRINT DESIGN</span>
+          </div>
+        </a>
+      </div>
+      <div class="main-box main-box-1 box-6">
+        <a href="./prizeCandle.html">
+          <div class="mask mask-right mask-6"></div>
+          <div class="mask-text-2 text-6">
+            Present Surprises with<br>
+            Prize Candle<br>
+            <span>DIGITAL MARKETING DESIGN</span>
+          </div>
+        </a>
+      </div>
+      <div class="footer" align="center">
+        <div>
+          &copy; Chloe Du Design Portfolio. 2018. 
+        </div>
+        <div>
+          <a href="./about.html">About</a>  .  <a href="./assets/img/resume/Resume.pdf">Resume</a>  .  <a href="https://www.linkedin.com/in/chloedjn">Linkedin</a>  .  <a href="https://dribbble.com/chloedjn">Dribbble</a>  .  <a href="https://www.instagram.com/heiyanquanben/">Instagram</a>
+        </div>
+      </div>
+      <div class="bottom"></div>
+    </div>
+  </div>
+</div>
 </div>
 
 
@@ -91,5 +212,22 @@
 <script src="./scripts/landingPage.js"></script>
 
     <!-- endbuild -->
+    <button onclick="topFunction()" id="myUpBtn"></button>
+    <script>
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+          // if($(window).scrollTop() + $(window).height() == $(document).height()) {
+          if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {  
+              document.getElementById("myUpBtn").style.display = "block";
+          } else {
+              document.getElementById("myUpBtn").style.display = "none";
+          }
+      }
+      function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+      }
+    </script>
   </body>
 </html>

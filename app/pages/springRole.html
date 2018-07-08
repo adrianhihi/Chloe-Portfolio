@@ -16,7 +16,7 @@
 <link href="./styles/springRole.css" rel="stylesheet"> 
 <link href="./styles/slides.css" rel="stylesheet">
  
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.2/js/swiper.min.js"></script>
+<script src="./scripts/swiper.min.js"></script>
 {% endblock %}
 
 <!-- =================== -->
@@ -31,6 +31,23 @@
 <!--     body block      -->
 <!-- =================== -->
 {% block content %}
+<!-- <div class="passwordPage" id="pass_index">
+  <div class="iconLogo"></div>
+  <div class="passwordContainer" align="center">
+    <div class="passwordBox">
+      <div>
+        Hey, nice to meet you.
+      </div>
+      <div>
+        I’m Chloe Du, a product designer based in the SF Bay Area. Please enter the password I’ve provided for you.
+      </div>
+      <input class="inputBox" placeholder="password" type="password" id="userPassword">
+      <div class="errorMsg">The password is invalid. Please try again.</div>
+      <div class="passwordSubmit" id="passwordSubmit">Let's go</div>
+    </div>
+  </div>
+</div>
+<div class="forPassPage"> -->
 <div class="gray-background" id="about-background" align="center">
   <div class="menu-close-icon" id="menu-close-btn"></div>
   <div class="menu-list">
@@ -166,7 +183,7 @@
     </div>
   </div>
 </div>
-<div class="main-content-19" align="center">
+<div class="main-content-19 align="center">
     <div class="main-content-container">
       <div class="main-content-box main-content-box-1">
       </div>
@@ -175,39 +192,58 @@
           <div class="title">
             WORK
           </div>
-          <div class="list list-1">
-            Zscaler Trust
-            <div></div>
-          </div>
-          <div class="list list-2">
-            Zscaler App
-            <div></div>
-          </div>
-          <div class="list list-3">
-            Tripalink
-            <div></div>
-          </div>
-          <div class="list list-4">
-            SpringRole
-            <div></div>
-          </div>
-          <div class="list list-5">
-            Compass2018
-            <div></div>
-          </div>
-          <div class="list list-6">
-            Prize Candle
-            <div></div>
-          </div>
+          <a href="./designAtZscaler.html">
+            <div class="list list-1">
+              Zscaler Projects
+              <div></div>
+            </div>
+          </a>
+          <a href="./trust.html">
+            <div class="list list-2">
+              Zscaler Trust
+              <div></div>
+            </div>
+          </a>
+          <a href="./zscalerApp.html">
+            <div class="list list-3">
+              Zscaler App
+              <div></div>
+            </div>
+          </a>
+          <a href="./tripalink.html">
+            <div class="list list-4">
+              Tripalink
+              <div></div>
+            </div>
+          </a>
+          <a href="./springRole.html">
+            <div class="list list-5">
+              SpringRole
+              <div></div>
+            </div>
+          </a>
+          <a href="./compass.html">
+            <div class="list list-6">
+              Compass2018
+              <div></div>
+            </div>
+          </a>
+          <a href="./prizeCandle.html">
+            <div class="list list-7">
+              Prize Candle
+              <div></div>
+            </div>
+          </a>
         </div>
         <div class="right">
-          <div></div>
+          <div id="scrollImg"></div>
         </div>
       </div>
       <div class="main-content-box main-content-box-3">
       </div>
     </div>
 </div>
+<!-- </div> -->
 {% endblock %}
 
 

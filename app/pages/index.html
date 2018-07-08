@@ -27,25 +27,41 @@
 <!--     body block      -->
 <!-- =================== -->
 {% block content %}
+<div class="passwordPage" id="pass_index">
+  <div class="iconLogo"></div>
+  <div class="passwordContainer" align="center">
+    <div class="passwordBox">
+      <div>
+        Hey, nice to meet you.
+      </div>
+      <div>
+        I’m Chloe Du, a product designer based in the SF Bay Area. Please enter the password I’ve provided for you.
+      </div>
+      <input class="inputBox" placeholder="password" type="password" id="userPassword">
+      <div class="errorMsg">The password is invalid. Please try again.</div>
+      <div class="passwordSubmit" id="passwordSubmit">Let's go</div>
+    </div>
+  </div>
+</div>
+<div class="forPassPage">
 <div class="index-container">
   <div class="index-left-content">
     <img src="./assets/img/landingPage/logo.png" width="43" height="32">
     <div class="landingPage-navBar">
-      <div class="navBarClass">
-        <a href="./assets/img/resume/Resume.pdf">
-          Resume
-        </a>
-      </div>
-      <div class="navBarClass">
-        <a href="./about.html">
-          About
-        </a>
-      </div>
-<!--       <div class="navBarClass">
-        Play
-      </div> -->
-      <div class="navBarClass">
-        Home
+      <div class="navBarContainer">
+        <div class="navBarClass">
+          <a href="./assets/img/resume/Resume.pdf">
+            Resume
+          </a>
+        </div>
+        <div class="navBarClass">
+          <a href="./about.html">
+            About
+          </a>
+        </div>
+        <div class="navBarClass">
+          Home
+        </div>
       </div>
     </div>
   </div>
@@ -55,7 +71,19 @@
         Hello, I'm Chloe Du.
       </div>
       <div class="sub-title">
-        Product Designer, Urban Planner, Dreamer.
+        A strong believer that design makes everything possible. 
+      </div>
+      <div class="main-box box-01" style="margin-top: 120px;">
+        <a href="./designAtZscaler.html">
+          <div class="mask mask-right mask-01"></div>
+          <div class="mask-text-2 text-01">
+            Design Projects
+            <br>
+            at Zscaler
+            <br>
+            <span>PRODUCT DESIGN OVERVIEW</span>
+          </div>
+        </a>
       </div>
       <div class="main-box main-box-1 box-1">
         <a href="./trust.html">
@@ -73,7 +101,7 @@
           <div class="mask-text-2 text-2">
             Activate an Invisible Safeguard<br>
             with Zscaler App<br>
-            <span>Mobile App UX Design</span>
+            <span>MOBILE APP UX DESIGN</span>
           </div>
         </a>
       </div>
@@ -93,7 +121,7 @@
           <div class="mask-text-2 text-4">
             Help Your Friends Get<br>
             Hired with SpringRole<br>
-            <span>MOBILE APP UX DESIGN</span>
+            <span>WEBSITE UI/UX DESIGN</span>
           </div>
         </a>
       </div>
@@ -103,24 +131,31 @@
           <div class="mask-text text-5">
             Boost Your Career with<br>
             Compass Conference 2018<br>
-            <span>branding</span>
+            <span>BRANDING, MARKETING, PRINT DESIGN</span>
           </div>
         </a>
       </div>
       <div class="main-box main-box-1 box-6">
-        <a href="../prizeCandle.html">
+        <a href="./prizeCandle.html">
           <div class="mask mask-right mask-6"></div>
           <div class="mask-text-2 text-6">
             Present Surprises with<br>
             Prize Candle<br>
-            <span>MARKETING DESIGN</span>
+            <span>DIGITAL MARKETING DESIGN</span>
           </div>
         </a>
       </div>
       <div class="footer" align="center">
-        &copy;Chloe Du. 2017. Product Design Portfolio 
+        <div>
+          &copy; Chloe Du Design Portfolio. 2018. 
+        </div>
+        <div>
+          <a href="./about.html">About</a>  .  <a href="./assets/img/resume/Resume.pdf">Resume</a>  .  <a href="https://www.linkedin.com/in/chloedjn">Linkedin</a>  .  <a href="https://dribbble.com/chloedjn">Dribbble</a>  .  <a href="https://www.instagram.com/heiyanquanben/">Instagram</a>
+        </div>
       </div>
+      <div class="bottom"></div>
     </div>
   </div>
+</div>
 </div>
 {% endblock %}

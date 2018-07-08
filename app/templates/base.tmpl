@@ -33,6 +33,15 @@
     <!-- footer -->
     <link href="./styles/footer.css" rel="stylesheet">
     <!-- endbuild -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-73810061-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-73810061-1');
+    </script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
     <script>
@@ -64,5 +73,22 @@
     <!-- custom scripts -->
     {% block scripts %}{% endblock %}
     <!-- endbuild -->
+    <button onclick="topFunction()" id="myUpBtn"></button>
+    <script>
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+          // if($(window).scrollTop() + $(window).height() == $(document).height()) {
+          if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {  
+              document.getElementById("myUpBtn").style.display = "block";
+          } else {
+              document.getElementById("myUpBtn").style.display = "none";
+          }
+      }
+      function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+      }
+    </script>
   </body>
 </html>

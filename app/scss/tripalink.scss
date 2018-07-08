@@ -35,7 +35,7 @@
       height: 28px;
       font-family: Lato;
       font-size: 20px;
-      font-weight: bold;
+      font-weight: 400;
       font-style: normal;
       font-stretch: normal;
       line-height: 1.4;
@@ -52,7 +52,7 @@
       height: 160px;
       font-family: Palatino;
       font-size: 60px;
-      font-weight: bold;
+      font-weight: 600;
       font-style: normal;
       font-stretch: normal;
       line-height: 1.33;
@@ -70,7 +70,7 @@
       height: 100px;
       font-family: Lato;
       font-size: 20px;
-      font-weight: bold;
+      font-weight: 100;
       font-style: normal;
       font-stretch: normal;
       line-height: 1.4;
@@ -116,7 +116,6 @@
     left: 520px;
     top: 0;
     div:first-child {
-      width: 150px;
       height: 48px;
       font-family: Lato;
       font-size: 32px;
@@ -166,7 +165,6 @@
     }
     .main-content-box-2 div:first-child {
       margin-top: 200px;
-      width: 259px;
       height: 48px;
       font-family: Lato;
       font-size: 32px;
@@ -199,7 +197,6 @@
       margin-top: 160px;
       margin-left: 360px;
       div:first-child {
-        width: 330px;
         height: 48px;
         font-family: Lato;
         font-size: 32px;
@@ -538,7 +535,7 @@
 }
 .main-content-04 {
   width: 100%;
-  margin-top: 200px;
+  margin-top: 160px;
   position: relative;
   float: left;
   .main-content-container {
@@ -576,7 +573,7 @@
     margin-top: 100px;
   }
   .main-content-box-3 {
-    width: 560px;
+    width: 550px;
     height: 96px;
     font-family: Lato;
     font-size: 32px;
@@ -611,7 +608,7 @@
     .list {
       float: left;
       width: 100%;
-      margin-bottom: 38px;
+      margin-bottom: 24px;
       .circle {
         width: 8px;
         height: 8px;
@@ -721,7 +718,7 @@
   width: 100%;
   position: relative;
   float: left;
-  margin-top: 360px;
+  margin-top: 300px;
   .main-content-container {
     width: 1280px;
     height: auto;
@@ -754,7 +751,7 @@
     .list {
       float: left;
       width: 100%;
-      margin-bottom: 38px;
+      margin-bottom: 24px;
       .circle {
         width: 8px;
         height: 8px;
@@ -803,27 +800,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url("../assets/img/tripalink/up@2x.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-  }
-  .med {
-    position: absolute;
-    top: 180px;
-    left: 0;
-    background-image: url("../assets/img/tripalink/med@2x.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-  }
-  .lower {
-    position: absolute;
-    top: 220px;
-    left: 0;
-    background-image: url("../assets/img/tripalink/lower@2x.png");
+    background-image: url("../assets/img/tripalink/tripalinkWaves.png");
     background-size: 100% auto;
     background-repeat: no-repeat;
     width: 100%;
@@ -946,7 +923,6 @@
 }
 .main-content-08 {
   width: 100%;
-  margin-top: 200px;
   position: relative;
   float: left;
   .main-content-container {
@@ -970,35 +946,24 @@
     background-size: 100% 100%;
   }
   .main-content-box-2 {
-    width: 1280px;
+    width: 1315px;
     height: 410px;
     background-image: url("../assets/img/tripalink/icons@2x.png");
     background-size: 100% 100%;
     margin-top: 200px;
+    margin-left: -20px;
   }
   .main-content-box-3 {
     margin-top: 200px;
-    div:first-child {
-      margin-top: 121px;
-      width: 553px;
-      height: 614px;
-      background-image: url("../assets/img/tripalink/open-sans@2x.png");
-      background-size: 100% 100%;
-      float: left;
-    }
-    div:nth-child(2) {
-      margin-left: 63px;
-      float: left;
-      width: 664px;
-      height: 750px;
-      background-image: url("../assets/img/tripalink/color@2x.png");
-      background-size: 100% 100%;
-    }
+    background-size: 100% 100%;
+    background-image: url(../assets/img/tripalink/tripalinkFonts.png);
+    width: 1383px;
+    height: 750px;
+    margin-left: -50px;
   }
   .main-content-box-4 {
     margin-left: 360px;
     div:first-child {
-      width: 560px;
       height: 168px;
       font-family: Lato;
       font-size: 16px;
@@ -1159,11 +1124,11 @@
     }
     div:nth-child(2) {
       width: 840px;
-      height: 667px;
+      height: 515px;
       background-image: url("../assets/img/tripalink/mac-mockup@2x.png");
       background-size: 100% 100%;
       width: 840px;
-      height: 667px;
+      height: 515px;
       margin-left: 30px;
       float: left;
     }
@@ -1174,7 +1139,7 @@
     div:first-child {
       background-image: url("../assets/img/tripalink/landing-page@2x.png");
       background-size: 100% 100%;
-      width: 620px;
+      width: 660px;
       height: 1800px;
       float: left;
     }
@@ -1259,7 +1224,7 @@
     .list {
       float: left;
       width: 100%;
-      margin-bottom: 38px;
+      margin-bottom: 24px;
       .circle {
         width: 8px;
         height: 8px;
@@ -1291,7 +1256,8 @@
   position: relative;
   float: left;
   margin-top: 200px;
-  height: auto;
+  height: 700px;
+  overflow: hidden;
   .main-content-container {
     width: 1280px;
     height: auto;
@@ -1303,18 +1269,12 @@
       float: left;
       position: relative;
     }
-    .main-content-box-1 {
-      width: 720px;
-      height: 28px;
-      float: right;
-      background-color: rgba(67, 219, 122, 0.2);
-    }
     .main-content-box-2 {
       margin-top: 52px;
       margin-left: 148px;
       .left {
         width: 560px;
-        margin-top: 63px;
+        margin-top: 90px;
         height: 540px;
         float: left;
         .title {
@@ -1348,7 +1308,7 @@
           cursor: pointer;
           div {
             position: absolute;
-            width: 118px;
+            width: 150px;
             height: 18px;
             top: 18px;
             left: -10px;
@@ -1368,21 +1328,24 @@
           }
         }
         .list-1:hover {
-          color: #37b876;
+          color: #0152fc;
         }
         .list-2:hover {
-          color: #009cda;
+          color: #37b876;
         }
         .list-3:hover {
+          color: #009cda;
+        }
+        .list-4 {
           color: #4a90e2;
         }
-        .list-4:hover {
+        .list-5:hover {
           color: #43db7a;
         }
-        .list-5:hover {
+        .list-6:hover {
           color: #ffaa33;
         }
-        .list-6:hover {
+        .list-7:hover {
           color: #f942c9;
         }
         .list-1 {
@@ -1390,31 +1353,36 @@
         }
         .list-1 {
           div {
-            background-color: rgba(55, 184, 118, 0.2);
+             background-color: rgba(1, 82, 252, 0.1);
           }
         }
         .list-2 {
           div {
-            background-color: rgba(0, 156, 218, 0.2);
+            background-color: rgba(55, 184, 118, 0.2);
           }
         }
         .list-3 {
+          div {
+            background-color: rgba(0, 156, 218, 0.2);
+          }
+        }
+        .list-4 {
           div {
             background-color: rgba(74, 144, 226, 0.2);
             transform: scaleY(1);
           }
         }
-        .list-4 {
+        .list-5 {
           div {
             background-color: rgba(67, 219, 122, 0.2);
           }
         }
-        .list-5 {
+        .list-6 {
           div {
             background-color: rgba(255, 170, 51, 0.2);
           }
         }
-        .list-6 {
+        .list-7 {
           div {
             background-color: rgba(249, 66, 201, 0.2);
           }
@@ -1422,22 +1390,26 @@
       }
       .right {
         width: 720px;
-        height: 540px;
-        background-image: url("../assets/img/tripalink/group-5@2x.jpg");
-        background-size: 100% 100%;
+        height: 700px;
         float: left;
         margin-left: -148px;
+        margin-top: 28px;
+        position: relative;
+        div {
+          width: 720px;
+          height: 4092px;
+          background-image: url("../assets/img/trust/scroll.png");
+          background-size: 720px 4092px;
+          float: left;
+          position: absolute;
+          left: 0;
+          top: -1776px;
+          transition:all 1s linear;  
+        }
       }
-    }
-    .main-content-box-3 {
-      width: 720px;
-      height: 28px;
-      float: right;
-      background-color: rgba(74, 144, 226, 0.2);
     }
   }
 }
-
 
 
 

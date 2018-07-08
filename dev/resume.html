@@ -1,0 +1,107 @@
+<!-- base.tmpl -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- the above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="Jianan (Chloe) Du">
+
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
+
+    <title> Chloe Du - Resume </title>
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    
+    <!-- build:css styles/resume.css -->
+    <!-- bootstrap core CSS -->
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- fontAwesome CSS -->
+    <link href="../node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- animate CSS -->
+    <link href="../node_modules/animate.css/animate.min.css" rel="stylesheet">
+    <!-- base CSS -->
+    <link href="./styles/base.css" rel="stylesheet">
+    <!-- custom styles for this template -->
+    
+
+<!-- custom styles -->
+<link href="./styles/base.css" rel="stylesheet"> 
+<link href="./styles/resume.css" rel="stylesheet"> 
+
+    <!-- footer -->
+    <link href="./styles/footer.css" rel="stylesheet">
+    <!-- endbuild -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-73810061-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-73810061-1');
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script>
+      $(window).load(function() {
+        $(".se-pre-con").fadeOut("slow");;
+      });
+    </script>
+  </head>
+  <body>
+    <div class="se-pre-con"></div>
+    <!-- You write code for this content block in another file -->
+    
+  <div class="main" align="center">
+    <!-- <div></div> -->
+    <embed src="./assets/img/resume/Resume.pdf" width="612px" height="792px" />
+  </div>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- build:js scripts/resume.js -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- include all compiled plugins (below), or include individual files as needed -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- wowjs -->
+    <script src="../node_modules/wowjs/dist/wow.min.js"></script>
+    <!-- base -->
+    <script src="./scripts/base.js"></script>
+    <!-- custom scripts -->
+    
+<!-- page scripts -->
+<script src="./scripts/resume.js"></script>
+
+    <!-- endbuild -->
+    <button onclick="topFunction()" id="myUpBtn"></button>
+    <script>
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+          // if($(window).scrollTop() + $(window).height() == $(document).height()) {
+          if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {  
+              document.getElementById("myUpBtn").style.display = "block";
+          } else {
+              document.getElementById("myUpBtn").style.display = "none";
+          }
+      }
+      function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>

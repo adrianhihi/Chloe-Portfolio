@@ -280,7 +280,7 @@ $path: "../assets/img/springRole/";
       margin-left: 220px;
       background-image: url("../assets/img/springRole/group-3.jpg");
       width: 1000px;
-      height: 2800px;
+      height: 2688px;
       background-size: 100% 100%;
       margin-top: 160px;
     }
@@ -289,7 +289,7 @@ $path: "../assets/img/springRole/";
       background-image: url("../assets/img/springRole/group-4.jpg");
       background-size: 100% 100%;
       width: 1000px;
-      height: 2888px;
+      height: 2839px;
       margin-left: 220px;
     }
   }
@@ -346,10 +346,15 @@ $path: "../assets/img/springRole/";
       float: left;
       position: relative;
     }
+    @media only screen and (max-width: 1300px) {
+      .main-content-box-1 {
+        margin-left: 100px !important;
+      }
+    }
     .main-content-box-1 {
       background-image: url($path + "group-6.jpg");
-      width: 1124px;
-      height: 4024px;
+      width: 1204px;
+      height: 3982px;
       background-size: 100% 100%;
       margin-left: 226px;
       margin-top: 200px;
@@ -386,6 +391,11 @@ $path: "../assets/img/springRole/";
       background-size: 100% 100%;
       background-image: url("../assets/img/springRole/profile-landing-page@2x.png");
     }
+    @media only screen and (max-width:1280px) {
+      .main-content-box-3 {
+        margin-left: -20px;
+      }
+    }
     .main-content-box-5 {
       margin-top: 200px;
       width: 1440px;
@@ -396,7 +406,7 @@ $path: "../assets/img/springRole/";
   }
   .swiper-container {
     position: absolute;
-    top: 4607px;
+    top: 4566px;
     left: 0;
     width: 100%;
     height: 542px;
@@ -439,9 +449,11 @@ $path: "../assets/img/springRole/";
   width: 100%;
   position: relative;
   float: left;
-  height: auto;
+  margin-top: 200px;
+  height: 700px;
+  overflow: hidden;
   .main-content-container {
-    width: 1440px;
+    width: 1280px;
     height: auto;
     text-align: left;
     margin-left: auto;
@@ -451,18 +463,12 @@ $path: "../assets/img/springRole/";
       float: left;
       position: relative;
     }
-    .main-content-box-1 {
-      width: 720px;
-      height: 28px;
-      float: right;
-      background-color: rgba(67, 219, 122, 0.2);
-    }
     .main-content-box-2 {
       margin-top: 52px;
       margin-left: 148px;
       .left {
         width: 560px;
-        margin-top: 63px;
+        margin-top: 90px;
         height: 540px;
         float: left;
         .title {
@@ -496,7 +502,7 @@ $path: "../assets/img/springRole/";
           cursor: pointer;
           div {
             position: absolute;
-            width: 118px;
+            width: 150px;
             height: 18px;
             top: 18px;
             left: -10px;
@@ -516,21 +522,24 @@ $path: "../assets/img/springRole/";
           }
         }
         .list-1:hover {
-          color: #37b876;
+          color: #0152fc;
         }
         .list-2:hover {
-          color: #009cda;
+          color: #37b876;
         }
         .list-3:hover {
-          color: #4a90e2;
+          color: #009cda;
         }
         .list-4:hover {
+          color: #4a90e2;
+        }
+        .list-5 {
           color: #43db7a;
         }
-        .list-5:hover {
+        .list-6:hover {
           color: #ffaa33;
         }
-        .list-6:hover {
+        .list-7:hover {
           color: #f942c9;
         }
         .list-1 {
@@ -538,31 +547,36 @@ $path: "../assets/img/springRole/";
         }
         .list-1 {
           div {
-            background-color: rgba(55, 184, 118, 0.2);
+             background-color: rgba(1, 82, 252, 0.1);
           }
         }
         .list-2 {
           div {
-            background-color: rgba(0, 156, 218, 0.2);
+            background-color: rgba(55, 184, 118, 0.2);
           }
         }
         .list-3 {
           div {
-            background-color: rgba(74, 144, 226, 0.2);
+            background-color: rgba(0, 156, 218, 0.2);
           }
         }
         .list-4 {
+          div {
+            background-color: rgba(74, 144, 226, 0.2);
+          }
+        }
+        .list-5 {
           div {
             background-color: rgba(67, 219, 122, 0.2);
             transform: scaleY(1);
           }
         }
-        .list-5 {
+        .list-6 {
           div {
             background-color: rgba(255, 170, 51, 0.2);
           }
         }
-        .list-6 {
+        .list-7 {
           div {
             background-color: rgba(249, 66, 201, 0.2);
           }
@@ -570,18 +584,23 @@ $path: "../assets/img/springRole/";
       }
       .right {
         width: 720px;
-        height: 540px;
-        background-image: url("../assets/img/springRole/group-6-2@2x.jpg");
-        background-size: 100% 100%;
+        height: 700px;
         float: left;
-        margin-left: 12px;
+        margin-left: -148px;
+        margin-top: 28px;
+        position: relative;
+        div {
+          width: 720px;
+          height: 4092px;
+          background-image: url("../assets/img/trust/scroll.png");
+          background-size: 720px 4092px;
+          float: left;
+          position: absolute;
+          left: 0;
+          top: -2368px;
+          transition:all 1s linear;  
+        }
       }
-    }
-    .main-content-box-3 {
-      width: 720px;
-      height: 28px;
-      float: right;
-      background-color: rgba(249, 66, 201, 0.2);
     }
   }
 }

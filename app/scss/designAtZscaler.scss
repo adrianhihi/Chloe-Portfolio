@@ -1,0 +1,564 @@
+.main-background{
+  width: 100%;
+  height: 800px;
+  background-image: linear-gradient(to bottom, #028afe, #0152fc);
+  background-size: auto 800px;
+  position: relative;
+  color: white;
+  background-position-x: center;
+  .main-left-background {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left:0;
+  }
+  .main-right-background {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 0;
+  }
+  .main-background-middle {
+    width: 1018px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: left;
+  }
+  .main-background-middle-left {
+    width: 437px;
+    float: left;
+    height: 100%;
+    .main-background-text-2 {
+      width: 673px;
+      height: 160px;
+      font-family: Palatino;
+      font-size: 60px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.33;
+      letter-spacing: normal;
+      text-align: left;
+      color: #fff;
+      position: relative;
+      z-index: 99;
+      float: left;
+      top: 240px;
+    }
+    .main-background-text-3 {
+      height: 28px;
+      font-family: Lato;
+      font-size: 20px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.4;
+      letter-spacing: normal;
+      text-align: left;
+      color: #fff;
+      position: relative;
+      z-index: 99;
+      float: left;
+      top: 380px;
+    }
+  }
+  .main-background-middle-right {
+    float: right;
+    position: relative;
+    z-index: 99;
+    padding-top: 162px;
+    background-image: url(../assets/img/designAtZscaler/group-2@2x.png);
+    width: 320px;
+    height: 320px;
+    background-size: 100% 100%;
+    top: 240px;
+  }
+}
+.main-content-01{
+  width: 100%;
+  position: relative;
+  float: left;
+  margin-top: 160px;
+  .main-content-container {
+    width: 1280px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-content-box {
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+  .main-content-box-1 {
+    margin-left: 360px;
+    div:first-child {
+      height: 48px;
+      font-family: Lato;
+      font-size: 32px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: 1px;
+      color: #1d2c4c;
+    }
+    div:nth-child(2) {
+      margin-top: 48px;
+      width: 560px;
+      height: 200px;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      color: #525975;
+    }
+    div:nth-child(3) {
+      height: 28px;
+      font-family: Lato;
+      font-size: 20px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.4;
+      letter-spacing: normal;
+      color: #525975;
+      margin-top: 80px;
+    }
+  }
+  .main-content-box-2 {
+    width: 820px;
+    margin-left: 230px;
+    margin-top: 48px;
+    .content-cell {
+      padding-left: 40px;
+      float: left;
+      width: 820px;
+      height: 224px;
+      border-top: 1px solid #dcdee3;
+      .left {
+        float: left;
+        width: 440px;
+        div:first-child{
+          margin-top: 40px;
+          height: 28px;
+          font-family: Lato;
+          font-size: 16px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.75;
+          letter-spacing: normal;
+          color: #1d2c4c;
+          float: left;
+        }
+        div:nth-child(2) {
+          width: 440px;
+          height: 56px;
+          font-family: Lato;
+          font-size: 16px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.75;
+          letter-spacing: normal;
+          color: #525975;
+          margin-top: 16px;
+          float: left;
+        }
+        div:nth-child(3) {
+          height: 28px;
+          font-family: Lato;
+          font-size: 16px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.75;
+          letter-spacing: normal;
+          color: #0152fc;
+          margin-top: 16px;
+          float: left;
+        }
+      }
+      .right{
+        width: 260px;
+        height: 160px;
+        background-size: 100% 100%;
+        float: left;
+        margin-top: 32px;
+        margin-left: 40px;
+      }
+    }
+    .content-cell {
+      cursor: pointer;
+    }
+    .content-cell-1{
+      .right {
+        background-image: url(../assets/img/designAtZscaler/smallImages/1s.jpg);
+      }
+    }
+    .content-cell-2{
+      .right {
+        background-image: url(../assets/img/designAtZscaler/smallImages/2s.jpg);
+      }
+    }
+    .content-cell-3{
+      .right {
+        background-image: url(../assets/img/designAtZscaler/smallImages/3s.jpg);
+      }
+    }
+    .content-cell-4{
+      .right {
+        background-image: url(../assets/img/designAtZscaler/smallImages/4s.jpg);
+      }
+    }
+    .content-cell-5{
+      .right {
+        background-image: url(../assets/img/designAtZscaler/smallImages/5s.jpg);
+      }
+    }
+    .content-cell-6{
+      .right {
+        background-image: url(../assets/img/designAtZscaler/smallImages/6s.jpg);
+      }
+    }
+    .content-cell-7{
+      .right {
+        background-image: url(../assets/img/designAtZscaler/smallImages/7s.jpg);
+      }
+    }
+    .content-cell-8{
+      .right {
+        background-image: url(../assets/img/designAtZscaler/smallImages/8s.jpg);
+      }
+    }
+    .content-cell-9{
+      .right {
+        background-image: url(../assets/img/designAtZscaler/smallImages/9s.jpg);
+      }
+    }
+    .content-cell-10{
+      .right {
+        background-image: url(../assets/img/designAtZscaler/smallImages/10s.jpg);
+      }
+    }
+    .content-cell-11{
+      .right {
+        background-image: url(../assets/img/designAtZscaler/smallImages/11s.jpg);
+      }
+    }
+    .content-cell-12{
+      .right {
+        background-image: url(../assets/img/designAtZscaler/smallImages/12s.jpg);
+      }
+    }
+    .content-cell-13{
+      .right {
+        background-image: url(../assets/img/designAtZscaler/smallImages/13s.jpg);
+      }
+    }
+    .content-cell-14{
+      .right {
+        background-image: url(../assets/img/designAtZscaler/smallImages/14s.jpg);
+      }
+    }
+  }
+  .main-content-box-3 {
+    height: 28px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #525975;
+    margin-top: 120px;
+    margin-left: 360px;
+  }
+  .main-content-box-4 {
+    margin-left: 360px;
+    div:first-child {
+      height: 48px;
+      font-family: Lato;
+      font-size: 32px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: 1px;
+      color: #1d2c4c;
+      margin-top: 160px;
+    }
+    div:nth-child(2) {
+      width: 560px;
+      height: 140px;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      color: #525975;
+      margin-top: 48px;
+    }
+  }
+  .main-content-box-5 {
+    margin-left: 150px;
+    margin-top: 80px;
+    div {
+      float: left;
+      margin-right: 40px;
+      width: 300px;
+      height: 366px;
+      background-size: 100% 100%;
+    }
+    div:first-child {
+      background-image: url(../assets/img/designAtZscaler/group-12@2x.png);
+    }
+    div:nth-child(2) {
+      background-image: url(../assets/img/designAtZscaler/group-5@2x.png);
+    }
+    div:nth-child(3) {
+      background-image: url(../assets/img/designAtZscaler/group-8@2x.png);
+    }
+  }
+}
+
+.main-content-19 {
+  width: 100%;
+  position: relative;
+  float: left;
+  margin-top: 200px;
+  height: 700px;
+  overflow: hidden;
+  .main-content-container {
+    width: 1280px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    .main-content-box {
+      width: 100%;
+      float: left;
+      position: relative;
+    }
+    .main-content-box-2 {
+      margin-top: 52px;
+      margin-left: 148px;
+      .left {
+        width: 560px;
+        margin-top: 90px;
+        height: 540px;
+        float: left;
+        .title {
+          width: 206px;
+          height: 60px;
+          font-family: Palatino;
+          font-size: 60px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1;
+          letter-spacing: 1.3px;
+          text-align: left;
+          color: #242324;
+        }
+        .list {
+          float: left;
+          width: 100%;
+          height: 32px;
+          font-family: Lato;
+          font-size: 18px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.78;
+          letter-spacing: normal;
+          text-align: left;
+          color: #525975;
+          margin-top: 20px;
+          position: relative;
+          cursor: pointer;
+          div {
+            position: absolute;
+            width: 150px;
+            height: 18px;
+            top: 18px;
+            left: -10px;
+            -webkit-transform: scaleY(0);
+            -ms-transform: scaleY(0);
+            transform: scaleY(0);
+            -webkit-transform-origin: bottom center;
+            -ms-transform-origin: bottom center;
+            transform-origin: bottom center;
+            -webkit-transition: -webkit-transform .6s cubic-bezier(.77,0,.175,1);
+            transition: transform .6s cubic-bezier(.77,0,.175,1);
+          }
+        }
+        .list:hover {
+          div {
+            transform: scaleY(1);
+          }
+        }
+        .list-1 {
+          color: #0152fc;
+        }
+        .list-2:hover {
+          color: #37b876;
+        }
+        .list-3:hover {
+          color: #009cda;
+        }
+        .list-4:hover {
+          color: #4a90e2;
+        }
+        .list-5:hover {
+          color: #43db7a;
+        }
+        .list-6:hover {
+          color: #ffaa33;
+        }
+        .list-7:hover {
+          color: #f942c9;
+        }
+        .list-1 {
+          margin-top: 104px;
+        }
+        .list-1 {
+          div {
+             background-color: rgba(1, 82, 252, 0.1);
+             transform: scaleY(1);
+          }
+        }
+        .list-2 {
+          div {
+            background-color: rgba(55, 184, 118, 0.2);
+          }
+        }
+        .list-3 {
+          div {
+            background-color: rgba(0, 156, 218, 0.2);
+          }
+        }
+        .list-4 {
+          div {
+            background-color: rgba(74, 144, 226, 0.2);
+          }
+        }
+        .list-5 {
+          div {
+            background-color: rgba(67, 219, 122, 0.2);
+          }
+        }
+        .list-6 {
+          div {
+            background-color: rgba(255, 170, 51, 0.2);
+          }
+        }
+        .list-7 {
+          div {
+            background-color: rgba(249, 66, 201, 0.2);
+          }
+        }
+      }
+      .right {
+        width: 720px;
+        height: 700px;
+        float: left;
+        margin-left: -148px;
+        margin-top: 28px;
+        position: relative;
+        div {
+          width: 720px;
+          height: 4092px;
+          background-image: url("../assets/img/trust/scroll.png");
+          background-size: 720px 4092px;
+          float: left;
+          position: absolute;
+          left: 0;
+          top: 0;
+          transition:all 1s linear;  
+        }
+      }
+    }
+  }
+}
+.imageBlock {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: none;
+  z-index: 999;
+  .main-content {
+    width: 1000px;
+    height: 542px;
+    position: fixed;
+    top: 50%;
+    margin-top: -271px;
+    left: 50%;
+    margin-left: -500px;
+    .left {
+      float: left;
+      font-size: 80px;
+      margin-top: 215px;
+      cursor:pointer;
+    }
+    .image {
+      background-size: 100% 100%;
+      height: 492px;
+      width: 800px;
+      float: left;
+      margin-left: 70px;
+      margin-right: 70px;
+      margin-top: 30px;
+    }
+    .right {
+      font-size: 80px;
+      float: left;
+      margin-top: 215px;
+      cursor:pointer;
+    }
+    .close-imageblock {
+      position: absolute;
+      top: 0;
+      right: 60px;
+      color: black;
+      font-size: 24px;
+      cursor:pointer;
+    }
+  }
+}
+.forPassPage {
+  float: left;
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

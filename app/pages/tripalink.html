@@ -28,6 +28,23 @@
 <!--     body block      -->
 <!-- =================== -->
 {% block content %}
+<div class="passwordPage" id="pass_index">
+  <div class="iconLogo"></div>
+  <div class="passwordContainer" align="center">
+    <div class="passwordBox">
+      <div>
+        Hey, nice to meet you.
+      </div>
+      <div>
+        I’m Chloe Du, a product designer based in the SF Bay Area. Please enter the password I’ve provided for you.
+      </div>
+      <input class="inputBox" placeholder="password" type="password" id="userPassword">
+      <div class="errorMsg">The password is invalid. Please try again.</div>
+      <div class="passwordSubmit" id="passwordSubmit">Let's go</div>
+    </div>
+  </div>
+</div>
+<div class="forPassPage">
 <div class="gray-background" id="about-background" align="center">
   <div class="menu-close-icon" id="menu-close-btn"></div>
   <div class="menu-list">
@@ -84,7 +101,7 @@
       </div>
       <div class="right">
         <div>
-          The spark
+          The Spark
         </div>
         <div>
           Buying a used car from a dealership or selling your current car to a stranger can be a real pain. During my graduate year at USC, a lot of my international friends came to me asking for help on the process of qualifying for their driving license, choosing a car to purchase, test driving it, insurance shopping, and car maintenances. My friends and I decided to establish our own startup company to offer these services in a more formal and official way.
@@ -93,7 +110,7 @@
     </div>
     <div class="main-content-box main-content-box-2">
       <div>
-        Start the journey
+        Start the Journey
       </div>
       <div>
         Unlike most other car tech startups who were doing online car dealership business, our goal was to build an open platform providing transparent information, auto inspection service, warranty, and consultation on car insurance premised on the customer satisfaction and service delivery. 
@@ -103,7 +120,7 @@
     </div>
     <div class="main-content-box main-content-box-3">
       <div>
-        Buy safer, sell simpler
+        Buy Safer, Sell Simpler
       </div>
       <div>
         In order to help users have delightful experiences when buying or selling a used car, I designed a mobile-friendly website with the function of checking the car’s full information, making an appointment and ability to pay online. Either seller or buyer can complete the buying/selling process from the comfort of their own home. 
@@ -122,7 +139,7 @@
     </div>
     <div class="main-content-box main-content-box-2">
       <div>
-        Discovery & Analysis
+        DISCOVERY & ANALYSIS
       </div>
       <div>
         80% of our workload was concentrated on the buyer’s side, so I decided to focus on this part and ease the process of browsing, test driving and purchasing. The first step was to conduct interviews with the buyers and understand what they want and how they behave. It allowed me to understand their needs, the buying process and identify the pain points they encounter in the process.
@@ -254,20 +271,20 @@
 </div>
 <div class="main-content-07" align="center">
   <div class="top"></div>
-  <div class="med"></div>
-  <div class="lower"></div>
+<!--   <div class="med"></div>
+  <div class="lower"></div> -->
   <div class="main-content-container">
     <div class="main-content-box main-content-box-1">
       <div class="main-title-number">
         03
       </div>
       <div class="main-title-text">
-        Approach
+        APPROACH
       </div>
     </div>
     <div class="main-content-box main-content-box-2">
       <div>
-        Mapping out the trip
+        Mapping Out the Trip
       </div>
       <div>
         The first step was to tell the story and sort out the structure. We started from three use cases.
@@ -276,7 +293,7 @@
     <div class="main-content-box main-content-box-3"></div>
     <div class="main-content-box main-content-box-4">
       <div>
-        Handcrafted visuals
+        Handcrafted Visuals
       </div>
       <div>
         A lot of clients contact us for help because they don’t know the rules, certain modes of car options and equipment. We selected 32 common equipment and illustrated them with icons.  Also, as a way of enhancing a friendly and affable atmosphere and inspire empathy, echo and bonding among young people; all icons, illustrations, typeface and visual communication were carefully selected to build a delightful, supportive image.
@@ -366,38 +383,57 @@
           <div class="title">
             WORK
           </div>
-          <div class="list list-1">
-            Zscaler Trust
-            <div></div>
-          </div>
-          <div class="list list-2">
-            Zscaler App
-            <div></div>
-          </div>
-          <div class="list list-3">
-            Tripalink
-            <div></div>
-          </div>
-          <div class="list list-4">
-            SpringRole
-            <div></div>
-          </div>
-          <div class="list list-5">
-            Compass2018
-            <div></div>
-          </div>
-          <div class="list list-6">
-            Prize Candle
-            <div></div>
-          </div>
+          <a href="./designAtZscaler.html">
+            <div class="list list-1">
+              Zscaler Projects
+              <div></div>
+            </div>
+          </a>
+          <a href="./trust.html">
+            <div class="list list-2">
+              Zscaler Trust
+              <div></div>
+            </div>
+          </a>
+          <a href="./zscalerApp.html">
+            <div class="list list-3">
+              Zscaler App
+              <div></div>
+            </div>
+          </a>
+          <a href="./tripalink.html">
+            <div class="list list-4">
+              Tripalink
+              <div></div>
+            </div>
+          </a>
+          <a href="./springRole.html">
+            <div class="list list-5">
+              SpringRole
+              <div></div>
+            </div>
+          </a>
+          <a href="./compass.html">
+            <div class="list list-6">
+              Compass2018
+              <div></div>
+            </div>
+          </a>
+          <a href="./prizeCandle.html">
+            <div class="list list-7">
+              Prize Candle
+              <div></div>
+            </div>
+          </a>
         </div>
         <div class="right">
-          <div></div>
+          <div id="scrollImg"></div>
         </div>
       </div>
       <div class="main-content-box main-content-box-3">
       </div>
     </div>
+</div>
 </div>
 {% endblock %}
 

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="568" viewBox="0 0 960 568">
+    <defs>
+        <rect id="a" width="960" height="568" rx="5"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <use fill="#FFF" xlink:href="#a"/>
+        <rect width="959" height="567" x=".5" y=".5" stroke="#DCDEE3" rx="5"/>
+        <rect width="958" height="58" x="1" y="1" fill="#F9F9FA" rx="4"/>
+        <text fill="#525975" font-family="Lato-Bold, Lato" font-size="18" font-weight="bold">
+            <tspan x="40" y="34">When</tspan>
+        </text>
+        <text fill="#525975" font-family="Lato-Bold, Lato" font-size="18" font-weight="bold">
+            <tspan x="280" y="34">I want to</tspan>
+        </text>
+        <text fill="#525975" font-family="Lato-Bold, Lato" font-size="18" font-weight="bold">
+            <tspan x="720" y="34">So I can</tspan>
+        </text>
+        <g>
+            <g fill="#525975" font-family="Lato-Regular, Lato" font-size="18">
+                <text transform="translate(40 160)">
+                    <tspan x="0" y="31">I’m using Zscaler service</tspan>
+                </text>
+                <text transform="translate(40 160)">
+                    <tspan x="240" y="31">know if Zscaler’s service is performing well</tspan>
+                </text>
+                <text transform="translate(40 160)">
+                    <tspan x="680" y="18">continually be protected </tspan> <tspan x="680" y="44">by Zscaler</tspan>
+                </text>
+                <text transform="translate(40 500)">
+                    <tspan x="0" y="18">I’m maintaining our </tspan> <tspan x="0" y="44">company’s network</tspan>
+                </text>
+                <text transform="translate(40 500)">
+                    <tspan x="240" y="18">know how the data center performs at individual </tspan> <tspan x="240" y="44">service levels</tspan>
+                </text>
+                <text transform="translate(40 500)">
+                    <tspan x="680" y="31">set the policies</tspan>
+                </text>
+                <g>
+                    <text transform="translate(40 75)">
+                        <tspan x="0" y="18">I’m interested in using </tspan> <tspan x="0" y="44">the Zscaler service</tspan>
+                    </text>
+                    <text transform="translate(40 75)">
+                        <tspan x="240" y="31">know how it performed in the past</tspan>
+                    </text>
+                    <text transform="translate(40 75)">
+                        <tspan x="680" y="18">decide whether it’s a </tspan> <tspan x="680" y="44">trustworthy service</tspan>
+                    </text>
+                </g>
+                <g>
+                    <text transform="translate(40 330)">
+                        <tspan x="0" y="31">something happens</tspan>
+                    </text>
+                    <text transform="translate(40 330)">
+                        <tspan x="240" y="31">know what is going on</tspan>
+                    </text>
+                    <text transform="translate(40 330)">
+                        <tspan x="680" y="18">be aware of how it </tspan> <tspan x="680" y="44">impacts our network</tspan>
+                    </text>
+                </g>
+                <g>
+                    <text transform="translate(40 415)">
+                        <tspan x="0" y="18">something happens to </tspan> <tspan x="0" y="44">the services we are using</tspan>
+                    </text>
+                    <text transform="translate(40 415)">
+                        <tspan x="240" y="31">be notified</tspan>
+                    </text>
+                    <text transform="translate(40 415)">
+                        <tspan x="680" y="31">plan and prepare</tspan>
+                    </text>
+                </g>
+                <g>
+                    <text transform="translate(40 245)">
+                        <tspan x="0" y="31">I’m using Zscaler service</tspan>
+                    </text>
+                    <text transform="translate(40 245)">
+                        <tspan x="240" y="31">have control of what I’m using</tspan>
+                    </text>
+                    <text transform="translate(40 245)">
+                        <tspan x="680" y="18">find information that is </tspan> <tspan x="680" y="44">relevant to me</tspan>
+                    </text>
+                </g>
+            </g>
+            <path fill="#DCDEE3" d="M0 58h960v1H0zM0 143h960v1H0zM0 228h960v1H0zM0 313h960v1H0zM0 398h960v1H0zM0 483h960v1H0z"/>
+        </g>
+    </g>
+</svg>

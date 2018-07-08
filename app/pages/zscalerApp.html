@@ -28,6 +28,23 @@
 <!--     body block      -->
 <!-- =================== -->
 {% block content %}
+<div class="passwordPage" id="pass_index">
+  <div class="iconLogo"></div>
+  <div class="passwordContainer" align="center">
+    <div class="passwordBox">
+      <div>
+        Hey, nice to meet you.
+      </div>
+      <div>
+        I’m Chloe Du, a product designer based in the SF Bay Area. Please enter the password I’ve provided for you.
+      </div>
+      <input class="inputBox" placeholder="password" type="password" id="userPassword">
+      <div class="errorMsg">The password is invalid. Please try again.</div>
+      <div class="passwordSubmit" id="passwordSubmit">Let's go</div>
+    </div>
+  </div>
+</div>
+<div class="forPassPage">
 <div class="gray-background" id="about-background" align="center">
   <div class="menu-close-icon" id="menu-close-btn"></div>
   <div class="menu-list">
@@ -62,7 +79,7 @@
           Activate an Invisible Safeguard with Zscaler App
         </div>
         <div class="main-background-text-3">
-          Complete: April - July 2017
+          Time: July - October 2017
         </div>
         <div class="triangle-background">
         </div>
@@ -81,12 +98,12 @@
         01
       </div>
       <div class="main-title-text">
-        Background
+        BACKGROUND
       </div>
     </div>
     <div class="main-content-box main-content-box-2">
       <div>
-        A little bit Context
+        A Little Bit Context
       </div>
       <div>
         Mobility has increased business productivity, but it’s also brought about its share of issues. The Zscaler Cloud processes a lot of mobile data traffic globally, and we’re seeing an increase in mobile apps that are leaking data. 
@@ -168,7 +185,7 @@
         </div>
       </div>
       <div class="main-content-box main-content-box-6">
-        Find our research on <a href="http://www.zsacler.com">Zscaler.com</a>
+        Find our research on <a href="https://www.zscaler.com/blogs/research/are-mobile-apps-leaky-tap-enterprise">Zscaler.com</a>
       </div>
       <div class="main-content-box main-content-box-7">
         Each quarter, we see about 45M transactions carried out on mobile devices.  About 0.4% of the mobile device transactions entail the leaking privacy data.
@@ -206,7 +223,7 @@
     <div class="main-content-box main-content-box-2">
     </div>
     <div class="main-content-box main-content-box-3">
-      The entire Zscaler App suite includes a mobile app (iOS, Android), a tablet app (iOS, Android) and desktop apps (iOS, Windows). This case study focuses on discussing the <span>Android mobile app</span>.
+      Zscaler App works with Zscaler Internet Access (Web Security ) to deliver the full security stack from the cloud, so mobile users get in-depth, always-on protection. The entire Zscaler App suite includes ZApp Administration Portal (the central management console), mobile apps (iOS, Android), tablet apps (iOS, Android) and desktop apps (iOS, Windows). This case study focuses on discussing the <span>Android mobile app</span>.
     </div>
   </div>
 </div>
@@ -217,7 +234,7 @@
         02
       </div>
       <div class="main-title-text">
-        Intro
+        INTRO
       </div>
     </div>
     <div class="main-content-box main-content-box-2">
@@ -275,7 +292,7 @@
           The Zscaler App works across different operating systems and a variety of devices:  iOS, Android, Windows, etc. However, the current mobile app looks totally different from the desktop app yet they are supposed to represent the same brand and give the same expressions to users. The new design needs to stay consistent across all platforms. It also needs to be simple enough to adapt to all systems regardless of their differences. Furthermore, the new design needs to be able to quickly roll out on all platforms within a tight timeline.
         </div>
         <div class="cell-text cell-text-5">
-          Besides the current service, prevent the loss of user data, the PMs also asked for a new service - Private Access, which is a completely new service for our mobile users. However, adapting the new service to the current scope became another challenge.
+          Besides the current service, the PMs also asked for a new function - integrate Zscaler Private Access, which is a completely new service for our mobile users. Adapting the new service to the current scope became another challenge.
         </div>
       </div>
     </div>
@@ -307,21 +324,79 @@
         03
       </div>
       <div class="main-title-text">
-        Explore
+        EXPLORE
+      </div>
+    </div>
+    <div class="main-content-box main-content-box-12">
+      <div>
+        Narrow Down the Scope
+      </div>
+    </div>
+    <div class="main-content-box main-content-box-13">
+      <div class="middle-container" id="ee_pointer">
+        <div class="middle">
+          <div class="pic pic-1" id="pic-1"></div>
+          <div class="pic pic-2" id="pic-2"></div>
+          <div class="pic pic-p" id="pic-p"></div>
+        </div>
+      </div>
+    </div>
+    <div class="main-content-box main-content-box-14">
+      <div>
+        There’re two personas: the employer, our client, who wants to protect every transaction of their devices; and the employee, the end user, who is actually being protected while using the devices. Here’s a value summary:
+      </div>
+    </div>
+    <div class="main-content-box main-content-box-15">
+      <div class="content content-1">
+        <div class="circle-outter">
+          <div class="circle-inner"></div>
+        </div>
+        <div class="text">
+          Connect mobile users to the Zscaler Cloud to enforce internet and Web security policy that follows the user.
+        </div>
+      </div>
+      <div class="content content-2">
+        <div class="circle-outter">
+          <div class="circle-inner"></div>
+        </div>
+        <div class="text">
+          Remote access to AWS, Azure or Data Center apps without the hassle of VPN. Get unlimited capacity to inspect mobile users SSL traffic.
+        </div>
+      </div>
+      <div class="content content-3">
+        <div class="circle-outter">
+          <div class="circle-inner"></div>
+        </div>
+        <div class="text">
+          Can be configured so users can’t disable or log-out without admin-provided password.
+        </div>
+      </div>
+      <div class="content content-4">
+        <div class="circle-outter">
+          <div class="circle-inner"></div>
+        </div>
+        <div class="text">
+          Zscaler Private Access serves authorized users only; the service can be added or removed depending on the central management console. 
+        </div>
+      </div>
+    </div>
+    <div class="main-content-box main-content-box-16">
+      <div>
+        This was the beginning of setting the product scope.
       </div>
     </div>
     <div class="main-content-box main-content-box-2">
       <div>
-        Get to know the user
+        Get to Know the User
       </div>
       <div>
-        At the outset of the project, we didn’t have a clear mission or specific goals for the re-design. I wanted to hear stories from users about their needs, rather than speculating about them. I spent two days interviewing five potential users.
+        At the outset of the project, we didn’t have a clear mission or specific goals for the re-design. I wanted to hear stories from end users about their needs and feelings, rather than speculating about them. I spent two days interviewing five potential users.
       </div>
     </div>
     <div class="main-content-box main-content-box-3">
     </div>
     <div class="main-content-box main-content-box-4">
-      Discovery from the fields
+      Discovery From the Fields
     </div>
     <div class="main-content-box main-content-box-5">
       During the interview, I noticed four emotions among the interviewees.
@@ -366,14 +441,13 @@
           Frustrated whenever they lost connection
         </div>
         <div class="bottom">
-          People were scared and felt frustrated when they were mis-blocked by Zscaler App or got disconnected. They became angry when they found they couldn’t troubleshoot by themselves.<br>
-          People were scared and felt frustrated whenever they got disconnected. They became angry whenever they couldn’t troubleshoot for the problem by themselves.
+          People were scared and felt frustrated whenever they got disconnected or blocked. They became angry whenever they couldn’t troubleshoot for the problem by themselves.<br>
         </div>
       </div>
     </div>
     <div class="main-content-box main-content-box-10">
       <div>
-        Key goals and design considerations
+        Key Goals and Design Considerations
       </div>
       <div>
         If power users with great reception and tech literacy were having trouble with our tech-savvy marketplace, how bad was the experience in our immature marketplaces with more challenging technological contexts?  The original premise is simple: get connected, get protected, anywhere and anytime. I began to look for the north star:
@@ -414,19 +488,15 @@
         04
       </div>
       <div class="main-title-text">
-        Approach
+        APPROACH
       </div>
     </div>
-    <div class="main-content-box main-content-box-2">
+<!--     <div class="main-content-box main-content-box-2">
       <div>
         Narrow down the scope
       </div>
     </div>
     <div class="main-content-box main-content-box-3">
-<!--       <div class="left">
-        <div>I want to prevent data loss.</div>
-        <div>EMPLOYER</div>
-      </div> -->
       <div class="middle-container" id="ee_pointer">
         <div class="middle">
           <div class="pic pic-1" id="pic-1"></div>
@@ -434,14 +504,9 @@
           <div class="pic pic-p" id="pic-p"></div>
         </div>
       </div>
-<!--       <div class="right">
-        <div>I want to acquire private access.</div>
-        <div>EMPLOYEE</div>
-      </div> -->
-    </div>
+    </div> -->
     <div class="main-content-box main-content-box-4">
       <div>
-        Zscaler wants to protect every user transaction through Web Security. In addition to that, the new service, Private Access, will allow the user to access their office network. Private Access is a separate and fully independent service from Web Security. Private Access serves authorized users only; the service can be added or removed depending on the central management console. This was the beginning of setting the product scope.
       </div>
       <div>
         An Explicit Information Architecture
@@ -459,7 +524,7 @@
         There were several back and forth discussions and long debates between PMs, engineers and our design team. In the meantime, I started brainstorming and wire-framing to see how the two structures would work.
       </div>
       <div>
-        Sketching out ideas
+        Sketching out Ideas
       </div>
     </div>
   </div>
@@ -479,7 +544,7 @@
         What I liked best about the Apple Clock’s Bedtime was its focus on showing the current status of your schedule, as well as the turn on/turn off switch.
       </div>
       <div>
-        A minimal approach
+        A Minimal Approach
       </div>
       <div>
         We feared that the new Private Access service would cause confusion because it was fundamentally a different thing. Fortunately, familiarity makes people feel safe. I decided to put the two services next to each other and make them look and feel the same. 
@@ -508,12 +573,17 @@
         Always trying to radically simplify: What is the most important thing a person needs to implicitly understand in order to use a feature successfully? Instead of over-communcating we would focus on telling a more human story, an interface that you could read. We decided to go with the third option.
       </div>
       <div>
-        Complete the flow
+        Complete the Flow
       </div>
       <div>
         After settling on the perfect home screen, the information also fell into place. I went through the other sections and completed the flow.
       </div>
     </div>
+  </div>
+</div>
+<div class="main-content-13" align="center">
+  <div class="main-box">
+    <div></div>
   </div>
 </div>
 <div class="main-content-14" align="center">
@@ -557,7 +627,7 @@
     </div>
     <div class="main-content-box main-content-box-4">
       <div>
-          A fresh identity
+          A Fresh Identity
       </div>
       <div>
           In the previous version, the app only represented Zscaler and used Zscaler’s logo as its icon. Now, we have partnered with vendors like Verizon and T-mobile, and we need to consider white-labeling and rebranding. The new icon should have the ability to represent the app itself and accommodate future potentials. I explored 5 options with different perspectives. In the end, we chose the one with a shield (to bring about the notion of security) and a leaf (to inspire healthy access).
@@ -571,13 +641,17 @@
   </div>
 </div>
 <div class="main-content-17" align="center">
+  <div class="main-content-box main-content-box-6">
+    <div></div>
+  </div>
   <div class="main-content-container">
     <div class="main-content-box main-content-box-1">  
       <div class="main-title-number">
         05
       </div>
       <div class="main-title-text">
-        Protect everyone, anytime
+        PROTECT EVERYONE, <br>
+        ANYTIME
       </div>
     </div>
     <div class="main-content-box main-content-box-2">
@@ -609,12 +683,9 @@
     <div class="main-content-box main-content-box-5">
       <div></div>
     </div>
-    <div class="main-content-box main-content-box-6">
-      <div></div>
-    </div>
     <div class="main-content-box main-content-box-7">
       <div>
-        Get Notified when Unsecure Behavior Occurs
+        Get Notified When Unsecure Behavior Occurs
       </div>
       <div>
         All traffic is inspected in real time in the cloud before it reaches mobile devices.  And attack vectors are blocked on the cloud before reaching the device. Users get notified of insecure behaviors. If users found this is a false-block, they can easily submit a site review request here to unblock.
@@ -625,7 +696,7 @@
     </div>
     <div class="main-content-box main-content-box-9">
       <div>
-        Troubleshoot through self-service & get help
+        Troubleshoot Through Self-service & Get Help
       </div>
       <div>
         Users are provided with a troubleshooting guide so that they are able to serve themselves. In addition, users can always use Zscaler’s online help portal for self-service or to submit a ticket through ‘Report an Issue’ to get direct support from our technical team.
@@ -644,7 +715,18 @@
         06
       </div>
       <div class="main-title-text">
-        MEASURE SUCCESS
+        TAKEAWAYS
+      </div>
+    </div>
+    <div class="main-content-box main-content-box-5">
+      <div>
+        Start Small
+      </div>
+      <div>
+        The redesign idea actually born and grew since almost two years ago. Strong arguments, technical feasibilities, limited bandwidth, and massive requirements from clients, the evolution process was stretched again and again. Several PMs, managers and engineering teams involved, even the CEO. We had big visions, strong aspirations and we wanted to get there fast. While we see that few large companies really have the ability to invest enormous resources and build something utterly powerful and great, most starts with a small step. You can design the compelling interface and fascinating experience, but you can’t just launch it right away. Moving toward something that can be delivered needs practical goals and reasonable scope. You have to start somewhere. In our experience, starting at the bottom is a very practical way to move forward.
+      </div>
+      <div>
+        Measure Success
       </div>
     </div>
     <div class="main-content-box main-content-box-2">
@@ -661,11 +743,11 @@
         After we were finished with the Android mobile app, I continued to create and polish the app for iOS mobile, Windows desktop, and iOS desktop. 
       </div>
     </div>
-    <div class="main-content-box main-content-box-5">
-      <div>
-      </div>
-    </div>
   </div>  
+</div>
+<div class="main-content-20 align="center"">
+  <div>
+  </div>
 </div>
 <div class="main-content-19 align="center">
     <div class="main-content-container">
@@ -676,38 +758,57 @@
           <div class="title">
             WORK
           </div>
-          <div class="list list-1">
-            Zscaler Trust
-            <div></div>
-          </div>
-          <div class="list list-2">
-            Zscaler App
-            <div></div>
-          </div>
-          <div class="list list-3">
-            Tripalink
-            <div></div>
-          </div>
-          <div class="list list-4">
-            SpringRole
-            <div></div>
-          </div>
-          <div class="list list-5">
-            Compass2018
-            <div></div>
-          </div>
-          <div class="list list-6">
-            Prize Candle
-            <div></div>
-          </div>
+          <a href="./designAtZscaler.html">
+            <div class="list list-1">
+              Zscaler Projects
+              <div></div>
+            </div>
+          </a>
+          <a href="./trust.html">
+            <div class="list list-2">
+              Zscaler Trust
+              <div></div>
+            </div>
+          </a>
+          <a href="./zscalerApp.html">
+            <div class="list list-3">
+              Zscaler App
+              <div></div>
+            </div>
+          </a>
+          <a href="./tripalink.html">
+            <div class="list list-4">
+              Tripalink
+              <div></div>
+            </div>
+          </a>
+          <a href="./springRole.html">
+            <div class="list list-5">
+              SpringRole
+              <div></div>
+            </div>
+          </a>
+          <a href="./compass.html">
+            <div class="list list-6">
+              Compass2018
+              <div></div>
+            </div>
+          </a>
+          <a href="./prizeCandle.html">
+            <div class="list list-7">
+              Prize Candle
+              <div></div>
+            </div>
+          </a>
         </div>
         <div class="right">
-          <div></div>
+          <div id="scrollImg"></div>
         </div>
       </div>
       <div class="main-content-box main-content-box-3">
       </div>
     </div>
+</div>
 </div>
 {% endblock %}
 
